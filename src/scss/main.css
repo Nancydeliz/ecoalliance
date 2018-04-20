@@ -1,33 +1,51 @@
-p.descripcion {
-  color: #ebf2f8;
-  font-size: 1.1rem; }
+@charset "UTF-8";
+/* Variables Globales */
+/* Indice: 
+
+	1) Paleta de colores
+	2) Tipografias
+	3) Tama├▒o de fuentes
+	4) Interlineado del texto
+
+*/
+/* 1) Paleta de colores */
+/* Colores principales */
+/* Colores solo para fondos */
+/* Colores para textos y fondos */
+/* Colores para llamados de atencion */
+/* 2) Tipografias */
+/* Colores principales */
+/* 3) Tama├▒o de fuentes */
+/* 4) Interlineado del texto */
+/* Estilos base */
+/* Indice: 
+
+	1) Textos
+	2) Separadores
+
+*/
+/* 1) Textos */
+h1 {
+  font-family: Raleway;
+  font-size: 3rem; }
+
+h2 {
+  font-family: Raleway;
+  font-size: 2rem; }
 
 p {
-  font-size: 2rem; }
+  font-family: Raleway;
+  font-size: 1.1rem; }
 
-p.foo1 {
+p.title {
+  font-family: Raleway;
   font-size: 1.2rem; }
 
-p.foo2 {
+p.min {
+  font-family: Raleway;
   font-size: 1rem; }
 
-p.foo3 {
-  font-size: 1.2rem; }
-
-p.lineh-p {
-  line-height: 1.5;
-  font-size: 1rem; }
-
-p.lineh-p2 {
-  line-height: 1.7;
-  font-size: 2rem; }
-
-body {
-  background-color: #000;
-  color: #fff; }
-
-h1 {
-  color: #ebf2f8;
-  font-size: 3rem; }
+p.num {
+  font-family: Muli; }
 
 /*# sourceMappingURL=main.css.map */
