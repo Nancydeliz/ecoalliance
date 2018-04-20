@@ -1,0 +1,33 @@
+p.descripcion {
+  color: #ebf2f8;
+  font-size: 1.1rem; }
+
+p {
+  font-size: 2rem; }
+
+p.foo1 {
+  font-size: 1.2rem; }
+
+p.foo2 {
+  font-size: 1rem; }
+
+p.foo3 {
+  font-size: 1.2rem; }
+
+p.lineh-p {
+  line-height: 1.5;
+  font-size: 1rem; }
+
+p.lineh-p2 {
+  line-height: 1.7;
+  font-size: 2rem; }
+
+body {
+  background-color: #000;
+  color: #fff; }
+
+h1 {
+  color: #ebf2f8;
+  font-size: 3rem; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+/* Variables Globales */
+
+/* Indice: 
+
+	1) Paleta de colores
+	2) Tipografias
+	3) Tamaño de fuentes
+	4) Interlineado del texto
+
+*/
+
+/* 1) Paleta de colores */
+ /* Colores principales */
+ $cea-1: rgb(89,160,211);
+ $cea-2: rgb(23,86,155);
+ $cea-3: rgb(53,109,175);
+ /* Colores solo para fondos */
+ $cbg-1: rgb(235,242,248);
+ $cbg-2: rgb(242,242,242);
+ /* Colores para textos y fondos */
+ $cbg-3: rgb(196,196,196);
+ $cbg-4: rgb(36,36,36);
+ $cbg-5: rgb(0,0,0);
+ $cbg-6: rgb(153,153,153);
+ $cbg-7: rgb(51,51,51);
+ /* Colores para llamados de atencion */
+ $cal-1: rgb(102,153,102);
+ $cal-2: rgb(109,7,17);
+
+/* 2) Tipografias */
+ /* Colores principales */
+ $fuente1: Raleway;
+ $fuente2: Muli;
+
+/* 3) Tamaño de fuentes */
+ $font-peq1: 1rem; //app. 14px
+ $font-peq2: 1.1rem; //app. 16px
+ $font-peq3: 1.2rem; //app. 18px
+ $font-peq4: 2rem; //app. 30px
+ $font-peq5: 3rem; //app. 48px
+
+/* 4) Interlineado del texto */
+ $line-h1: 1.5; 
+ $line-h2: 1.7; 

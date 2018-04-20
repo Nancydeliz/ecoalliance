@@ -7,7 +7,7 @@
     "start": "gulp"
   },
   "keywords": [],
-  "author": "Nancydeliz",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.0",
