@@ -1,0 +1,12 @@
+@charset 'utt-8'
+
+//contantes que se usan en el sitio web
+
+
+$color-bg1: rgb(235, 242, 248);
+$color-bg2: rgb(242, 242, 242);
+
+div.prueba {
+	background-color: $color-bg1;
+}
+
