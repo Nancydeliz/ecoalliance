@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Tipografias del Sitio */
+@import url("https://fonts.googleapis.com/css?family=Muli|Raleway");
 /* Variables Globales */
 /* Indice: 
 
@@ -26,26 +28,26 @@
 */
 /* 1) Textos */
 h1 {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 3rem; }
 
 h2 {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 2rem; }
 
 p {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 1.1rem; }
 
 p.title {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 1.2rem; }
 
 p.min {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 1rem; }
 
 p.num {
-  font-family: Muli; }
+  font-family: "Muli", sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
