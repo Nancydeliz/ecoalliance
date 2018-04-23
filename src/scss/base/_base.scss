@@ -1,0 +1,36 @@
+/* Estilos base */
+
+/* Indice: 
+
+	1) Textos
+	2) Separadores
+
+*/
+
+/* 1) Textos */
+	h1 {
+		font-family: $fuente1;
+		font-size: $font-big2;
+	}
+	h2 {
+		font-family: $fuente1;
+		font-size: $font-big1;
+	}
+	p {
+		font-family: $fuente1;
+		font-size: $font-peq2;
+	}
+	p.title {
+		font-family: $fuente1;
+		font-size: $font-med1;
+	}
+	p.min {
+		font-family: $fuente1;
+		font-size: $font-peq1;
+	}
+	p.num {
+		font-family: $fuente2;
+	}
+
+
+
