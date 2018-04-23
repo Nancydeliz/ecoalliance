@@ -27,6 +27,11 @@
 
 */
 /* 1) Textos */
+body {
+  font-family: "Raleway", sans-serif; }
+  body a {
+    text-decoration: none; }
+
 h1 {
   font-family: "Raleway", sans-serif;
   font-size: 3rem; }
@@ -45,10 +50,31 @@ p.title {
 
 p.min {
   font-family: "Raleway", sans-serif;
-  font-size: 1rem; }
+  font-size: 0.87rem; }
 
 p.num {
   font-family: "Muli", sans-serif; }
+
+/* Estilos para el Navbar principal */
+#nav-first {
+  font-size: 0.87rem;
+  background-color: black; }
+  #nav-first .box-nav-first {
+    background-color: black; }
+  #nav-first .nav-link {
+    color: #fff; }
+  #nav-first .dropdown-item {
+    font-size: 0.87rem; }
+
+/* Estilos para el Navbar secundario */
+#nav-second {
+  font-size: 0.87rem; }
+  #nav-second a {
+    color: #fff; }
+    #nav-second a span {
+      font-size: 0.75rem; }
+    #nav-second a i.fa-user, #nav-second a span {
+      color: #59a0d3; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
@@ -2763,5 +2789,27 @@ p.num {
 
 .wd-100o {
   width: 100%; }
+
+/* Colores de Fondo */
+.bg-1 {
+  background-color: #ebf2f8; }
+
+.bg-2 {
+  background-color: #f2f2f2; }
+
+.bg-3 {
+  background-color: #c4c4c4; }
+
+.bg-4 {
+  background-color: #242424; }
+
+.bg-5 {
+  background-color: black; }
+
+.bg-6 {
+  background-color: #999999; }
+
+.bg-7 {
+  background-color: #333333; }
 
 /*# sourceMappingURL=main.css.map */

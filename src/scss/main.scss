@@ -1,6 +1,8 @@
 @import 'base/_tipography.scss';
 @import 'base/_variables.scss';
 @import 'base/_base.scss';
+@import 'components/_nav.scss';
+@import 'components/_nav-aux.scss';
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 @import 'base/clases/_margin.scss';
@@ -8,3 +10,4 @@
 @import 'base/clases/_line-height.scss';
 @import 'base/clases/_height.scss';
 @import 'base/clases/_width.scss';
+@import 'base/clases/_background-color.scss';

@@ -8,6 +8,13 @@
 */
 
 /* 1) Textos */
+	body {
+		font-family: $fuente1;
+		
+		a {
+			text-decoration: none;
+		}
+	}
 	h1 {
 		font-family: $fuente1;
 		font-size: $font-big2;

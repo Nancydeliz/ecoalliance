@@ -1,0 +1,19 @@
+/* Estilos para el Navbar secundario */
+
+#nav-second {
+	
+	font-size:  $font-peq1;
+	
+	a {
+		color: #fff;
+		
+		span {
+			font-size: $font-min;
+		}
+		
+		i.fa-user, span {
+			color: $cea-1;
+		}
+		
+	}
+}
