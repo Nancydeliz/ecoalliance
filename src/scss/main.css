@@ -85,30 +85,72 @@ p.num {
       border-radius: 100px 100px 0 0;
       background-color: black; }
 
+#nav-first-mobile {
+  height: 66px;
+  background-color: black;
+  border: solid 3px;
+  border-bottom-color: #59a0d3; }
+  #nav-first-mobile .navbar-brand {
+    font-size: 0.87rem; }
+  #nav-first-mobile .isotipo-nav {
+    position: relative;
+    bottom: -10px;
+    margin-right: 0;
+    left: 6%; }
+    #nav-first-mobile .isotipo-nav img.box-isotipo {
+      width: 81px;
+      height: 72px;
+      vertical-align: middle;
+      border: 9px solid black;
+      border-radius: 0 0 100px 100px;
+      background-color: black; }
+
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
 ==================================================*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 576px) {
-  #nav-first {
-    font-size: 0.72rem; }
-    #nav-first .nav-f-item {
-      padding-left: 0.6rem; }
-    #nav-first .dropdown-item {
-      font-size: 0.72rem; }
-    #nav-first img.box-isotipo {
-      height: 65px; } }
+  #nav-first-mobile {
+    height: 66px;
+    background-color: black;
+    border: solid 3px;
+    border-bottom-color: #59a0d3; }
+    #nav-first-mobile .navbar-brand {
+      font-size: 0.87rem; }
+    #nav-first-mobile .isotipo-nav {
+      position: relative;
+      bottom: -10px;
+      margin-right: 0;
+      left: 6%; }
+      #nav-first-mobile .isotipo-nav img.box-isotipo {
+        width: 81px;
+        height: 72px;
+        vertical-align: middle;
+        border: 9px solid black;
+        border-radius: 0 0 100px 100px;
+        background-color: black; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 576px) {
-  #nav-first {
-    font-size: 0.72rem; }
-    #nav-first .nav-f-item {
-      padding-left: 0.6rem; }
-    #nav-first .dropdown-item {
-      font-size: 0.72rem; }
-    #nav-first img.box-isotipo {
-      height: 65px; } }
+  #nav-first-mobile {
+    height: 66px;
+    background-color: black;
+    border: solid 3px;
+    border-bottom-color: #59a0d3; }
+    #nav-first-mobile .navbar-brand {
+      font-size: 0.87rem; }
+    #nav-first-mobile .isotipo-nav {
+      position: relative;
+      bottom: -10px;
+      margin-right: 0;
+      left: 6%; }
+      #nav-first-mobile .isotipo-nav img.box-isotipo {
+        width: 81px;
+        height: 72px;
+        vertical-align: middle;
+        border: 9px solid black;
+        border-radius: 0 0 100px 100px;
+        background-color: black; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   #nav-first {
@@ -122,7 +164,27 @@ p.num {
     #nav-first .isotipo-nav {
       position: relative;
       top: -20px;
-      margin-right: 1rem; } }
+      margin-right: 1rem; }
+
+  #nav-first-mobile {
+    height: 66px;
+    background-color: black;
+    border: solid 3px;
+    border-bottom-color: #59a0d3; }
+    #nav-first-mobile .navbar-brand {
+      font-size: 0.87rem; }
+    #nav-first-mobile .isotipo-nav {
+      position: relative;
+      bottom: -10px;
+      margin-right: 0;
+      left: 6%; }
+      #nav-first-mobile .isotipo-nav img.box-isotipo {
+        width: 81px;
+        height: 72px;
+        vertical-align: middle;
+        border: 9px solid black;
+        border-radius: 0 0 100px 100px;
+        background-color: black; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   #nav-first {

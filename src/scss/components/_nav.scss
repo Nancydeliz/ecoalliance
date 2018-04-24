@@ -42,6 +42,34 @@
 	
 }
 
+#nav-first-mobile {
+	height: 66px;
+	background-color: $cbg-5;
+	border: solid 3px;
+	border-bottom-color: $cea-1;
+	
+	.navbar-brand {
+		font-size: $font-peq1;
+	}
+	
+	.isotipo-nav {
+		position: relative;
+		bottom: -10px;
+		margin-right: 0;
+		left: 6%;
+		
+		img.box-isotipo {
+			width: 81px;
+			height: 72px;
+			vertical-align: middle;
+			border: 9px solid black;
+			border-radius: 0 0 100px 100px;
+			background-color: black;
+		}
+	}
+	
+}
+
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
 ==================================================*/
@@ -51,19 +79,30 @@
     /* Custom, iPhone Retina */ 
     @media only screen and (max-width : $screen-xs) {
 		
-		#nav-first {
-			font-size:  $font-min0;
-			
-			.nav-f-item {
-				padding-left: 0.6rem;
+		#nav-first-mobile {
+			height: 66px;
+			background-color: $cbg-5;
+			border: solid 3px;
+			border-bottom-color: $cea-1;
+
+			.navbar-brand {
+				font-size: $font-peq1;
 			}
 
-			.dropdown-item {
-				font-size: $font-min0;
-			}
-			
-			img.box-isotipo {
-				height: 65px;
+			.isotipo-nav {
+				position: relative;
+				bottom: -10px;
+				margin-right: 0;
+				left: 6%;
+
+				img.box-isotipo {
+					width: 81px;
+					height: 72px;
+					vertical-align: middle;
+					border: 9px solid black;
+					border-radius: 0 0 100px 100px;
+					background-color: black;
+				}
 			}
 
 		}
@@ -74,23 +113,33 @@
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : $screen-sm) {
 		
-		#nav-first {
-			font-size:  $font-min0;
-			
-			.nav-f-item {
-				padding-left: 0.6rem;
+		#nav-first-mobile {
+			height: 66px;
+			background-color: $cbg-5;
+			border: solid 3px;
+			border-bottom-color: $cea-1;
+
+			.navbar-brand {
+				font-size: $font-peq1;
 			}
 
-			.dropdown-item {
-				font-size: $font-min0;
-			}
-			
-			img.box-isotipo {
-				height: 65px;
+			.isotipo-nav {
+				position: relative;
+				bottom: -10px;
+				margin-right: 0;
+				left: 6%;
+
+				img.box-isotipo {
+					width: 81px;
+					height: 72px;
+					vertical-align: middle;
+					border: 9px solid black;
+					border-radius: 0 0 100px 100px;
+					background-color: black;
+				}
 			}
 
 		}
-
 	   
     }
 
@@ -117,6 +166,34 @@
 				position: relative;
 				top: -20px;
 				margin-right: 1rem;				
+			}
+
+		}
+		
+		#nav-first-mobile {
+			height: 66px;
+			background-color: $cbg-5;
+			border: solid 3px;
+			border-bottom-color: $cea-1;
+
+			.navbar-brand {
+				font-size: $font-peq1;
+			}
+
+			.isotipo-nav {
+				position: relative;
+				bottom: -10px;
+				margin-right: 0;
+				left: 6%;
+
+				img.box-isotipo {
+					width: 81px;
+					height: 72px;
+					vertical-align: middle;
+					border: 9px solid black;
+					border-radius: 0 0 100px 100px;
+					background-color: black;
+				}
 			}
 
 		}
