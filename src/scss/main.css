@@ -73,11 +73,11 @@ p.num {
     font-size: 0.87rem; }
   #nav-first .isotipo-nav {
     position: relative;
-    top: -35px; }
-    #nav-first .isotipo-nav img {
+    top: -20px; }
+    #nav-first .isotipo-nav img.box-isotipo {
       vertical-align: middle;
       border: 5px solid black;
-      border-radius: 50%;
+      border-radius: 100px 100px 0 0;
       background-color: black; }
 
 /* Estilos para el Navbar secundario */
