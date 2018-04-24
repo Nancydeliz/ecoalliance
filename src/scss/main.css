@@ -8,6 +8,7 @@
 	2) Tipografias
 	3) Tama├▒o de fuentes
 	4) Interlineado del texto
+	5) Media Queries
 
 */
 /* 1) Paleta de colores */
@@ -19,6 +20,7 @@
 /* Colores principales */
 /* 3) Tama├▒o de fuentes */
 /* 4) Interlineado del texto */
+/* 5) Media Queries */
 /* Estilos base */
 /* Indice: 
 
@@ -60,6 +62,8 @@ p.num {
   font-size: 0.87rem;
   background-color: black;
   border-top-color: #59a0d3; }
+  #nav-first .nav-f-item {
+    padding-left: 1rem; }
   #nav-first div.container {
     padding-right: 0px;
     padding-left: 0px; }
@@ -73,20 +77,81 @@ p.num {
     font-size: 0.87rem; }
   #nav-first .isotipo-nav {
     position: relative;
-    top: -20px; }
+    top: -20px;
+    margin-right: 3rem; }
     #nav-first .isotipo-nav img.box-isotipo {
       vertical-align: middle;
       border: 5px solid black;
       border-radius: 100px 100px 0 0;
       background-color: black; }
 
+/*==================================================
+=    Bootstrap 4 Media Queries  Navbar principal   =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 576px) {
+  #nav-first {
+    font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.6rem; }
+    #nav-first .dropdown-item {
+      font-size: 0.72rem; }
+    #nav-first img.box-isotipo {
+      height: 65px; } }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 576px) {
+  #nav-first {
+    font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.6rem; }
+    #nav-first .dropdown-item {
+      font-size: 0.72rem; }
+    #nav-first img.box-isotipo {
+      height: 65px; } }
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #nav-first {
+    font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.6rem; }
+    #nav-first .dropdown-item {
+      font-size: 0.72rem; }
+    #nav-first img.box-isotipo {
+      height: 65px; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav-first {
+    font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.6rem; }
+    #nav-first .dropdown-item {
+      font-size: 0.72rem; }
+    #nav-first img.box-isotipo {
+      height: 65px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav-first {
+    font-size: 0.87rem; }
+    #nav-first .nav-f-item {
+      padding-left: 1rem; }
+    #nav-first .dropdown-item {
+      font-size: 0.87rem; }
+    #nav-first img.box-isotipo {
+      width: 81px;
+      height: 72px; } }
 /* Estilos para el Navbar secundario */
 #nav-second {
+  background-color: #242424;
   font-size: 0.87rem; }
+  #nav-second .container {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem; }
   #nav-second a {
     color: #fff; }
     #nav-second a span {
-      font-size: 0.75rem; }
+      font-size: 0.75rem;
+      padding-left: 1rem; }
     #nav-second a i.fa-user, #nav-second a span {
       color: #59a0d3; }
 

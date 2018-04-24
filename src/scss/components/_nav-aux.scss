@@ -1,6 +1,12 @@
 /* Estilos para el Navbar secundario */
 
 #nav-second {
+	background-color: $cbg-4;
+	
+	.container {
+		padding-bottom: 0.5rem;
+		padding-top: 0.5rem;
+	}
 	
 	font-size:  $font-peq1;
 	
@@ -9,8 +15,9 @@
 		
 		span {
 			font-size: $font-min;
+			padding-left: 1rem;
 		}
-		
+				
 		i.fa-user, span {
 			color: $cea-1;
 		}

@@ -6,6 +6,7 @@
 	2) Tipografias
 	3) Tamaño de fuentes
 	4) Interlineado del texto
+	5) Media Queries
 
 */
 
@@ -33,6 +34,7 @@
  $fuente2: 'Muli', sans-serif;
 
 /* 3) Tamaño de fuentes */
+ $font-min0: 0.72rem; //app. 13px
  $font-min: 0.75rem; //app. 13px
  $font-peq1: 0.87rem; //app. 14px
  $font-peq2: 1.1rem; //app. 16px
@@ -43,3 +45,12 @@
 /* 4) Interlineado del texto */
  $line-h1: 1.5; 
  $line-h2: 1.7; 
+
+/* 5) Media Queries */
+
+ $screen-xl: 1200px;
+ $screen-lg: 992px;
+ $screen-md: 768px;
+ $screen-sm: 576px;
+ $screen-xs: 576px;
+

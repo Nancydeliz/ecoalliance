@@ -4,6 +4,10 @@
 	background-color: $cbg-5;
 	border-top-color: $cea-1;
 	
+	.nav-f-item {
+		padding-left: 1rem;
+	}
+	
 	div.container {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -14,7 +18,7 @@
 		padding: 0;
 		height: 3.7rem;
 	}
-	
+		
 	.nav-link {
 		color: #fff;
 	}
@@ -26,6 +30,7 @@
 	.isotipo-nav {
 		position: relative;
 		top: -20px;
+		margin-right: 3rem;
 		
 		img.box-isotipo {
 			vertical-align: middle;
@@ -36,4 +41,126 @@
 	}
 	
 }
+
+/*==================================================
+=    Bootstrap 4 Media Queries  Navbar principal   =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : $screen-xs) {
+		
+		#nav-first {
+			font-size:  $font-min0;
+			
+			.nav-f-item {
+				padding-left: 0.6rem;
+			}
+
+			.dropdown-item {
+				font-size: $font-min0;
+			}
+			
+			img.box-isotipo {
+				height: 65px;
+			}
+
+		}
+		
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : $screen-sm) {
+		
+		#nav-first {
+			font-size:  $font-min0;
+			
+			.nav-f-item {
+				padding-left: 0.6rem;
+			}
+
+			.dropdown-item {
+				font-size: $font-min0;
+			}
+			
+			img.box-isotipo {
+				height: 65px;
+			}
+
+		}
+
+	   
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : $screen-md) {
+		
+		#nav-first {
+			font-size:  $font-min0;
+			
+			.nav-f-item {
+				padding-left: 0.6rem;
+			}
+
+			.dropdown-item {
+				font-size: $font-min0;
+			}
+			
+			img.box-isotipo {
+				height: 65px;
+			}
+
+		}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : $screen-lg) {
+		#nav-first {
+			font-size:  $font-min0;
+			
+			.nav-f-item {
+				padding-left: 0.6rem;
+			}
+
+			.dropdown-item {
+				font-size: $font-min0;
+			}
+			
+			img.box-isotipo {
+				height: 65px;
+			}
+
+		}
+	
+	}    
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : $screen-xl) {
+	
+		#nav-first {
+			font-size:  $font-peq1;
+
+			.nav-f-item {
+				padding-left: 1rem;
+			}
+			
+			.dropdown-item {
+				font-size: $font-peq1;
+			}
+			
+			img.box-isotipo {
+				width: 81px;
+				height: 72px;
+			}
+				
+		}
+
+		
+    }
+
 
