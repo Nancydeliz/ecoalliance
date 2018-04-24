@@ -58,13 +58,27 @@ p.num {
 /* Estilos para el Navbar principal */
 #nav-first {
   font-size: 0.87rem;
-  background-color: black; }
+  background-color: black;
+  border-top-color: #59a0d3; }
+  #nav-first div.container {
+    padding-right: 0px;
+    padding-left: 0px; }
   #nav-first .box-nav-first {
-    background-color: black; }
+    background-color: black;
+    padding: 0;
+    height: 3.7rem; }
   #nav-first .nav-link {
     color: #fff; }
   #nav-first .dropdown-item {
     font-size: 0.87rem; }
+  #nav-first .isotipo-nav {
+    position: relative;
+    top: -35px; }
+    #nav-first .isotipo-nav img {
+      vertical-align: middle;
+      border: 5px solid black;
+      border-radius: 50%;
+      background-color: black; }
 
 /* Estilos para el Navbar secundario */
 #nav-second {

@@ -2,9 +2,17 @@
 #nav-first {
 	font-size:  $font-peq1;
 	background-color: $cbg-5;
+	border-top-color: $cea-1;
+	
+	div.container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 	
 	.box-nav-first {
 		background-color: $cbg-5;
+		padding: 0;
+		height: 3.7rem;
 	}
 	
 	.nav-link {
@@ -13,6 +21,18 @@
 	
 	.dropdown-item {
 		font-size: $font-peq1;
+	}
+	
+	.isotipo-nav {
+		position: relative;
+		top: -35px;
+		
+		img {
+			vertical-align: middle;
+			border: 5px solid black;
+			border-radius: 50%;
+			background-color: black;
+		}
 	}
 	
 }
