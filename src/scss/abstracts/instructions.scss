@@ -1,0 +1,72 @@
+/* 
+Header:
+
+1) Estructura de los menú de navegación
+	
+	1.1) Menú Secundario: menú que se encuentra como primera caja en el sitio web y contiene los iconos de RSS, la barra de búsqueda y el acceso a zona de clientes.
+    
+	Se estructura de la siguiente manera:
+    
+    - Se encuentra en un container-fluid para ocupar el 100% de la pantalla:
+
+      #nav-second --> identifica a todo el menú y contiene el color de fondo.
+
+	  <div class="container-fluid bg-4" id="nav-second">
+
+	  archivo SASS: _nav-aux.scss
+      
+      #nav-second {
+	
+			font-size:  $font-peq1;  --> Para el tamaño de texto de todo el menú.
+
+			a {
+				color: #fff;  --> Para el color de todos los iconos que llevan enlace.
+
+				span {
+					font-size: $font-min;  --> Para el tamaño de texto de la Zona de Clientes.
+				}
+
+				i.fa-user, span {
+					color: $cea-1;   --> Para dar color al icono y texto de la Zona de Clientes.
+				}
+
+			}
+		}
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
