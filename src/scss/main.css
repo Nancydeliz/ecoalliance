@@ -118,7 +118,11 @@ p.num {
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
     #nav-first img.box-isotipo {
-      height: 65px; } }
+      height: 55px; }
+    #nav-first .isotipo-nav {
+      position: relative;
+      top: -20px;
+      margin-right: 1rem; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   #nav-first {
@@ -128,7 +132,11 @@ p.num {
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
     #nav-first img.box-isotipo {
-      height: 65px; } }
+      height: 65px; }
+    #nav-first .isotipo-nav {
+      position: relative;
+      top: -20px;
+      margin-right: 3rem; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   #nav-first {
@@ -139,7 +147,11 @@ p.num {
       font-size: 0.87rem; }
     #nav-first img.box-isotipo {
       width: 81px;
-      height: 72px; } }
+      height: 72px; }
+    #nav-first .isotipo-nav {
+      position: relative;
+      top: -20px;
+      margin-right: 3rem; } }
 /* Estilos para el Navbar secundario */
 #nav-second {
   background-color: #242424;
@@ -154,7 +166,66 @@ p.num {
       padding-left: 1rem; }
     #nav-second a i.fa-user, #nav-second a span {
       color: #59a0d3; }
+  #nav-second a.nav-s-icon {
+    padding-left: 2rem; }
 
+/*==================================================
+=            Bootstrap 4 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #nav-second {
+    background-color: #242424;
+    font-size: 0.87rem; }
+    #nav-second .container {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem; }
+    #nav-second a {
+      color: #fff; }
+      #nav-second a span {
+        font-size: 0.75rem;
+        padding-left: 1rem; }
+      #nav-second a i.fa-user, #nav-second a span {
+        color: #59a0d3; }
+    #nav-second a.nav-s-icon {
+      padding-left: 1rem; } }
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  #nav-second {
+    background-color: #242424;
+    font-size: 0.87rem; }
+    #nav-second .container {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem; }
+    #nav-second a {
+      color: #fff; }
+      #nav-second a span {
+        font-size: 0.75rem;
+        padding-left: 1rem; }
+      #nav-second a i.fa-user, #nav-second a span {
+        color: #59a0d3; }
+    #nav-second a.nav-s-icon {
+      padding-left: 2rem; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  #nav-second {
+    background-color: #242424;
+    font-size: 0.87rem; }
+    #nav-second .container {
+      padding-bottom: 0.5rem;
+      padding-top: 0.5rem; }
+    #nav-second a {
+      color: #fff; }
+      #nav-second a span {
+        font-size: 0.75rem;
+        padding-left: 1rem; }
+      #nav-second a i.fa-user, #nav-second a span {
+        color: #59a0d3; }
+    #nav-second a.nav-s-icon {
+      padding-left: 2rem; } }
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
 .mg-0 {

@@ -23,4 +23,142 @@
 		}
 		
 	}
+	
+	a.nav-s-icon {
+		padding-left: 2rem;
+	}
+	
+		
 }
+
+/*==================================================
+=            Bootstrap 4 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : $screen-xs) {		
+		
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : $screen-sm) {
+		
+
+	   
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : $screen-md) {
+		
+		#nav-second {
+			background-color: $cbg-4;
+
+			.container {
+				padding-bottom: 0.5rem;
+				padding-top: 0.5rem;
+			}
+
+			font-size:  $font-peq1;
+
+			a {
+				color: #fff;
+
+				span {
+					font-size: $font-min;
+					padding-left: 1rem;
+				}
+
+				i.fa-user, span {
+					color: $cea-1;
+				}
+
+			}
+
+			a.nav-s-icon {
+				padding-left: 1rem;
+			}
+
+
+		}
+			
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : $screen-lg) {
+		
+		#nav-second {
+			background-color: $cbg-4;
+
+			.container {
+				padding-bottom: 0.5rem;
+				padding-top: 0.5rem;
+			}
+
+			font-size:  $font-peq1;
+
+			a {
+				color: #fff;
+
+				span {
+					font-size: $font-min;
+					padding-left: 1rem;
+				}
+
+				i.fa-user, span {
+					color: $cea-1;
+				}
+
+			}
+
+			a.nav-s-icon {
+				padding-left: 2rem;
+			}
+
+
+		}
+	
+	
+	}    
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : $screen-xl) {
+		
+		#nav-second {
+			background-color: $cbg-4;
+
+			.container {
+				padding-bottom: 0.5rem;
+				padding-top: 0.5rem;
+			}
+
+			font-size:  $font-peq1;
+
+			a {
+				color: #fff;
+
+				span {
+					font-size: $font-min;
+					padding-left: 1rem;
+				}
+
+				i.fa-user, span {
+					color: $cea-1;
+				}
+
+			}
+
+			a.nav-s-icon {
+				padding-left: 2rem;
+			}
+
+
+		}
+	
+		
+    }

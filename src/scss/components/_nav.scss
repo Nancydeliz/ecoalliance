@@ -110,7 +110,13 @@
 			}
 			
 			img.box-isotipo {
-				height: 65px;
+				height: 55px;
+			}
+			
+			.isotipo-nav {
+				position: relative;
+				top: -20px;
+				margin-right: 1rem;				
 			}
 
 		}
@@ -132,6 +138,12 @@
 			
 			img.box-isotipo {
 				height: 65px;
+			}
+			
+			.isotipo-nav {
+				position: relative;
+				top: -20px;
+				margin-right: 3rem;				
 			}
 
 		}
@@ -156,6 +168,12 @@
 			img.box-isotipo {
 				width: 81px;
 				height: 72px;
+			}
+			
+			.isotipo-nav {
+				position: relative;
+				top: -20px;
+				margin-right: 3rem;				
 			}
 				
 		}
