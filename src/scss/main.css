@@ -84,6 +84,24 @@ p.num {
       border: 5px solid black;
       border-radius: 100px 100px 0 0;
       background-color: black; }
+  #nav-first .dropdown-menu {
+    top: 130%;
+    left: -28%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #000;
+    background-clip: padding-box;
+    border-top: 1.2px solid #59a0d3;
+    border-radius: 0px 0px 5px 5px; }
+    #nav-first .dropdown-menu .dropdown-item {
+      color: #fff; }
+      #nav-first .dropdown-menu .dropdown-item:hover {
+        background-color: #000;
+        color: #59a0d3; }
+      #nav-first .dropdown-menu .dropdown-item:active {
+        background-color: #000; }
 
 #nav-first-mobile {
   height: 66px;
@@ -169,6 +187,19 @@ p.num {
       position: relative;
       top: -20px;
       margin-right: 1rem; }
+    #nav-first .dropdown-menu {
+      top: 105%;
+      left: -28%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background-color: #000;
+      background-clip: padding-box;
+      border-top: 1.2px solid #59a0d3;
+      border-radius: 0px 0px 5px 5px; }
+      #nav-first .dropdown-menu .dropdown-item {
+        color: #fff; }
 
   #nav-first-mobile {
     height: 66px;
@@ -202,7 +233,20 @@ p.num {
     #nav-first .isotipo-nav {
       position: relative;
       top: -20px;
-      margin-right: 3rem; } }
+      margin-right: 3rem; }
+    #nav-first .dropdown-menu {
+      top: 130%;
+      left: -28%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background-color: #000;
+      background-clip: padding-box;
+      border-top: 1.2px solid #59a0d3;
+      border-radius: 0px 0px 5px 5px; }
+      #nav-first .dropdown-menu .dropdown-item {
+        color: #fff; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   #nav-first {
@@ -217,7 +261,20 @@ p.num {
     #nav-first .isotipo-nav {
       position: relative;
       top: -20px;
-      margin-right: 3rem; } }
+      margin-right: 3rem; }
+    #nav-first .dropdown-menu {
+      top: 130%;
+      left: -28%;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      background-color: #000;
+      background-clip: padding-box;
+      border-top: 1.2px solid #59a0d3;
+      border-radius: 0px 0px 5px 5px; }
+      #nav-first .dropdown-menu .dropdown-item {
+        color: #fff; } }
 /* Estilos para el Navbar secundario */
 #nav-second {
   background-color: #242424;
