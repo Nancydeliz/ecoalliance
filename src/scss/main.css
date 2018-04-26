@@ -96,6 +96,10 @@ p.num {
     border-top: 1.2px solid #59a0d3;
     border-radius: 0px 0px 5px 5px;
     box-shadow: -2px 3px 6px -2px rgba(0, 0, 0, 0.3); }
+    #nav-first .dropdown-menu .espacio-item {
+      margin-top: 1rem; }
+    #nav-first .dropdown-menu .sub-item .dropdown-item {
+      margin-left: 1rem; }
     #nav-first .dropdown-menu .dropdown-item {
       color: #fff; }
       #nav-first .dropdown-menu .dropdown-item:hover {
