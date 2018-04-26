@@ -118,10 +118,11 @@ p.num {
     border: solid 3px;
     border-bottom-color: #59a0d3; }
     #nav-first-mobile .navbar-brand {
-      font-size: 0.87rem; }
+      font-size: 0.87rem;
+      margin-right: 0px; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
-      bottom: -12px;
+      bottom: -15.5px;
       margin-right: 0;
       left: 6%; }
       #nav-first-mobile .isotipo-nav img.box-isotipo {
@@ -143,7 +144,7 @@ p.num {
       font-size: 0.87rem; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
-      bottom: -12px;
+      bottom: -15.5px;
       margin-right: 0;
       left: 6%; }
       #nav-first-mobile .isotipo-nav img.box-isotipo {
