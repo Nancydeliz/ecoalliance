@@ -3,11 +3,11 @@
 	font-size:  $font-peq1;
 	background-color: $cbg-5;
 	border-top-color: $cea-1;
-	
+		
 	.nav-f-item {
 		padding-left: 1.2rem;
 	}
-	
+		
 	div.container {
 		padding-right: 0px;
 		padding-left: 0px;
@@ -76,7 +76,11 @@
 		.sub-item {			
 			.dropdown-item {
 				margin-left: 1rem;
-			}			
+			}
+			.item-ver-todos {
+				color: #a3d5f9;
+				font-weight: 600;
+			}
 		}
 		
 		.dropdown-item {
@@ -100,14 +104,14 @@
 	
 	.nav-f-item, .nav-item {
 		padding-left: 2rem;
-	}
+	}	
 	
 	.isotipo-nav {
 		position: relative;
 		top: -20px;
 		margin-right: 2rem;		
-	}	
-	
+	}
+		
 }
 
 
@@ -125,7 +129,7 @@
     border-left-width: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-	
+		
 	.navbar-brand {
 		font-size: $font-peq1;
 	}
@@ -153,6 +157,11 @@
 	
 	ul.navbar-nav {
 		padding-left: 2.5rem;
+	}
+	
+	.navbar-collapse.collapse.show {
+		background-color: #000;
+    	color: #fff;
 	}
 	
 }
@@ -413,6 +422,10 @@
 	
 		#nav-first {
 			font-size:  $font-peq1;
+			
+			.nav-f-item {
+				padding-left: 1.3rem;
+			}	
 
 			.dropdown-item {
 				font-size: $font-peq1;

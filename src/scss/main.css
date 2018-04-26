@@ -106,6 +106,9 @@ p.num {
       margin-top: 1rem; }
     #nav-first .dropdown-menu .sub-item .dropdown-item {
       margin-left: 1rem; }
+    #nav-first .dropdown-menu .sub-item .item-ver-todos {
+      color: #a3d5f9;
+      font-weight: 600; }
     #nav-first .dropdown-menu .dropdown-item {
       color: #fff; }
       #nav-first .dropdown-menu .dropdown-item:hover {
@@ -151,6 +154,9 @@ p.num {
     background-color: black; }
   #nav-first-mobile ul.navbar-nav {
     padding-left: 2.5rem; }
+  #nav-first-mobile .navbar-collapse.collapse.show {
+    background-color: #000;
+    color: #fff; }
 
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
@@ -301,6 +307,8 @@ p.num {
 @media only screen and (min-width: 1200px) {
   #nav-first {
     font-size: 0.87rem; }
+    #nav-first .nav-f-item {
+      padding-left: 1.3rem; }
     #nav-first .dropdown-item {
       font-size: 0.87rem; }
     #nav-first img.box-isotipo {
