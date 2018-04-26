@@ -94,7 +94,8 @@ p.num {
     background-color: #000;
     background-clip: padding-box;
     border-top: 1.2px solid #59a0d3;
-    border-radius: 0px 0px 5px 5px; }
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: -2px 3px 6px -2px rgba(0, 0, 0, 0.3); }
     #nav-first .dropdown-menu .dropdown-item {
       color: #fff; }
       #nav-first .dropdown-menu .dropdown-item:hover {
@@ -200,6 +201,11 @@ p.num {
       border-radius: 0px 0px 5px 5px; }
       #nav-first .dropdown-menu .dropdown-item {
         color: #fff; }
+        #nav-first .dropdown-menu .dropdown-item:hover {
+          background-color: #000;
+          color: #59a0d3; }
+        #nav-first .dropdown-menu .dropdown-item:active {
+          background-color: #000; }
 
   #nav-first-mobile {
     height: 66px;
@@ -235,7 +241,7 @@ p.num {
       top: -20px;
       margin-right: 3rem; }
     #nav-first .dropdown-menu {
-      top: 130%;
+      top: 128%;
       left: -28%;
       padding-left: 30px;
       padding-right: 30px;
@@ -246,7 +252,12 @@ p.num {
       border-top: 1.2px solid #59a0d3;
       border-radius: 0px 0px 5px 5px; }
       #nav-first .dropdown-menu .dropdown-item {
-        color: #fff; } }
+        color: #fff; }
+        #nav-first .dropdown-menu .dropdown-item:hover {
+          background-color: #000;
+          color: #59a0d3; }
+        #nav-first .dropdown-menu .dropdown-item:active {
+          background-color: #000; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   #nav-first {
@@ -263,7 +274,7 @@ p.num {
       top: -20px;
       margin-right: 3rem; }
     #nav-first .dropdown-menu {
-      top: 130%;
+      top: 128%;
       left: -28%;
       padding-left: 30px;
       padding-right: 30px;
@@ -274,7 +285,12 @@ p.num {
       border-top: 1.2px solid #59a0d3;
       border-radius: 0px 0px 5px 5px; }
       #nav-first .dropdown-menu .dropdown-item {
-        color: #fff; } }
+        color: #fff; }
+        #nav-first .dropdown-menu .dropdown-item:hover {
+          background-color: #000;
+          color: #59a0d3; }
+        #nav-first .dropdown-menu .dropdown-item:active {
+          background-color: #000; } }
 /* Estilos para el Navbar secundario */
 #nav-second {
   background-color: #242424;
