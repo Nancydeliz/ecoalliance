@@ -5,7 +5,7 @@
 	border-top-color: $cea-1;
 	
 	.nav-f-item {
-		padding-left: 1rem;
+		padding-left: 1.2rem;
 	}
 	
 	div.container {
@@ -119,6 +119,13 @@
 	border: solid 3px;
 	border-bottom-color: $cea-1;
 	
+	padding-left: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+	
 	.navbar-brand {
 		font-size: $font-peq1;
 	}
@@ -138,6 +145,14 @@
 			box-shadow: 0px 7.5px 0px -4px $cea-1;
 			background-color: black;
 		}
+	}
+	
+	.box-item-mobile {
+		background-color: $cbg-5;
+	}
+	
+	ul.navbar-nav {
+		padding-left: 2.5rem;
 	}
 	
 }
@@ -277,7 +292,7 @@
 		#nav-first.nav-productos {
 	
 			.nav-f-item, .nav-item {
-				padding-left: 0.1rem;
+				padding-left: 0.3rem;
 			}
 
 			.isotipo-nav {
@@ -322,6 +337,10 @@
     @media only screen and (min-width : $screen-lg) {
 		#nav-first {
 			font-size:  $font-min0;
+			
+			.nav-f-item {
+				padding-left: 0.8rem;
+			}	
 			
 			.dropdown-item {
 				font-size: $font-min0;
@@ -375,7 +394,7 @@
 		#nav-first.nav-productos {
 	
 			.nav-f-item, .nav-item {
-				padding-left: 2rem;
+				padding-left: 2.3rem;
 			}
 
 			.isotipo-nav {
@@ -441,7 +460,7 @@
 		#nav-first.nav-productos {
 	
 			.nav-f-item, .nav-item {
-				padding-left: 2rem;
+				padding-left: 2.8rem;
 			}
 
 			.isotipo-nav {

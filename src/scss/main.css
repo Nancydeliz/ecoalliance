@@ -63,7 +63,7 @@ p.num {
   background-color: black;
   border-top-color: #59a0d3; }
   #nav-first .nav-f-item {
-    padding-left: 1rem; }
+    padding-left: 1.2rem; }
   #nav-first div.container {
     padding-right: 0px;
     padding-left: 0px; }
@@ -125,7 +125,13 @@ p.num {
   height: 66px;
   background-color: black;
   border: solid 3px;
-  border-bottom-color: #59a0d3; }
+  border-bottom-color: #59a0d3;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
   #nav-first-mobile .navbar-brand {
     font-size: 0.87rem; }
   #nav-first-mobile .isotipo-nav {
@@ -141,6 +147,10 @@ p.num {
       border-radius: 0 0 100px 100px;
       box-shadow: 0px 7.5px 0px -4px #59a0d3;
       background-color: black; }
+  #nav-first-mobile .box-item-mobile {
+    background-color: black; }
+  #nav-first-mobile ul.navbar-nav {
+    padding-left: 2.5rem; }
 
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
@@ -223,7 +233,7 @@ p.num {
           background-color: #000; }
 
   #nav-first.nav-productos .nav-f-item, #nav-first.nav-productos .nav-item {
-    padding-left: 0.1rem; }
+    padding-left: 0.3rem; }
   #nav-first.nav-productos .isotipo-nav {
     position: relative;
     top: -20px;
@@ -252,6 +262,8 @@ p.num {
 @media only screen and (min-width: 992px) {
   #nav-first {
     font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.8rem; }
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
     #nav-first img.box-isotipo {
@@ -280,7 +292,7 @@ p.num {
           background-color: #000; }
 
   #nav-first.nav-productos .nav-f-item, #nav-first.nav-productos .nav-item {
-    padding-left: 2rem; }
+    padding-left: 2.3rem; }
   #nav-first.nav-productos .isotipo-nav {
     position: relative;
     top: -20px;
@@ -316,7 +328,7 @@ p.num {
           background-color: #000; }
 
   #nav-first.nav-productos .nav-f-item, #nav-first.nav-productos .nav-item {
-    padding-left: 2rem; }
+    padding-left: 2.8rem; }
   #nav-first.nav-productos .isotipo-nav {
     position: relative;
     top: -20px;

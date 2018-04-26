@@ -23,6 +23,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Mis JS para los nav -->
+<script src="js/_nav.js"></script>
 
 
 </head>
@@ -43,7 +45,7 @@
 				<div class="col-md-6 col-sm-6">
 					<div class="row">
 						<div class="col-md-6">
-							<a href="#"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+							<a href="#" class="float-right"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
 						</div>
 						<div class="col-md-6">
 					   		<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
@@ -69,13 +71,13 @@
 			  </a>
 
 			  <!-- Links -->
-			  <ul class="navbar-nav">
+			  <ul class="nav navbar-nav">
 				<li class="nav-item">
 				  <a class="nav-link" href="#">Inicio</a>
 				</li>
 				<!-- Dropdown -->
-				<li class="nav-item nav-f-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop1" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+				  <a class="nav-link" href="#" id="navbardrop1" data-toggle="dropdown">
 					Multicarro
 				  </a>
 				  <div class="dropdown-menu">
@@ -97,8 +99,8 @@
 				  </div>
 				</li>
 				
-				<li class="nav-item nav-f-item dropdown" id="menu-trat-residuos">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop2" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen" id="menu-trat-residuos">
+				  <a class="nav-link" href="#" id="navbardrop2" data-toggle="dropdown">
 					Tratamiento de Residuos
 				  </a>
 				  <div class="dropdown-menu">
@@ -114,8 +116,8 @@
 				  </div>
 				</li>
 				
-				<li class="nav-item nav-f-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop3" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+				  <a class="nav-link" href="#" id="navbardrop3" data-toggle="dropdown">
 					Higiene Urbana
 				  </a>
 				  <div class="dropdown-menu">
@@ -131,8 +133,8 @@
 				  </div>
 				</li>
 				
-				<li class="nav-item nav-f-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop4" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+				  <a class="nav-link" href="#" id="navbardrop4" data-toggle="dropdown">
 					Asistencia
 				  </a>
 				  <div class="dropdown-menu">
@@ -148,8 +150,8 @@
 				  </div>
 				</li>
 				
-				<li class="nav-item nav-f-item dropdown" id="menu-esp-pub">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop5" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen" id="menu-esp-pub">
+				  <a class="nav-link" href="#" id="navbardrop5" data-toggle="dropdown">
 					Espacios Públicos
 				  </a>
 				  <div class="dropdown-menu">
@@ -161,8 +163,8 @@
 				  </div>
 				</li>
 				
-				<li class="nav-item nav-f-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" id="navbardrop6" data-toggle="dropdown">
+				<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+				  <a class="nav-link" href="#" id="navbardrop6" data-toggle="dropdown">
 					Energía
 				  </a>
 				  <div class="dropdown-menu">
@@ -196,7 +198,7 @@
 	  <a class="navbar-brand" href="#">Zona de Clientes</a>	  
 	  
 	  
-	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	  <div class="collapse navbar-collapse box-item-mobile" id="collapsibleNavbar">
 		<ul class="navbar-nav">
 		  <li class="nav-item">
 			<a class="nav-link" href="#">Link</a>
