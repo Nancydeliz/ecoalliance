@@ -203,7 +203,7 @@
 			}
 
 			.navbar-brand {
-				font-size: $font-peq1;
+				font-size: 0.75rem;
 				margin-right: 0px;
 				padding-right: 15px;
 			}
@@ -211,6 +211,7 @@
 			.isotipo-nav {
 				position: relative;
 				bottom: -20.5px;
+				padding-right: 0;
 				margin-right: 0;
 				left: 6%;
 				

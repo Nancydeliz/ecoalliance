@@ -187,12 +187,13 @@ p.num {
     #nav-first-mobile .navbar-toggler {
       padding-left: 15px; }
     #nav-first-mobile .navbar-brand {
-      font-size: 0.87rem;
+      font-size: 0.75rem;
       margin-right: 0px;
       padding-right: 15px; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
       bottom: -20.5px;
+      padding-right: 0;
       margin-right: 0;
       left: 6%; }
       #nav-first-mobile .isotipo-nav img.box-isotipo {
