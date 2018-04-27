@@ -19,12 +19,14 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <!-- Mis Estilos-->
 <link rel="stylesheet" type="text/css" href="scss/main.css"> <!-- (modificar ruta al subir el sitio) -->
+<link rel="stylesheet" type="text/css" href="css/header_buscador.css">
 <!-- Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <!-- Mis JS para los nav -->
 <script src="js/_nav.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
 
 
 </head>
@@ -37,7 +39,8 @@
    </div>
    <!-- Menú secundario -->
 	<div class="container-fluid d-none d-md-block" id="nav-second">
-		<div class="container">
+				
+		<div class="container " id="nav-s-1">
 			<div class="row">
 				<div class="col-md-6">
 					
@@ -52,12 +55,70 @@
 							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
 						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
 						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>
-						   	<a class="float-right" href="#"><i class="fas fa-search"></i></a>										
+						   	<a class="float-right" href="#"><i class="fas fa-search nav-buscar"></i></a>										
 						</div>
 					</div>					
 				</div>
 			</div>
 		</div>
+		<!-- Con la barra de búsqueda -->
+		<div class="container ocultar" id="nav-s-2">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="row">
+						<div class="col-md-7 pd-0-right">
+							<a href="#" class="float-right"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-5">
+				   			<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>						   	
+							<a class="float-right mg-1-left" id="close-buscar"><i class="fas fa-times"></i></a>
+						   	<a class="float-right hg-auto" id="caja-inputBusqueda">
+								<div class="navegacion">
+									<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+								</div>
+							</a>
+							<a class="float-right mg-1-right" href="#"><i class="fas fa-search nav-buscar"></i></a>
+							<div class="search" id="search">
+								<table class="search-table" id="searchTable">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a href="#">Multicarro</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M31</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M27</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Asistencia</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Tratamiento de Residuos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Espacios publicos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Papeleros</a></td>
+										</tr>									
+									</tbody>
+								</table>
+							</div>	
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		
 	</div>
 	
 	
@@ -221,7 +282,8 @@
 
 		
 
-	
+<!-- Mis JS para los nav - Buscador -->
+	<script src="js/_buscador.js"></script>
 	
 </body>
 </html>
