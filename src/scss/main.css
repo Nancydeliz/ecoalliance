@@ -164,6 +164,16 @@ p.num {
     bottom: -2px;
     width: 100vw;
     z-index: 2; }
+    #nav-first-mobile .navbar-collapse.collapse.show ul.navbar-nav, #nav-first-mobile .navbar-collapse.collapsing ul.navbar-nav {
+      padding-top: 20px;
+      border-bottom-width: 20px;
+      padding-bottom: 20px; }
+      #nav-first-mobile .navbar-collapse.collapse.show ul.navbar-nav a.nav-link, #nav-first-mobile .navbar-collapse.collapsing ul.navbar-nav a.nav-link {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: #fff; }
 
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
@@ -197,9 +207,7 @@ p.num {
 @media only screen and (min-width: 576px) {
   #nav-first-mobile {
     height: 80px;
-    background-color: black;
-    border: solid 3px;
-    border-bottom-color: #59a0d3; }
+    background-color: black; }
     #nav-first-mobile .navbar-toggler {
       padding-left: 15px; }
     #nav-first-mobile .navbar-brand {
@@ -223,8 +231,19 @@ p.num {
 @media only screen and (min-width: 768px) {
   #nav-first {
     font-size: 0.72rem; }
+    #nav-first .nav-f-item {
+      padding-left: 0.5rem; }
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
+    #nav-first .isotipo-nav {
+      position: relative;
+      top: -20px;
+      margin-right: 1rem; }
+      #nav-first .isotipo-nav img.box-isotipo {
+        vertical-align: middle;
+        border: 5px solid black;
+        border-radius: 100px 100px 0 0;
+        background-color: black; }
     #nav-first img.box-isotipo {
       height: 45px; }
     #nav-first li#menu-trat-residuos .dropdown-menu {
@@ -258,15 +277,17 @@ p.num {
     margin-right: 1rem; }
 
   #nav-first-mobile {
-    height: 66px;
-    background-color: black;
-    border: solid 3px;
-    border-bottom-color: #59a0d3; }
+    height: 80px;
+    background-color: black; }
+    #nav-first-mobile .navbar-toggler {
+      padding-left: 15px; }
     #nav-first-mobile .navbar-brand {
-      font-size: 0.87rem; }
+      font-size: 0.87rem;
+      margin-right: 0px;
+      padding-right: 15px; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
-      bottom: -10px;
+      bottom: -20.5px;
       margin-right: 0;
       left: 6%; }
       #nav-first-mobile .isotipo-nav img.box-isotipo {
@@ -275,6 +296,7 @@ p.num {
         vertical-align: middle;
         border: 9px solid black;
         border-radius: 0 0 100px 100px;
+        box-shadow: 0px 7.5px 0px -4px #59a0d3;
         background-color: black; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
