@@ -120,15 +120,14 @@
 #nav-first-mobile {
 	height: 66px;
 	background-color: $cbg-5;
-	border: solid 3px;
-	border-bottom-color: $cea-1;
-	
+	border-bottom: solid 3px $cea-1;	
 	padding-left: 0px;
     padding-right: 0px;
     border-right-width: 0px;
     border-left-width: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
+	z-index: 1;
 		
 	.navbar-brand {
 		font-size: $font-peq1;
@@ -139,6 +138,7 @@
 		bottom: -10px;
 		margin-right: 0;
 		left: 6%;
+		z-index: 3;
 		
 		img.box-isotipo {
 			width: 81px;
@@ -159,9 +159,13 @@
 		padding-left: 2.5rem;
 	}
 	
-	.navbar-collapse.collapse.show {
+	.navbar-collapse.collapse.show, .navbar-collapse.collapsing {
 		background-color: #000;
     	color: #fff;
+		position: relative;
+		top: -2px;
+		width: 100vw;
+		z-index: 2;
 	}
 	
 }
@@ -178,12 +182,15 @@
 		#nav-first-mobile {
 			height: 80px;
 			background-color: $cbg-5;
-			border: solid 3px;
-			border-bottom-color: $cea-1;
+			
+			.navbar-toggler {
+				padding-left: 15px;
+			}
 
 			.navbar-brand {
 				font-size: $font-peq1;
 				margin-right: 0px;
+				padding-right: 15px;
 			}
 
 			.isotipo-nav {
@@ -191,6 +198,7 @@
 				bottom: -15.5px;
 				margin-right: 0;
 				left: 6%;
+				
 
 				img.box-isotipo {
 					width: 81px;
@@ -217,8 +225,14 @@
 			border: solid 3px;
 			border-bottom-color: $cea-1;			
 
+			.navbar-toggler {
+				padding-left: 15px;
+			}
+
 			.navbar-brand {
 				font-size: $font-peq1;
+				margin-right: 0px;
+				padding-right: 15px;
 			}
 
 			.isotipo-nav {

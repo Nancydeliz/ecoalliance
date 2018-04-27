@@ -128,21 +128,22 @@ p.num {
 #nav-first-mobile {
   height: 66px;
   background-color: black;
-  border: solid 3px;
-  border-bottom-color: #59a0d3;
+  border-bottom: solid 3px #59a0d3;
   padding-left: 0px;
   padding-right: 0px;
   border-right-width: 0px;
   border-left-width: 0px;
   padding-top: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 0px;
+  z-index: 1; }
   #nav-first-mobile .navbar-brand {
     font-size: 0.87rem; }
   #nav-first-mobile .isotipo-nav {
     position: relative;
     bottom: -10px;
     margin-right: 0;
-    left: 6%; }
+    left: 6%;
+    z-index: 3; }
     #nav-first-mobile .isotipo-nav img.box-isotipo {
       width: 81px;
       height: 72px;
@@ -155,9 +156,13 @@ p.num {
     background-color: black; }
   #nav-first-mobile ul.navbar-nav {
     padding-left: 2.5rem; }
-  #nav-first-mobile .navbar-collapse.collapse.show {
+  #nav-first-mobile .navbar-collapse.collapse.show, #nav-first-mobile .navbar-collapse.collapsing {
     background-color: #000;
-    color: #fff; }
+    color: #fff;
+    position: relative;
+    top: -2px;
+    width: 100vw;
+    z-index: 2; }
 
 /*==================================================
 =    Bootstrap 4 Media Queries  Navbar principal   =
@@ -167,12 +172,13 @@ p.num {
 @media only screen and (max-width: 576px) {
   #nav-first-mobile {
     height: 80px;
-    background-color: black;
-    border: solid 3px;
-    border-bottom-color: #59a0d3; }
+    background-color: black; }
+    #nav-first-mobile .navbar-toggler {
+      padding-left: 15px; }
     #nav-first-mobile .navbar-brand {
       font-size: 0.87rem;
-      margin-right: 0px; }
+      margin-right: 0px;
+      padding-right: 15px; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
       bottom: -15.5px;
@@ -193,8 +199,12 @@ p.num {
     background-color: black;
     border: solid 3px;
     border-bottom-color: #59a0d3; }
+    #nav-first-mobile .navbar-toggler {
+      padding-left: 15px; }
     #nav-first-mobile .navbar-brand {
-      font-size: 0.87rem; }
+      font-size: 0.87rem;
+      margin-right: 0px;
+      padding-right: 15px; }
     #nav-first-mobile .isotipo-nav {
       position: relative;
       bottom: -15.5px;
