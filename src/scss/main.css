@@ -2656,6 +2656,13 @@ p.num {
 .hg-100o {
   height: 100%; }
 
+/* Margin centrado auto */
+.hg-0auto {
+  height: 0 auto; }
+
+.hg-auto {
+  height: auto; }
+
 /* width */
 .width-1 {
   width: 1rem; }
