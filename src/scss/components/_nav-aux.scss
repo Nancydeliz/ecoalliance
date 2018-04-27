@@ -1,7 +1,7 @@
 /* Estilos para el Navbar secundario */
 
 #nav-second {
-	background-color: $cbg-4;
+	background-color: $cbg-5;
 	
 	.container {
 		padding-bottom: 0.5rem;
@@ -55,8 +55,6 @@
     @media only screen and (min-width : $screen-md) {
 		
 		#nav-second {
-			background-color: $cbg-4;
-
 			.container {
 				padding-bottom: 0.5rem;
 				padding-top: 0.5rem;
@@ -92,7 +90,6 @@
     @media only screen and (min-width : $screen-lg) {
 		
 		#nav-second {
-			background-color: $cbg-4;
 
 			.container {
 				padding-bottom: 0.5rem;
@@ -130,8 +127,6 @@
     @media only screen and (min-width : $screen-xl) {
 		
 		#nav-second {
-			background-color: $cbg-4;
-
 			.container {
 				padding-bottom: 0.5rem;
 				padding-top: 0.5rem;

@@ -70,7 +70,7 @@ p.num {
   #nav-first .box-nav-first {
     background-color: black;
     padding: 0;
-    height: 3.7rem; }
+    height: 3rem; }
   #nav-first .nav-link {
     color: #fff; }
   #nav-first .dropdown-item {
@@ -214,13 +214,13 @@ p.num {
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
     #nav-first img.box-isotipo {
-      height: 55px; }
+      height: 45px; }
     #nav-first li#menu-trat-residuos .dropdown-menu {
       left: -2%; }
     #nav-first li#menu-esp-pub .dropdown-menu {
       left: -2%; }
     #nav-first .dropdown-menu {
-      top: 105%;
+      top: 116%;
       left: -28%;
       padding-left: 30px;
       padding-right: 30px;
@@ -273,13 +273,13 @@ p.num {
     #nav-first .dropdown-item {
       font-size: 0.72rem; }
     #nav-first img.box-isotipo {
-      height: 65px; }
+      height: 60px; }
     #nav-first li#menu-trat-residuos .dropdown-menu {
       left: -2%; }
     #nav-first li#menu-esp-pub .dropdown-menu {
       left: -2%; }
     #nav-first .dropdown-menu {
-      top: 128%;
+      top: 114%;
       left: -28%;
       padding-left: 30px;
       padding-right: 30px;
@@ -313,11 +313,11 @@ p.num {
       font-size: 0.87rem; }
     #nav-first img.box-isotipo {
       width: 81px;
-      height: 72px; }
+      height: 60px; }
     #nav-first li#menu-trat-residuos .dropdown-menu {
       left: -2%; }
     #nav-first .dropdown-menu {
-      top: 128%;
+      top: 114%;
       left: -28%;
       padding-left: 30px;
       padding-right: 30px;
@@ -343,7 +343,7 @@ p.num {
     margin-right: 2rem; } }
 /* Estilos para el Navbar secundario */
 #nav-second {
-  background-color: #242424;
+  background-color: black;
   font-size: 0.87rem; }
   #nav-second .container {
     padding-bottom: 0.5rem;
@@ -367,7 +367,6 @@ p.num {
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   #nav-second {
-    background-color: #242424;
     font-size: 0.87rem; }
     #nav-second .container {
       padding-bottom: 0.5rem;
@@ -384,7 +383,6 @@ p.num {
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   #nav-second {
-    background-color: #242424;
     font-size: 0.87rem; }
     #nav-second .container {
       padding-bottom: 0.5rem;
@@ -401,7 +399,6 @@ p.num {
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   #nav-second {
-    background-color: #242424;
     font-size: 0.87rem; }
     #nav-second .container {
       padding-bottom: 0.5rem;
