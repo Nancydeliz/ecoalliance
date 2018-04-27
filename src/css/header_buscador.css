@@ -56,8 +56,9 @@
 
 	#search tr.odd td.dataTables_empty {
 		padding-top: 20px;
-    	padding-bottom: 20px;
-    	color: #841a1a;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		color: #ffffff;
 	}
 
 	tbody tr td{

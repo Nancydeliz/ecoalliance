@@ -21,6 +21,7 @@
 /* 3) Tama├▒o de fuentes */
 /* 4) Interlineado del texto */
 /* 5) Media Queries */
+/* Visibilidad de elementos */
 /* Estilos base */
 /* Indice: 
 
@@ -344,6 +345,7 @@ p.num {
 /* Estilos para el Navbar secundario */
 #nav-second {
   background-color: black;
+  height: 36px;
   font-size: 0.87rem; }
   #nav-second .container {
     padding-bottom: 0.5rem;
@@ -3167,5 +3169,12 @@ p.num {
 .bd-2-s {
   border-style: solid;
   border-width: 2px; }
+
+/* Display */
+.mostrar {
+  display: block; }
+
+.ocultar {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */
