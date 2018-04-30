@@ -391,8 +391,77 @@ p.num {
       padding-left: 1rem; }
     #nav-second a i.fa-user, #nav-second a span {
       color: #59a0d3; }
-  #nav-second a.nav-s-icon {
-    padding-left: 2rem; }
+    #nav-second a.nav-s-icon {
+      padding-left: 2rem; }
+  #nav-second #nav-s-2 input[type="search"] {
+    background-color: black;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid #525252;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px; }
+    #nav-second #nav-s-2 input[type="search"]:focus {
+      outline: none; }
+  #nav-second #nav-s-2 #close-buscar {
+    margin-left: 1rem; }
+    #nav-second #nav-s-2 #close-buscar i {
+      color: #999999; }
+  #nav-second #nav-s-2 .search {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    z-index: 3;
+    width: 79%;
+    max-width: 1000px;
+    margin-left: 0;
+    background: black;
+    padding: 0 10px;
+    padding-bottom: 5px;
+    overflow-x: hidden;
+    border-color: rgba(169, 169, 169, 0.2);
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 0px 0px 10px 10px; }
+  #nav-second #nav-s-2 #search::-webkit-scrollbar {
+    background-color: rgba(0, 0, 0, 0); }
+  #nav-second #nav-s-2 #search::-webkit-scrollbar-button {
+    background-color: #c1c1c1; }
+  #nav-second #nav-s-2 #search::-webkit-scrollbar-thumb {
+    background-color: #c1c1c1; }
+  #nav-second #nav-s-2 #search .dataTables_length,
+  #nav-second #nav-s-2 #search .dataTables_filter,
+  #nav-second #nav-s-2 #search .dataTables_info,
+  #nav-second #nav-s-2 #search .dataTables_paginate {
+    display: none; }
+  #nav-second #nav-s-2 #search tr.odd td.dataTables_empty {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: #ffffff; }
+  #nav-second #nav-s-2 #search .search-table {
+    width: 100%; }
+    #nav-second #nav-s-2 #search .search-table tbody tr td {
+      width: 100%; }
+      #nav-second #nav-s-2 #search .search-table tbody tr td a {
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        width: 100%;
+        height: 100%;
+        padding: 15px 0;
+        padding-left: 20px;
+        border: none; }
+        #nav-second #nav-s-2 #search .search-table tbody tr td a:hover {
+          border: none;
+          text-decoration: none; }
+  #nav-second #nav-s-2 #search .sorting_1 a {
+    font-size: 0.87rem; }
+    #nav-second #nav-s-2 #search .sorting_1 a:hover {
+      color: #59a0d3; }
 
 /*==================================================
 =            Bootstrap 4 Media Queries             =

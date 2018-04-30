@@ -14,6 +14,7 @@
 			  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 			});
 			
+			
 			/* Codigo para que aparezca la barra de búsqueda y se oculte el estado anterior */
 			$(function(){
 				$(".nav-buscar").click(function(event){
@@ -29,5 +30,7 @@
 				  
 			   });		
 			});	
+			
+			
 			
 		});	
