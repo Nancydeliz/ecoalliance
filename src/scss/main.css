@@ -62,6 +62,7 @@ p.num {
 #nav-first {
   font-size: 0.87rem;
   background-color: black;
+  border-top: solid 1px;
   border-top-color: #59a0d3; }
   #nav-first .nav-f-item {
     padding-left: 1.2rem; }
