@@ -1,21 +1,43 @@
 /* Estilos para el Footer */
 footer {
-	color: #fff;
-	
-	a {
-		text-decoration: none;
-		
-		&:hover {
-			text-decoration: none;
-		}
+	&.container-fluid {
+		padding: 0;
 	}
-	
-	ul {
-		padding-left: 0px;
+	#footer-top {
+		color: #fff;
+		font-size: $font-peq1;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		background-color: $cbg-4;
 		
-		li {
+		p {
+			font-size: $font-peq1;		
+			&.num {
+				font-size: $font-peq2;
+			}
+			&.title {
+				font-size: $font-med1;
+				color: $cea-1;
+				font-weight: bold;
+			}
+		}
+	
+		a {
 			text-decoration: none;
-			list-style-type: none;
+			color: #fff;
+			&:hover {
+				text-decoration: none;
+				color: $cea-1;
+			}
+		}
+
+		ul {
+			padding-left: 0px;		
+			li {
+				text-decoration: none;
+				list-style-type: none;
+				line-height: 1.9;
+			}
 		}
 	}
 	

@@ -519,17 +519,34 @@ p.num {
     #nav-second a.nav-s-icon {
       padding-left: 2rem; } }
 /* Estilos para el Footer */
-footer {
-  color: #fff; }
-  footer a {
-    text-decoration: none; }
-    footer a:hover {
-      text-decoration: none; }
-  footer ul {
-    padding-left: 0px; }
-    footer ul li {
+footer.container-fluid {
+  padding: 0; }
+footer #footer-top {
+  color: #fff;
+  font-size: 0.87rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #242424; }
+  footer #footer-top p {
+    font-size: 0.87rem; }
+    footer #footer-top p.num {
+      font-size: 1.1rem; }
+    footer #footer-top p.title {
+      font-size: 1.2rem;
+      color: #59a0d3;
+      font-weight: bold; }
+  footer #footer-top a {
+    text-decoration: none;
+    color: #fff; }
+    footer #footer-top a:hover {
       text-decoration: none;
-      list-style-type: none; }
+      color: #59a0d3; }
+  footer #footer-top ul {
+    padding-left: 0px; }
+    footer #footer-top ul li {
+      text-decoration: none;
+      list-style-type: none;
+      line-height: 1.9; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
