@@ -534,7 +534,8 @@ footer #footer-top {
     footer #footer-top p.title {
       font-size: 1.2rem;
       color: #59a0d3;
-      font-weight: bold; }
+      font-weight: bold;
+      margin-bottom: 1.5rem; }
   footer #footer-top a {
     text-decoration: none;
     color: #fff; }
