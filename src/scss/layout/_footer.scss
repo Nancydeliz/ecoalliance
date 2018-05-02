@@ -1,0 +1,22 @@
+/* Estilos para el Footer */
+footer {
+	color: #fff;
+	
+	a {
+		text-decoration: none;
+		
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	ul {
+		padding-left: 0px;
+		
+		li {
+			text-decoration: none;
+			list-style-type: none;
+		}
+	}
+	
+}

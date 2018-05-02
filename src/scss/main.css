@@ -518,6 +518,19 @@ p.num {
         color: #59a0d3; }
     #nav-second a.nav-s-icon {
       padding-left: 2rem; } }
+/* Estilos para el Footer */
+footer {
+  color: #fff; }
+  footer a {
+    text-decoration: none; }
+    footer a:hover {
+      text-decoration: none; }
+  footer ul {
+    padding-left: 0px; }
+    footer ul li {
+      text-decoration: none;
+      list-style-type: none; }
+
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
 .mg-0 {
