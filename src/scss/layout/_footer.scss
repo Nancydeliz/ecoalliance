@@ -3,13 +3,23 @@ footer {
 	&.container-fluid {
 		padding: 0;
 	}
+	
+	a {
+		text-decoration: none;
+		color: #fff;
+		&:hover {
+			text-decoration: none;
+			color: $cea-1;
+			}
+		}
+
 	#footer-top {
 		color: #fff;
 		font-size: $font-peq1;
 		padding-top: 4rem;
 		padding-bottom: 4rem;
 		background-color: $cbg-4;
-		
+
 		p {
 			font-size: $font-peq1;		
 			&.num {
@@ -23,15 +33,7 @@ footer {
 			}
 		}
 	
-		a {
-			text-decoration: none;
-			color: #fff;
-			&:hover {
-				text-decoration: none;
-				color: $cea-1;
-			}
-		}
-
+		
 		ul {
 			padding-left: 0px;		
 			li {
@@ -39,6 +41,21 @@ footer {
 				list-style-type: none;
 				line-height: 1.9;
 			}
+		}
+
+		.foot-t-icon {
+			margin-right: 1rem;
+		}
+	}
+	
+	#footer-sub {
+		background-color: $cbg-5;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		color: #fff;
+		
+		img.box-isotipo {
+			width: 40px;		
 		}
 	}
 	

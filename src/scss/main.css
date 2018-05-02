@@ -521,6 +521,12 @@ p.num {
 /* Estilos para el Footer */
 footer.container-fluid {
   padding: 0; }
+footer a {
+  text-decoration: none;
+  color: #fff; }
+  footer a:hover {
+    text-decoration: none;
+    color: #59a0d3; }
 footer #footer-top {
   color: #fff;
   font-size: 0.87rem;
@@ -536,18 +542,21 @@ footer #footer-top {
       color: #59a0d3;
       font-weight: bold;
       margin-bottom: 1.5rem; }
-  footer #footer-top a {
-    text-decoration: none;
-    color: #fff; }
-    footer #footer-top a:hover {
-      text-decoration: none;
-      color: #59a0d3; }
   footer #footer-top ul {
     padding-left: 0px; }
     footer #footer-top ul li {
       text-decoration: none;
       list-style-type: none;
       line-height: 1.9; }
+  footer #footer-top .foot-t-icon {
+    margin-right: 1rem; }
+footer #footer-sub {
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  color: #fff; }
+  footer #footer-sub img.box-isotipo {
+    width: 40px; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
@@ -1424,6 +1433,18 @@ footer #footer-top {
 .pd-05 {
   padding: 0.5rem; }
 
+.pd-06 {
+  padding: 0.6rem; }
+
+.pd-07 {
+  padding: 0.7rem; }
+
+.pd-08 {
+  padding: 0.8rem; }
+
+.pd-09 {
+  padding: 0.9rem; }
+
 .pd-1 {
   padding: 1rem; }
 
@@ -1595,6 +1616,18 @@ footer #footer-top {
 
 .pd-05-left {
   padding-left: 0.5rem; }
+
+.pd-06-left {
+  padding-left: 0.6rem; }
+
+.pd-07-left {
+  padding-left: 0.7rem; }
+
+.pd-08-left {
+  padding-left: 0.8rem; }
+
+.pd-09-left {
+  padding-left: 0.9rem; }
 
 .pd-1-left {
   padding-left: 1rem; }
@@ -1768,6 +1801,18 @@ footer #footer-top {
 .pd-05-right {
   padding-right: 0.5rem; }
 
+.pd-06-right {
+  padding-right: 0.6rem; }
+
+.pd-07-right {
+  padding-right: 0.7rem; }
+
+.pd-08-right {
+  padding-right: 0.8rem; }
+
+.pd-09-right {
+  padding-right: 0.9rem; }
+
 .pd-1-right {
   padding-right: 1rem; }
 
@@ -1940,6 +1985,18 @@ footer #footer-top {
 .pd-05-top {
   padding-top: 0.5rem; }
 
+.pd-06-top {
+  padding-top: 0.6rem; }
+
+.pd-07-top {
+  padding-top: 0.7rem; }
+
+.pd-08-top {
+  padding-top: 0.8rem; }
+
+.pd-09-top {
+  padding-top: 0.9rem; }
+
 .pd-1-top {
   padding-top: 1rem; }
 
@@ -2111,6 +2168,18 @@ footer #footer-top {
 
 .pd-05-bottom {
   padding-bottom: 0.5rem; }
+
+.pd-06-bottom {
+  padding-bottom: 0.6rem; }
+
+.pd-07-bottom {
+  padding-bottom: 0.7rem; }
+
+.pd-08-bottom {
+  padding-bottom: 0.8rem; }
+
+.pd-09-bottom {
+  padding-bottom: 0.9rem; }
 
 .pd-1-bottom {
   padding-bottom: 1rem; }
