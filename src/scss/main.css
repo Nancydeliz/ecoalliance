@@ -557,7 +557,31 @@ footer #footer-sub {
   color: #fff; }
   footer #footer-sub img.box-isotipo {
     width: 40px; }
+  footer #footer-sub .box-sub-f-link {
+    padding-top: 0.6rem;
+    padding-right: 4rem; }
 
+/* -- Media Query -- */
+/*==================================================
+=            Bootstrap 4 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  footer #footer-top p.num {
+    font-size: 0.87rem; }
+  footer #footer-sub .box-sub-f-link {
+    padding-top: 0.6rem;
+    padding-right: 0; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  footer #footer-top p.num {
+    font-size: 1.1rem; }
+  footer #footer-sub .box-sub-f-link {
+    padding-right: 4rem; } }
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
 .mg-0 {

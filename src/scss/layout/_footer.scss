@@ -57,6 +57,101 @@ footer {
 		img.box-isotipo {
 			width: 40px;		
 		}
+		
+		.box-sub-f-link {
+			padding-top: 0.6rem;
+			padding-right: 4rem;
+		}
+		
 	}
 	
 }
+
+
+/* -- Media Query -- */
+
+/*==================================================
+=            Bootstrap 4 Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : $screen-xs) {		
+		
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : $screen-sm) {
+		
+
+	   
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : $screen-md) {
+		
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : $screen-lg) {
+		
+		footer {
+			
+			#footer-top {
+				
+				p {
+					
+					&.num {
+						font-size: $font-peq1;
+					}					
+				}
+				
+			}
+
+			#footer-sub {
+				
+				.box-sub-f-link {
+					padding-top: 0.6rem;
+					padding-right: 0; //*
+				}
+
+			}
+
+		}
+		
+	
+	}    
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : $screen-xl) {
+		
+		footer {
+			
+			#footer-top {
+				
+				p {						
+					&.num {
+						font-size: $font-peq2;
+					}					
+				}
+				
+			}
+
+			#footer-sub {
+				
+				.box-sub-f-link {
+					padding-right: 4rem;
+				}
+
+			}
+
+		}
+	
+		
+    }
+
