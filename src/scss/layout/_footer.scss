@@ -1,4 +1,6 @@
 /* Estilos para el Footer */
+
+
 footer {
 	&.container-fluid {
 		padding: 0;
@@ -12,60 +14,82 @@ footer {
 			color: $cea-1;
 			}
 		}
-
-	#footer-top {
-		color: #fff;
-		font-size: $font-peq1;
-		padding-top: 4rem;
-		padding-bottom: 4rem;
-		background-color: $cbg-4;
-
-		p {
-			font-size: $font-peq1;		
-			&.num {
-				font-size: $font-peq2;
-			}
-			&.title {
-				font-size: $font-med1;
-				color: $cea-1;
-				font-weight: bold;
-				margin-bottom: 1.5rem;
-			}
-		}
 	
+	/* Footer Desktop */
+	&#footer-desktop {
 		
-		ul {
-			padding-left: 0px;		
-			li {
-				text-decoration: none;
-				list-style-type: none;
-				line-height: 1.9;
-			}
-		}
+		.footer-top {
+			color: #fff;
+			font-size: $font-peq1;
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+			background-color: $cbg-4;
 
-		.foot-t-icon {
-			margin-right: 1rem;
-		}
+			p {
+				font-size: $font-peq1;		
+				&.num {
+					font-size: $font-peq2;
+				}
+				&.title {
+					font-size: $font-med1;
+					color: $cea-1;
+					font-weight: bold;
+					margin-bottom: 1.5rem;
+				}
+			}
+
+
+			ul {
+				padding-left: 0px;		
+				li {
+					text-decoration: none;
+					list-style-type: none;
+					line-height: 1.9;
+				}
+			}
+
+			.foot-t-icon {
+				margin-right: 1rem;
+			}
 	}
 	
-	#footer-sub {
-		background-color: $cbg-5;
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		color: #fff;
-		
-		img.box-isotipo {
-			width: 40px;		
-		}
-		
-		.box-sub-f-link {
-			padding-top: 0.6rem;
-			padding-right: 4rem;
+		.footer-sub {
+			background-color: $cbg-5;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			color: #fff;
+
+			img.box-isotipo {
+				width: 40px;		
+			}
+
+			.box-sub-f-link {
+				padding-top: 0.6rem;
+				padding-right: 4rem;
+			}
+
 		}
 		
 	}
+	
+	
+	/* Footer Mobile */
+	
+	&#footer-mobile {
+		
+		.footer-top {
+			color: #fff;
+			font-size: $font-peq1;
+			padding-top: 4rem;
+			padding-bottom: 4rem;
+			background-color: $cbg-4;
+		}
+		
+	}
+	
 	
 }
+
 
 
 /* -- Media Query -- */
@@ -101,25 +125,29 @@ footer {
 		
 		footer {
 			
-			#footer-top {
+			&#footer-desktop {
 				
-				p {
-					
-					&.num {
-						font-size: $font-peq1;
-					}					
-				}
+				.footer-top {
 				
-			}
+					p {
 
-			#footer-sub {
-				
-				.box-sub-f-link {
-					padding-top: 0.6rem;
-					padding-right: 0; //*
+						&.num {
+							font-size: $font-peq1;
+						}					
+					}
+
 				}
 
-			}
+				.footer-sub {
+
+					.box-sub-f-link {
+						padding-top: 0.6rem;
+						padding-right: 0; //*
+					}
+
+				}
+				
+			}	
 
 		}
 		
@@ -132,22 +160,24 @@ footer {
 		
 		footer {
 			
-			#footer-top {
+			&#footer-desktop {
+				.footer-top {
 				
-				p {						
-					&.num {
-						font-size: $font-peq2;
-					}					
-				}
+					p {						
+						&.num {
+							font-size: $font-peq2;
+						}					
+					}
 				
-			}
-
-			#footer-sub {
-				
-				.box-sub-f-link {
-					padding-right: 4rem;
 				}
 
+				.footer-sub {
+
+					.box-sub-f-link {
+						padding-right: 4rem;
+					}
+
+				}				
 			}
 
 		}

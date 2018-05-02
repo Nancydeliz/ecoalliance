@@ -519,47 +519,56 @@ p.num {
     #nav-second a.nav-s-icon {
       padding-left: 2rem; } }
 /* Estilos para el Footer */
-footer.container-fluid {
-  padding: 0; }
-footer a {
-  text-decoration: none;
-  color: #fff; }
-  footer a:hover {
+footer {
+  /* Footer Desktop */
+  /* Footer Mobile */ }
+  footer.container-fluid {
+    padding: 0; }
+  footer a {
     text-decoration: none;
-    color: #59a0d3; }
-footer #footer-top {
-  color: #fff;
-  font-size: 0.87rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #242424; }
-  footer #footer-top p {
-    font-size: 0.87rem; }
-    footer #footer-top p.num {
-      font-size: 1.1rem; }
-    footer #footer-top p.title {
-      font-size: 1.2rem;
-      color: #59a0d3;
-      font-weight: bold;
-      margin-bottom: 1.5rem; }
-  footer #footer-top ul {
-    padding-left: 0px; }
-    footer #footer-top ul li {
+    color: #fff; }
+    footer a:hover {
       text-decoration: none;
-      list-style-type: none;
-      line-height: 1.9; }
-  footer #footer-top .foot-t-icon {
-    margin-right: 1rem; }
-footer #footer-sub {
-  background-color: black;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  color: #fff; }
-  footer #footer-sub img.box-isotipo {
-    width: 40px; }
-  footer #footer-sub .box-sub-f-link {
-    padding-top: 0.6rem;
-    padding-right: 4rem; }
+      color: #59a0d3; }
+  footer#footer-desktop .footer-top {
+    color: #fff;
+    font-size: 0.87rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #242424; }
+    footer#footer-desktop .footer-top p {
+      font-size: 0.87rem; }
+      footer#footer-desktop .footer-top p.num {
+        font-size: 1.1rem; }
+      footer#footer-desktop .footer-top p.title {
+        font-size: 1.2rem;
+        color: #59a0d3;
+        font-weight: bold;
+        margin-bottom: 1.5rem; }
+    footer#footer-desktop .footer-top ul {
+      padding-left: 0px; }
+      footer#footer-desktop .footer-top ul li {
+        text-decoration: none;
+        list-style-type: none;
+        line-height: 1.9; }
+    footer#footer-desktop .footer-top .foot-t-icon {
+      margin-right: 1rem; }
+  footer#footer-desktop .footer-sub {
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff; }
+    footer#footer-desktop .footer-sub img.box-isotipo {
+      width: 40px; }
+    footer#footer-desktop .footer-sub .box-sub-f-link {
+      padding-top: 0.6rem;
+      padding-right: 4rem; }
+  footer#footer-mobile .footer-top {
+    color: #fff;
+    font-size: 0.87rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: #242424; }
 
 /* -- Media Query -- */
 /*==================================================
@@ -571,16 +580,16 @@ footer #footer-sub {
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-  footer #footer-top p.num {
+  footer#footer-desktop .footer-top p.num {
     font-size: 0.87rem; }
-  footer #footer-sub .box-sub-f-link {
+  footer#footer-desktop .footer-sub .box-sub-f-link {
     padding-top: 0.6rem;
     padding-right: 0; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
-  footer #footer-top p.num {
+  footer#footer-desktop .footer-top p.num {
     font-size: 1.1rem; }
-  footer #footer-sub .box-sub-f-link {
+  footer#footer-desktop .footer-sub .box-sub-f-link {
     padding-right: 4rem; } }
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
