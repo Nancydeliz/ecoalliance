@@ -1,40 +1,326 @@
 /* 
+Diseño Web: Nancydelíz Aristimuño. (ncam2088@gmail.com)
+Desarrollo y Programación web: Nancydelíz Aristimuño. (ncam2088@gmail.com)
+Eleborado para la Empresa: EcoAlliance. (www.ecoalliance.cl)
+Año: 2018
+
 Header:
 
 1) Estructura de los menú de navegación
 	
-	1.1) Menú Secundario: menú que se encuentra como primera caja en el sitio web y contiene los iconos de RSS, la barra de búsqueda y el acceso a zona de clientes.
+	1.1) Menú Secundario (menú auxiliar del menú principal)
     
-	Se estructura de la siguiente manera:
+	Descripción: es el menú que se encuentra como primera caja en el sitio web y contiene los iconos de RSS, la barra de búsqueda y el acceso a zona de clientes.
+
+	Dependencias: 
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _nav-aux.scss.
+	JS: _nav.js, jquery.dataTables.min.js
+
     
-    - Se encuentra en un container-fluid para ocupar el 100% de la pantalla:
+    Estructura HTML:
 
-      #nav-second --> identifica a todo el menú y contiene el color de fondo.
+	<div class="container-fluid d-none d-lg-block" id="nav-second">   // #nav-second encierra todo el menú secundario. d-none d-lg-block visualización en dispositivos.
+		<div class="container " id="nav-s-1"> // #nav-s-1 centra el contenido y encierra al menú sin caja de búsqueda.
+			<div class="row">
+				<div class="col-md-6">
+					 // Queda vacío, sólo para propósito de ubicar los otros elementos en 6 columnas restantes	
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="#" class=""><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-6">
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a> 
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>
+						   	<a class="float-right" href="#"><i class="fas fa-search nav-buscar"></i></a>
+							//  float-right para que los íconos se alíneen a la derecha
+						</div> // Cierra div.col-md-6
+					</div> // Cierra div.row				
+				</div> // Cierra div.col-md-6
+			</div> // Cierra div.row	
+		</div> div#nav-s-1
 
-	  <div class="container-fluid bg-4" id="nav-second">
+		<div class="container ocultar" id="nav-s-2"> // #nav-s-2 centra el contenido y encierra al menú con la caja de búsqueda.
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="row">
+						<div class="col-md-7 pd-0-right"> 
+							<a href="#" class="float-right"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-5">
+				   			<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>										 
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>										 
+							<a class="float-right" id="close-buscar"><i class="fas fa-times"></i></a>
+						   	<a class="float-right" id="caja-inputBusqueda">
+								<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+							</a>
+							<a class="float-right mg-1-right" href="#"><i class="fas fa-search nav-buscar"></i></a>
+							<div class="search" id="search">
+								<table class="search-table" id="searchTable">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody> // Acá van las opciones de búsqueda como se muestra a continuación.
+										<tr>
+											<td><a href="#">Multicarro</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M31</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M27</a></td>
+										</tr>
+									</tbody>
+								</table>
+							</div> // Cierra div#search
+						</div> // Cierra div.col-md-5
+					</div> // Cierra div.row					
+				</div> // Cierra div.col-md-12	
+			</div> // Cierra div.row
+		</div> // Cierra div#nav-s-2
+	</div> // Cierra div#nav-second
 
-	  archivo SASS: _nav-aux.scss
-      
-      #nav-second {
+
+	1.2) Menú Principal (Empresa y Servicios)
+
+	Descripción: es el menú que se encuentra como segunda caja en el sitio web y contiene enlaces a las distintas páginas principales del sitio web.
+
+	Dependencias: 
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _nav.scss
+	JS: _nav.js
 	
-			font-size:  $font-peq1;  --> Para el tamaño de texto de todo el menú.
+	Estructura HTML:   
 
-			a {
-				color: #fff;  --> Para el color de todos los iconos que llevan enlace.
+	<!-- Menú principal -->
+	<div class="container-fluid d-none d-lg-block" id="nav-first"> // # nav-first encierra todo el menú principal. d-none d-lg-block visualización en dispositivos.
+		<div class="container">
+			<nav class="navbar navbar-expand-sm box-nav-first navbar-dark">
+			  <!-- Brand -->
+			  <a class="navbar-brand isotipo-nav" href="#">
+			  	<img class="box-isotipo" src="images/isotipo.svg">
+			  </a>
+			  <!-- Links -->
+			  <ul class="nav navbar-nav">
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Inicio</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Productos</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Soluciones</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Desarrollo e Innovación</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Montaje</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Servicio Post-Venta</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Insumos y Repuestos</a>
+				</li>
+				<li class="nav-item nav-f-item">
+				  <a class="nav-link" href="#">Quiénes somos</a>
+				</li>
+			  </ul> // Cierra ul#navbar-nav
+			</nav> // Cierra nav.box-nav-first
+		</div> // Cierra div.container
+	</div> // Cierra div#nav-first
 
-				span {
-					font-size: $font-min;  --> Para el tamaño de texto de la Zona de Clientes.
-				}
+	1.3) Menú Principal (Productos)
+	
+	Descripción: es el menú que se encuentra como segunda caja en el sitio web y contiene enlaces a las distintas páginas principales del sitio web.
 
-				i.fa-user, span {
-					color: $cea-1;   --> Para dar color al icono y texto de la Zona de Clientes.
-				}
+	Dependencias: 
 
-			}
-		}
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _nav.scss
+	JS: _nav.js
+
+	Estructura HTML:   
+
+	<!-- Menú principal Productos -->
+		<div class="container-fluid d-none d-lg-block nav-productos" id="nav-first">// # nav-first encierra todo el menú principal. d-none d-lg-block visualización en dispositivos.
+			<div class="container">
+				<nav class="navbar navbar-expand-sm box-nav-first navbar-dark">
+				  <!-- Brand -->
+				  <a class="navbar-brand isotipo-nav" href="#">
+					<img class="box-isotipo" src="images/isotipo.svg">
+				  </a>
+				  <!-- Links -->
+				  <ul class="nav navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Inicio</a>
+					</li>
+					<!-- Dropdown -->
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+					  <a class="nav-link" href="#" id="navbardrop1" data-toggle="dropdown">
+						Multicarro
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Multicarro M31</a>
+							<a class="dropdown-item" href="#">Multicarro M27</a>					
+							<a class="dropdown-item" href="#">Multicarro Tremo</a>												
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div>					
+						<div class="espacio-item"></div> // espacio-item sólo agrega un espaciado (margin-top)								
+						<h6 class="dropdown-header">Accesorios</h6>
+						<div class="sub-item">												
+							<a class="dropdown-item" href="#">Estanque Aljibe</a>
+							<a class="dropdown-item" href="#">Ampliroll</a>
+							<a class="dropdown-item" href="#">Bacheadora</a>
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos los Accesorios</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen" id="menu-trat-residuos">
+					  <a class="nav-link" href="#" id="navbardrop2" data-toggle="dropdown">
+						Tratamiento de Residuos
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Chipeadora</a>
+							<a class="dropdown-item" href="#">Compostera</a>							
+							<a class="dropdown-item" href="#">Criba</a>	
+							<a class="dropdown-item" href="#">Destoconadora</a>
+							<a class="dropdown-item" href="#">Prensa de Balas</a>						
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+					  <a class="nav-link" href="#" id="navbardrop3" data-toggle="dropdown">
+						Higiene Urbana
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Barredora Multifuncional</a>
+							<a class="dropdown-item" href="#">Barredora de Playa</a>						
+							<a class="dropdown-item" href="#">Contenedor Campana</a>
+							<a class="dropdown-item" href="#">Contenedor Metálico</a>	
+							<a class="dropdown-item" href="#">Contenedor Semisoterrado</a>					
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+					  <a class="nav-link" href="#" id="navbardrop4" data-toggle="dropdown">
+						Asistencia
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Bacheadora</a>
+							<a class="dropdown-item" href="#">Carro de Arrastre</a>						
+							<a class="dropdown-item" href="#">Demarcador de Calle</a>
+							<a class="dropdown-item" href="#">Hidroelevador</a>	
+							<a class="dropdown-item" href="#">Marco de Carga para Ampliroll</a>				
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen" id="menu-esp-pub">
+					  <a class="nav-link" href="#" id="navbardrop5" data-toggle="dropdown">
+						Espacios Públicos
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Papelero Urbano</a>						
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+					<li class="nav-item nav-f-item dropdown dropdown-max-screen">
+					  <a class="nav-link" href="#" id="navbardrop6" data-toggle="dropdown">
+						Energía
+					  </a>
+					  <div class="dropdown-menu">
+						<h6 class="dropdown-header">Equipos</h6>
+						<div class="sub-item">
+							<a class="dropdown-item" href="#">Inversor de Batería</a>
+							<a class="dropdown-item" href="#">Inversor de Corriente</a>						
+							<a class="dropdown-item" href="#">Módulo Fotovoltáico</a>						
+							<a class="dropdown-item item-ver-todos" href="#">Ver Todos Los Equipos</a>
+						</div> // Cierra div.sub-item
+					  </div> // Cierra div.dropdown-menu
+					</li> // Cierra li.nav-f-item
+				  </ul> // Cierra ul.navbar-nav
+				</nav> // Cierra nav.box-nav-first
+			</div> // Cierra div.container
+		</div> // Cierra div#nav-first
+
+
+	1.4) Menú Principal (Mobile)
+
+	Descripción: es el menú que se encuentra como segunda caja en el sitio web y contiene enlaces a las distintas páginas principales del sitio web.
+
+	Dependencias: 
+
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _nav.scss
+	JS: _nav.js
+
+	Estructura HTML: 
+
+	<!-- Menú Principal versión mobile -->
+		<nav class="navbar navbar-expand-lg navbar-dark d-lg-none" id="nav-first-mobile"> // #nav-first-mobile encierra todo el menú mobile. d-lg-none visualización en dispositivos.
+
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+			<span class="navbar-toggler-icon"></span>
+		  </button> 
+		  <!-- Brand -->
+		   <a class="navbar-brand isotipo-nav" href="#">
+			<img class="box-isotipo" src="images/isotipo_negro.svg">
+		   </a> 
+		  <a class="navbar-brand" href="#">Zona de Clientes</a>	 
+		  <div class="collapse navbar-collapse box-item-mobile" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Inicio</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Productos</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Soluciones</a>
+			  </li> 
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Desarrollo e Innovación</a>
+			  </li> 
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Insumos y Repuestos</a>
+			  </li> 
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Quiénes Somos</a>
+			  </li>    
+			</ul> // Cierra div.navbar-nav
+		  </div> // Cierra div#collapsibleNavbar
+	</nav> // Cierra nav#nav-first-mobile
 
 
 
+
+
+
+
+	
 
 		
 
