@@ -316,6 +316,280 @@ Header:
 
 
 
+Footer:
+
+2) Estructura del Footer
+
+	2.1) Footer versión Desktop ( >992 px)
+
+	Descripción: es el footer que se puede visualizar en pantallas con una resolución mayor a los 992px. Está compuesto por dos secciones: footer-top (contiene los enlaces del menú, ubicación, RSS) y el footer-sub (contiene la información legal).
+
+	Dependencias: 
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _footer.scss
+	JS: (sólo los de Bootstrap 4)
+
+    
+    Estructura HTML:
+	<!-- Footer Desktop -->
+	<footer class="container-fluid d-none d-lg-block" id="footer-desktop"> // #footer-desktop encierra todo el menú principal. d-none d-lg-block visualización en dispositivos.
+
+		<div class="footer-top"> // .footer-top empieza la primera sección del footer.
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3">
+							<p class="title">
+								Empresa
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Productos</a></li>
+								<li><a href="#">Soluciones</a></li>
+								<li><a href="#">Desarrollo e Innovación</a></li>
+								<li><a href="#">Montaje</a></li>
+								<li><a href="#">Servicio Post-Venta</a></li>
+								<li><a href="#">Insumos y Repuestos</a></li>
+								<li><a href="#">Quienes Somos</a></li>
+							</ul>
+						</div> // cierra div.col-md-3
+						<div class="col-md-3">
+							<p class="title">
+								Productos
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Multicarro</a></li>
+								<li><a href="#">Tratamiento de Residuos</a></li>
+								<li><a href="#">Higiene Urbana</a></li>
+								<li><a href="#">Asistencia</a></li>
+								<li><a href="#">Espacios Públicos</a></li>
+								<li><a href="#">Energía</a></li>
+							</ul>
+						</div> // cierra div.col-md-3
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="title">
+										Encuéntranos
+									</p>
+								</div> // cierra div.col-md-12
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row">
+										<div class="col-md-1">
+											<i class="fas fa-phone mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+56-32-269 0691
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+49(0) 30-565 97754
+											</p>
+										</div>
+										<div class="col-md-1">
+											// queda vacía para completar las 12 col
+										</div>
+									</div>	// cierra div.row
+								</div> // cierra div.col-md-12
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row"> 
+										<div class="col-md-1">
+											<i class="fas fa-map-marker-alt mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Casa Central<br>
+												1/2 oriente 831, Oficina 408<br>
+												Viña del Mar, Chile
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Oficina Europa<br>
+												Barrio Charlottenburg<br>
+												Berlín, Alemania
+											</p>
+										</div>
+										<div class="col-md-1">
+										    // queda vacía para completar las 12 col
+										</div>
+									</div> // cierra div.row
+								</div> // cierra div.col-md-12
+								
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fas fa-envelope"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-twitter"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-facebook-f"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-youtube"></i></a>
+										</div>
+										<div class="col-md-8">
+											// queda vacío para completar las 12 col													
+										</div>
+									</div> // cierra div.row
+								</div> // cierra div.col-md-12
+							</div> // cierra div.row
+						</div> // cierra div.col-md-6
+					</div> // cierra div.row
+				</div> // cierra div.col-md-12
+			</div> // cierra div.container
+		</div> // cierra div.footer-top
+
+		<div class="footer-sub"> //.footer-sub empieza la segunda sección del footer.
+		<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6">
+							<img class="box-isotipo" src="images/isotipo_negro.svg">
+							<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+						</div> // cierra div.col-md-6
+						<div class="col-md-6 box-sub-f-link">
+							<small class="float-right pd-2-left"><a href="#">Mapa del Sitio</a></small>
+							<small class="float-right pd-2-left"><a href="#">Información Legal</a></small>
+							<small class="float-right"><a href="#">Información Corporativa</a></small>	
+						</div> // cierra div. box-sub-f-link
+					</div> // cierra div.row
+				</div> // cierra div.col-md-12
+			</div>	// cierra div.container		
+		</div>	// cierra div.footer-sub
+	</footer> // cierra footer#footer-desktop
+
+	2.2) Footer versión Mobile ( <992 y >768 )
+	
+	Descripción: es el footer que se puede visualizar en pantallas con una resolución menor a los 992px y mayor o igual a 768px. Está compuesto por dos secciones: footer-top (contiene los enlaces del menú, ubicación, RSS) y el footer-sub (contiene la información legal).
+
+	Dependencias: 
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _footer.scss
+	JS: (sólo los de Bootstrap 4)
+
+	Estructura HTML:
+	<!-- Footer Mobile 992px- 768px -->
+	<footer class="container-fluid d-lg-none" id="footer-mobile"> // #footer-mobile encierra todo el menú principal. d-lg-none visualización en dispositivos.
+
+		<div class="footer-top"> // .footer-top empieza la primera sección del footer.
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="title">
+						Encuéntranos
+					</p>
+				</div> // cierra div.col-md-12
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+56-32-269 0691
+							</p>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+49(0) 30-565 97754
+							</p>
+						</div>
+						<div class="col-md-1">
+							// queda vacío para completar las 12 col			
+						</div>
+					</div> // cierra div.row
+				</div> // cierra div.col-md-12
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="col-md-5 text-left mg-3-5-left">
+							<p>
+								Casa Central<br>
+								1/2 oriente 831,
+								 Of 408<br>Viña del Mar, Chile
+							</p>
+						</div>
+						<div class="col-md-5 text-left pd-0-left">
+							<p>
+								Oficina Europa<br>
+								Barrio Charlottenburg<br>
+								Berlín, Alemania
+							</p>
+						</div>
+						<div class="col-md-1">
+							// queda vacío para completar las 12 col				
+						</div>
+					</div> // cierra div.row
+				</div> // cierra div.col-md-12
+				<div class="col-md-12 text-center mg-2-5-top">
+					<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div> // cierra div.col-md-12
+			</div> // cierra div.container
+		</div> // cierra div.footer-top
+		
+		<div class="footer-sub"> //.footer-sub empieza la segunda sección del footer.
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<img class="box-isotipo" src="images/isotipo_negro.svg">
+					<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+				</div> // cierra div.col-md-12
+			</div> // cierra div.container
+		</div>	// cierra div.footer-sub				
+	</footer> // cierra footer#footer-mobile
+
+
+	2.3) Footer versión Mobile ( <768px )
+	
+	Descripción: es el footer que se puede visualizar en pantallas con una resolución menor a los 768px. Está compuesto por dos secciones: footer-top (contiene los iconos de enlace) y el footer-sub (contiene el isotipo y nombre de la empresa).
+
+	Dependencias: 
+	CSS:  normalize.css, Bootstrap 4, main.css
+	SCSS principales: _footer.scss
+	JS: (sólo los de Bootstrap 4)
+
+	Estructura HTML:   
+	
+	<!-- Footer Mobile > 768px -->
+		<footer class="container-fluid d-md-none" id="footer-mobile2">
+			<div class="footer-top">
+				<div class="container">
+					<div class="col-md-12 text-center">
+						<p class="title">
+							Encuéntranos
+						</p>
+					</div>
+
+					<div class="col-md-12 text-center mg-2-5-top">
+						<a href="#" class="foot-t-icon"><i class="fas fa-phone"></i></a>
+						<a href="#" class="foot-t-icon"><i class="fas fa-map-marker-alt"></i></a>
+						<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+						<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+					</div> // cierra div.col-md-12
+				</div> // cierra div.container
+			</div>	// cierra div.footer-top
+
+			<div class="footer-sub">
+				<div class="container">
+					<div class="col-md-12 text-center">
+						<img class="box-isotipo" src="images/isotipo_negro.svg">
+						<small class="pd-1-5-left">EcoAlliance ® 2018</small>
+					</div> // cierra div.col-md-12
+				</div> // cierra div.container
+			</div> // cierra div.footer-sub					
+		</footer> // cierra footer#footer-mobile2
+
 
 
 
