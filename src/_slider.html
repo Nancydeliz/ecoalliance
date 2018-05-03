@@ -1,0 +1,478 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Etiquetas META -->
+<meta name="author" content="Nancydeliz Aristimuño">
+<meta name="description" content="empresa dedicada a mejorar el entorno de vida de las personas mediante soluciones de ingenieria y venta de equipos">
+<meta name="robots" content="Index, Follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Navbar Principal</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon/favicon-16x16.ico"/>
+<!-- Reset CSS -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<!-- Font-Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<!-- Mis Estilos-->
+<link rel="stylesheet" type="text/css" href="scss/main.css"> <!-- (modificar ruta al subir el sitio) -->
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Mis JS para los nav -->
+<script src="js/_nav.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+
+
+</head>
+
+<body>
+	
+  <header>
+   
+   <!-- Menú secundario -->
+	<div class="container-fluid d-none d-lg-block" id="nav-second">
+				
+		<div class="container " id="nav-s-1">
+			<div class="row">
+				<div class="col-md-6">
+					
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="#" class=""><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-6">
+					   		<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>
+						   	<a class="float-right" href="#"><i class="fas fa-search nav-buscar"></i></a>										
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- Con la barra de búsqueda -->
+		<div class="container ocultar" id="nav-s-2">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="row">
+						<div class="col-md-7 pd-0-right">
+							<a href="#" class="float-right"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-5">
+				   			<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>						   	
+							<a class="float-right" id="close-buscar"><i class="fas fa-times"></i></a>
+						   	<a class="float-right" id="caja-inputBusqueda">
+								<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+							</a>
+							<a class="float-right mg-1-right" href="#"><i class="fas fa-search nav-buscar"></i></a>
+							<div class="search" id="search">
+								<table class="search-table" id="searchTable">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a href="#">Multicarro</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M31</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M27</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Asistencia</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Tratamiento de Residuos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Espacios publicos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Papeleros</a></td>
+										</tr>									
+									</tbody>
+								</table>
+							</div>	
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- Menú principal -->
+	<div class="container-fluid d-none d-lg-block" id="nav-first">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm box-nav-first navbar-dark">
+			  <!-- Brand -->
+			  <a class="navbar-brand isotipo-nav" href="#">
+			  	<img class="box-isotipo" src="images/isotipo.svg">
+			  </a>
+
+			  <!-- Links -->
+			  <ul class="nav navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Inicio</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Productos</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Soluciones</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Desarrollo e Innovación</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Montaje</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Servicio Post-Venta</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Insumos y Repuestos</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Quiénes somos</a>
+					</li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+	
+	
+	<!-- Menú Principal versión mobile -->
+	<nav class="navbar navbar-expand-lg navbar-dark d-lg-none" id="nav-first-mobile">
+	
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  
+	  <!-- Brand -->
+	   <a class="navbar-brand isotipo-nav" href="#">
+		<img class="box-isotipo" src="images/isotipo_negro.svg">
+	   </a>
+  
+	  <a class="navbar-brand" href="#">Zona de Clientes</a>	  
+	  
+	  
+	  <div class="collapse navbar-collapse box-item-mobile" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Inicio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Productos</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Soluciones</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Desarrollo e Innovación</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Insumos y Repuestos</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Quiénes Somos</a>
+		  </li>    
+		</ul>
+	  </div>  
+	  
+	</nav>
+					
+	
+	<!-- Slider -->
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+	  <ol class="carousel-indicators">
+		<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img class="d-block w-100" src="images/slider/imagen1.jpg" alt="First slide">
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Second slide">
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen3.jpg" alt="Third slide">
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Anterior</span>
+	  </a>
+	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Siguiente</span>
+	  </a>
+	</div>
+	<!-- / Slider -->					
+						
+							
+  </header>
+  
+  
+  <main>
+  	
+  </main>
+  
+  <!-- Footer Desktop -->
+	<footer class="container-fluid d-none d-lg-block" id="footer-desktop">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3">
+							<p class="title">
+								Empresa
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Productos</a></li>
+								<li><a href="#">Soluciones</a></li>
+								<li><a href="#">Desarrollo e Innovación</a></li>
+								<li><a href="#">Montaje</a></li>
+								<li><a href="#">Servicio Post-Venta</a></li>
+								<li><a href="#">Insumos y Repuestos</a></li>
+								<li><a href="#">Quienes Somos</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<p class="title">
+								Productos
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Multicarro</a></li>
+								<li><a href="#">Tratamiento de Residuos</a></li>
+								<li><a href="#">Higiene Urbana</a></li>
+								<li><a href="#">Asistencia</a></li>
+								<li><a href="#">Espacios Públicos</a></li>
+								<li><a href="#">Energía</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="title">
+										Encuéntranos
+									</p>
+								</div>
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row">
+										<div class="col-md-1">
+											<i class="fas fa-phone mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+56-32-269 0691
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+49(0) 30-565 97754
+											</p>
+										</div>
+										<div class="col-md-1">
+											
+										</div>
+									</div>	
+								</div>
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row">
+										<div class="col-md-1">
+											<i class="fas fa-map-marker-alt mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Casa Central<br>
+												1/2 oriente 831, Oficina 408<br>
+												Viña del Mar, Chile
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Oficina Europa<br>
+												Barrio Charlottenburg<br>
+												Berlín, Alemania
+											</p>
+										</div>
+										<div class="col-md-1">
+											
+										</div>
+									</div>	
+								</div>
+								
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fas fa-envelope"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-twitter"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-facebook-f"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-youtube"></i></a>
+										</div>
+										<div class="col-md-8">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6">
+							<img class="box-isotipo" src="images/isotipo_negro.svg">
+							<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+						</div>
+						<div class="col-md-6 box-sub-f-link">
+							<small class="float-right pd-2-left"><a href="#">Mapa del Sitio</a></small>
+							<small class="float-right pd-2-left"><a href="#">Información Legal</a></small>
+							<small class="float-right"><a href="#">Información Corporativa</a></small>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+					
+	</footer>
+	
+	<!-- Footer Mobile 992px- 768px -->
+	<footer class="container-fluid d-lg-none" id="footer-mobile">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="title">
+						Encuéntranos
+					</p>
+				</div>
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+56-32-269 0691
+							</p>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+49(0) 30-565 97754
+							</p>
+						</div>
+						<div class="col-md-1">
+											
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="col-md-5 text-left mg-3-5-left">
+							<p>
+								Casa Central<br>
+								1/2 oriente 831,
+								 Of 408<br>Viña del Mar, Chile
+							</p>
+						</div>
+						<div class="col-md-5 text-left pd-0-left">
+							<p>
+								Oficina Europa<br>
+								Barrio Charlottenburg<br>
+								Berlín, Alemania
+							</p>
+						</div>
+						<div class="col-md-1">
+											
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center mg-2-5-top">
+					<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<img class="box-isotipo" src="images/isotipo_negro.svg">
+					<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+				</div>
+			</div>
+		</div>						
+	</footer>
+	
+	<!-- Footer Mobile > 768px -->
+	<footer class="container-fluid d-md-none" id="footer-mobile2">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="title">
+						Encuéntranos
+					</p>
+				</div>
+				
+				<div class="col-md-12 text-center mg-2-5-top">				
+					<a href="#" class="foot-t-icon"><i class="fas fa-phone"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fas fa-map-marker-alt"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>		
+				</div>
+			</div>
+		</div>	
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<img class="box-isotipo" src="images/isotipo_negro.svg">
+					<small class="pd-1-5-left">EcoAlliance ® 2018</small>
+				</div>
+			</div>
+		</div>						
+	</footer>
+		
+	<!-- Mis JS para los nav - Buscador -->
+	<script src="js/_buscador.js"></script>
+	
+</body>
+</html>
