@@ -34,4 +34,252 @@ header {
 		}
 		
 	}
+	
+	#slider-carousel-header-mobile {
+		
+		.carousel-indicators {
+			display: none;
+		}
+			
+		.carousel-caption {
+			position: absolute;
+			right: 15%;
+			top: 40%;
+			left: 20%;
+			z-index: 10;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			color: #fff;
+			text-align: left;
+		}
+		
+		p.biggest {
+			font-size: 2rem;
+			font-weight: 700;
+			margin-bottom: 0px;
+			text-shadow: 0px 1px 2px rgb(0, 0, 0);
+		}		
+
+		p.big {
+			font-weight: 300;
+			font-size: 1.3rem;
+		}
+
+		
+	}
 }
+
+/* -- Media Query -- */
+
+/*==================================================
+=    Carousel (Slider Header) Media Queries       =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : $screen-xs) {		
+		
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : $screen-sm) {
+		
+		header {
+			
+			#slider-carousel-header-mobile {
+
+				.carousel-indicators {
+					display: none;
+				}
+
+				.carousel-caption {
+					position: absolute;
+					right: 15%;
+					top: 40%;
+					left: 20%;
+					z-index: 10;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					color: #fff;
+					text-align: left;
+				}
+
+				p.biggest {
+					font-size: 1.5rem;
+					font-weight: 700;
+					margin-bottom: 0px;
+					text-shadow: 0px 1px 2px rgb(0, 0, 0);
+				}		
+
+				p.big {
+					font-weight: 300;
+					font-size: 1.05rem;
+				}
+
+
+			}
+		}
+		
+
+    } 
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 830px) and (min-width : 768px) {
+		
+		header {
+			
+			#slider-carousel-header-mobile {
+
+				.carousel-indicators {
+					display: none;
+				}
+
+				.carousel-caption {
+					position: absolute;
+					right: 15%;
+					top: 40%;
+					left: 20%;
+					z-index: 10;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					color: #fff;
+					text-align: left;
+				}
+
+				p.biggest {
+					font-size: 1.5rem;
+					font-weight: 700;
+					margin-bottom: 0px;
+					text-shadow: 0px 1px 2px rgb(0, 0, 0);
+				}		
+
+				p.big {
+					font-weight: 300;
+					font-size: 1.05rem;
+				}
+
+
+			}
+		}
+		
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 1030px) and (min-width : 830px) {		
+		
+		header {
+			#slider-carousel-header {
+
+				.carousel-caption {
+					position: absolute;
+					right: 15%;
+					top: 43%;
+					left: 20%;
+					z-index: 10;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					color: #fff;
+					text-align: left;
+				}
+
+				p.biggest {
+					font-size: 2rem;
+					font-weight: 700;
+					margin-bottom: 0px;
+					text-shadow: 0px 1px 2px rgb(0, 0, 0);
+				}		
+
+				p.big {
+					font-weight: 300;
+					font-size: 1.3rem;
+				}
+
+			}
+		}
+				
+	
+	}    
+	
+	/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1450px) and (min-width : 1030px) {
+		
+		header {
+			#slider-carousel-header {
+
+				.carousel-caption {
+					position: absolute;
+					right: 15%;
+					top: 43%;
+					left: 20%;
+					z-index: 10;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					color: #fff;
+					text-align: left;
+				}
+
+				p.biggest {
+					font-size: 2.5rem;
+					font-weight: 700;
+					margin-bottom: 0px;
+					text-shadow: 0px 1px 2px rgb(0, 0, 0);
+				}		
+
+				p.big {
+					font-weight: 300;
+					font-size: 1.7rem;
+				}
+
+			}
+		}
+		
+		
+    }
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1450px) {
+		
+		header {
+			#slider-carousel-header {
+
+				.carousel-caption {
+					position: absolute;
+					right: 15%;
+					top: 43%;
+					left: 20%;
+					z-index: 10;
+					padding-top: 20px;
+					padding-bottom: 20px;
+					color: #fff;
+					text-align: left;
+				}
+
+				p.biggest {
+					font-size: $font-big3;
+					font-weight: 700;
+					margin-bottom: 0px;
+					text-shadow: 0px 1px 2px rgb(0, 0, 0);
+				}		
+
+				p.big {
+					font-weight: 300;
+					font-size: $font-big1;
+				}
+
+			}
+			
+		}
+
+		
+		
+		
+    }
+
+
+
+
