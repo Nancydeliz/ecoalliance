@@ -402,6 +402,8 @@ p.num {
       color: #59a0d3; }
     #nav-second a.nav-s-icon {
       padding-left: 2rem; }
+    #nav-second a:hover {
+      color: #59a0d3; }
   #nav-second #nav-s-2 input[type="search"] {
     background-color: black;
     border-radius: 10px 10px 10px 10px;
