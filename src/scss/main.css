@@ -47,6 +47,14 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem; }
 
+p.big {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem; }
+
+p.biggest {
+  font-family: "Raleway", sans-serif;
+  font-size: 3.5rem; }
+
 p.title {
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem; }
@@ -634,6 +642,28 @@ footer {
     font-size: 1.1rem; }
   footer#footer-desktop .footer-sub .box-sub-f-link {
     padding-right: 4rem; } }
+/* Estilos para el Carousel (Slider) */
+header #slider-carousel-header .carousel-control-prev-icon {
+  display: none; }
+header #slider-carousel-header .carousel-control-next-icon {
+  display: none; }
+header #slider-carousel-header .carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 43%;
+  left: 20%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: left; }
+header #slider-carousel-header p.biggest {
+  font-weight: 700;
+  margin-bottom: 0px;
+  text-shadow: 0px 1px 2px black; }
+header #slider-carousel-header p.big {
+  font-weight: 300; }
+
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
 .mg-0 {
