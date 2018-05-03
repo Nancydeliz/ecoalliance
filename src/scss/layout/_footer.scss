@@ -83,6 +83,66 @@ footer {
 			padding-top: 4rem;
 			padding-bottom: 4rem;
 			background-color: $cbg-4;
+			
+			.foot-t-icon {
+				margin-right: 1.5rem;
+			}
+			
+			p {				
+				&.title {
+					font-size: $font-med1;
+					color: $cea-1;
+					font-weight: bold;
+				}
+			}
+			
+		}
+		
+		.footer-sub {
+			background-color: $cbg-5;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			color: #fff;
+
+			img.box-isotipo {
+				width: 40px;		
+			}
+		}
+		
+	}
+	
+	&#footer-mobile2 {
+		
+		.footer-top {
+			color: #fff;
+			font-size: $font-peq1;
+			padding-top: 3rem;
+			padding-bottom: 3rem;
+			background-color: $cbg-4;
+			
+			.foot-t-icon {
+				margin-right: 1.5rem;
+			}
+			
+			p {				
+				&.title {
+					font-size: $font-med1;
+					color: $cea-1;
+					font-weight: bold;
+				}
+			}
+			
+		}
+		
+		.footer-sub {
+			background-color: $cbg-5;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+			color: #fff;
+
+			img.box-isotipo {
+				width: 40px;		
+			}
 		}
 		
 	}
@@ -101,7 +161,15 @@ footer {
     /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : $screen-xs) {		
+    @media only screen and (max-width : $screen-xs) {
+		
+		footer {
+			
+			&#footer-mobile {
+				display: none;
+			}
+			
+		}
 		
     }
 
@@ -109,6 +177,13 @@ footer {
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : $screen-sm) {
 		
+		footer {
+			
+			&#footer-mobile {
+				display: none;
+			}
+			
+		}
 
 	   
     }
@@ -116,6 +191,14 @@ footer {
 
     /* Small Devices, Tablets */
     @media only screen and (min-width : $screen-md) {
+		
+		footer {
+			
+			&#footer-mobile {
+				display: block;
+			}
+			
+		}
 		
 
     }
@@ -147,7 +230,11 @@ footer {
 
 				}
 				
-			}	
+			}
+			
+			&#footer-mobile {
+				display: block;
+			}
 
 		}
 		

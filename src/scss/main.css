@@ -569,6 +569,38 @@ footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background-color: #242424; }
+    footer#footer-mobile .footer-top .foot-t-icon {
+      margin-right: 1.5rem; }
+    footer#footer-mobile .footer-top p.title {
+      font-size: 1.2rem;
+      color: #59a0d3;
+      font-weight: bold; }
+  footer#footer-mobile .footer-sub {
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff; }
+    footer#footer-mobile .footer-sub img.box-isotipo {
+      width: 40px; }
+  footer#footer-mobile2 .footer-top {
+    color: #fff;
+    font-size: 0.87rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #242424; }
+    footer#footer-mobile2 .footer-top .foot-t-icon {
+      margin-right: 1.5rem; }
+    footer#footer-mobile2 .footer-top p.title {
+      font-size: 1.2rem;
+      color: #59a0d3;
+      font-weight: bold; }
+  footer#footer-mobile2 .footer-sub {
+    background-color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #fff; }
+    footer#footer-mobile2 .footer-sub img.box-isotipo {
+      width: 40px; }
 
 /* -- Media Query -- */
 /*==================================================
@@ -576,15 +608,26 @@ footer {
 ==================================================*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 576px) {
+  footer#footer-mobile {
+    display: none; } }
 /* Extra Small Devices, Phones */
+@media only screen and (min-width: 576px) {
+  footer#footer-mobile {
+    display: none; } }
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  footer#footer-mobile {
+    display: block; } }
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
   footer#footer-desktop .footer-top p.num {
     font-size: 0.87rem; }
   footer#footer-desktop .footer-sub .box-sub-f-link {
     padding-top: 0.6rem;
-    padding-right: 0; } }
+    padding-right: 0; }
+  footer#footer-mobile {
+    display: block; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   footer#footer-desktop .footer-top p.num {
