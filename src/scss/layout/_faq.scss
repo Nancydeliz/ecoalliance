@@ -83,6 +83,41 @@ section.FAQ {
 		
 		.card-body {
 			
+			padding-left: 35px;
+			
+			a {
+				color: $cbg-4;
+				
+				&:link, &:visited, &:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+					
+				&:visited, &:hover, &:active, &:focus {
+					color: $cea-2;
+				}
+				
+				&.collapsed p::after {
+					content: "+"
+				}
+				
+				p::after {
+					content: "-";
+					padding-left: 5px;
+    				color: #17569b;
+					display: inline-block;
+					border: none;
+					font-size: 20px;
+					font-weight: 700;
+					position: relative;
+					right: 0px;
+					text-align: center;
+					top: 1px;
+					transform: none;
+				}
+				
+			}
+			
+			
 			.card-header {
 				padding: 0;
 				margin-bottom: 0;

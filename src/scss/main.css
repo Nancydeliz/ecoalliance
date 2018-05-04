@@ -856,28 +856,51 @@ section.FAQ {
       text-align: center;
       top: 1px;
       transform: none; }
-  section.FAQ #accordionFAQ .card-body .card-header {
-    padding: 0;
-    margin-bottom: 0;
-    background-color: #fff;
-    border-bottom: 0;
-    margin-top: 0.5rem; }
-    section.FAQ #accordionFAQ .card-body .card-header p.sub-title i {
-      padding-left: 5px;
-      color: #17569b; }
-    section.FAQ #accordionFAQ .card-body .card-header .btn-link {
-      font-weight: 400;
-      color: #242424;
-      background-color: transparent;
-      padding-bottom: 0px;
-      padding-top: 0px;
-      border-bottom-width: 0px;
-      border-top-width: 0px;
-      margin-top: 12px; }
-      section.FAQ #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+  section.FAQ #accordionFAQ .card-body {
+    padding-left: 35px; }
+    section.FAQ #accordionFAQ .card-body a {
+      color: #242424; }
+      section.FAQ #accordionFAQ .card-body a:link, section.FAQ #accordionFAQ .card-body a:visited, section.FAQ #accordionFAQ .card-body a:hover, section.FAQ #accordionFAQ .card-body a:active, section.FAQ #accordionFAQ .card-body a:focus {
         text-decoration: none; }
-      section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+      section.FAQ #accordionFAQ .card-body a:visited, section.FAQ #accordionFAQ .card-body a:hover, section.FAQ #accordionFAQ .card-body a:active, section.FAQ #accordionFAQ .card-body a:focus {
         color: #17569b; }
+      section.FAQ #accordionFAQ .card-body a.collapsed p::after {
+        content: "+"; }
+      section.FAQ #accordionFAQ .card-body a p::after {
+        content: "-";
+        padding-left: 5px;
+        color: #17569b;
+        display: inline-block;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        right: 0px;
+        text-align: center;
+        top: 1px;
+        transform: none; }
+    section.FAQ #accordionFAQ .card-body .card-header {
+      padding: 0;
+      margin-bottom: 0;
+      background-color: #fff;
+      border-bottom: 0;
+      margin-top: 0.5rem; }
+      section.FAQ #accordionFAQ .card-body .card-header p.sub-title i {
+        padding-left: 5px;
+        color: #17569b; }
+      section.FAQ #accordionFAQ .card-body .card-header .btn-link {
+        font-weight: 400;
+        color: #242424;
+        background-color: transparent;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        border-bottom-width: 0px;
+        border-top-width: 0px;
+        margin-top: 12px; }
+        section.FAQ #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+          text-decoration: none; }
+        section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+          color: #17569b; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
