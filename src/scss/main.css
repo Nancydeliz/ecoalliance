@@ -66,6 +66,10 @@ p.min {
 p.num {
   font-family: "Muli", sans-serif; }
 
+h2.title-section {
+  padding-bottom: 2.5rem;
+  border-bottom: 1px solid; }
+
 /* Estilos para el Navbar principal */
 #nav-first {
   font-size: 0.87rem;
@@ -796,6 +800,49 @@ header #slider-carousel-header-mobile p.big {
   header #slider-carousel-header p.big {
     font-weight: 300;
     font-size: 2rem; } }
+/* Estilos para la secci├│n de Preguntas Frecuentes (FAQ) */
+section.FAQ {
+  padding-bottom: 10rem;
+  padding-top: 10rem; }
+  section.FAQ h2.title-section {
+    border-bottom-color: #c4c4c4; }
+  section.FAQ #accordionFAQ .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem; }
+  section.FAQ #accordionFAQ .card-header {
+    padding: 0 .25rem;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
+    border-bottom: 0;
+    margin-top: 0.5rem; }
+    section.FAQ #accordionFAQ .card-header p.title {
+      margin-bottom: 0;
+      font-weight: 600; }
+      section.FAQ #accordionFAQ .card-header p.title i {
+        padding-left: 5px;
+        color: #17569b; }
+    section.FAQ #accordionFAQ .card-header .btn-link {
+      font-weight: 400;
+      color: #242424;
+      background-color: transparent; }
+      section.FAQ #accordionFAQ .card-header .btn-link:link, section.FAQ #accordionFAQ .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-header .btn-link:active, section.FAQ #accordionFAQ .card-header .btn-link:focus {
+        text-decoration: none; }
+  section.FAQ #accordionFAQ .card-body .card-header {
+    padding: 0 .25rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    border-bottom: 0;
+    margin-top: 0.5rem; }
+
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
 .mg-0 {

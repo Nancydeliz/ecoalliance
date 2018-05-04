@@ -1,0 +1,76 @@
+/* Estilos para la sección de Preguntas Frecuentes (FAQ) */
+
+section.FAQ {
+	
+	padding-bottom: 10rem;
+	padding-top: 10rem;
+	
+	h2.title-section {
+		border-bottom-color: $cbg-3;
+	}
+	
+	#accordionFAQ {
+		
+		.card {
+			position: relative;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			min-width: 0;
+			word-wrap: break-word;
+			background-color: #fff;
+			background-clip: border-box;
+			border: none;
+			border-radius: .25rem;
+		}
+		
+		.card-header {
+			padding: 0 .25rem;
+			margin-bottom: 0;
+			background-color: $cbg-2;
+			border-bottom: 0;
+			margin-top: 0.5rem;
+
+			p.title {
+				margin-bottom: 0;
+				font-weight: 600;
+				
+				i {
+					padding-left: 5px;
+    				color: $cea-2;
+				}
+				
+			}
+
+			.btn-link {
+				font-weight: 400;
+				color: $cbg-4;
+				background-color: transparent;
+
+				&:link, &:visited, &:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+			}	
+			
+		}	
+		
+		.card-body {
+			
+			.card-header {
+				padding: 0 .25rem;
+				margin-bottom: 0;
+				background-color: #fff;
+				border-bottom: 0;
+				margin-top: 0.5rem;
+			}		
+			
+		}
+		
+		
+	}
+	
+	
+	
+	
+}
