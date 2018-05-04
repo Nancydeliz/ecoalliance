@@ -58,11 +58,40 @@ section.FAQ {
 		.card-body {
 			
 			.card-header {
-				padding: 0 .25rem;
+				padding: 0;
 				margin-bottom: 0;
 				background-color: #fff;
 				border-bottom: 0;
 				margin-top: 0.5rem;
+				
+				p.sub-title {
+					
+					i {
+						padding-left: 5px;
+						color: $cea-2;
+					}
+
+				}				
+				
+				.btn-link {
+					font-weight: 400;
+					color: $cbg-4;
+					background-color: transparent;
+					padding-bottom: 0px;
+					padding-top: 0px;
+					border-bottom-width: 0px;
+					border-top-width: 0px;
+
+					&:link, &:visited, &:hover, &:active, &:focus {
+						text-decoration: none;
+					}
+					
+					&:visited, &:hover, &:active, &:focus {
+						color: $cea-2;
+					}
+					
+				}
+				
 			}		
 			
 		}

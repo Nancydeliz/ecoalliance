@@ -59,6 +59,11 @@ p.title {
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem; }
 
+p.sub-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600; }
+
 p.min {
   font-family: "Raleway", sans-serif;
   font-size: 0.87rem; }
@@ -837,11 +842,26 @@ section.FAQ {
       section.FAQ #accordionFAQ .card-header .btn-link:link, section.FAQ #accordionFAQ .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-header .btn-link:active, section.FAQ #accordionFAQ .card-header .btn-link:focus {
         text-decoration: none; }
   section.FAQ #accordionFAQ .card-body .card-header {
-    padding: 0 .25rem;
+    padding: 0;
     margin-bottom: 0;
     background-color: #fff;
     border-bottom: 0;
     margin-top: 0.5rem; }
+    section.FAQ #accordionFAQ .card-body .card-header p.sub-title i {
+      padding-left: 5px;
+      color: #17569b; }
+    section.FAQ #accordionFAQ .card-body .card-header .btn-link {
+      font-weight: 400;
+      color: #242424;
+      background-color: transparent;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      border-bottom-width: 0px;
+      border-top-width: 0px; }
+      section.FAQ #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+        text-decoration: none; }
+      section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+        color: #17569b; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
