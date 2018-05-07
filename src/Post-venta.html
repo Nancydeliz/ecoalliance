@@ -1,0 +1,736 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Etiquetas META -->
+<meta name="author" content="Nancydeliz Aristimuño">
+<meta name="description" content="empresa dedicada a mejorar el entorno de vida de las personas mediante soluciones de ingenieria y venta de equipos">
+<meta name="robots" content="Index, Follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Servicio Post-Venta</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="images/favicon/favicon-16x16.ico"/>
+<!-- Reset CSS -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<!-- Font-Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,600,700,800" rel="stylesheet">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<!-- Mis Estilos-->
+<link rel="stylesheet" type="text/css" href="scss/main.css"> <!-- (modificar ruta al subir el sitio) -->
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<!-- Mis JS para los nav -->
+<script src="js/_nav.js"></script>
+<script src="js/jquery.dataTables.min.js"></script>
+
+
+
+</head>
+
+<body>
+	
+  <header>
+   
+   <!-- Menú secundario -->
+	<div class="container-fluid d-none d-lg-block" id="nav-second">
+				
+		<div class="container " id="nav-s-1">
+			<div class="row">
+				<div class="col-md-6">
+					
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="#" class=""><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-6">
+					   		<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>
+						   	<a class="float-right" href="#"><i class="fas fa-search nav-buscar"></i></a>										
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<!-- Con la barra de búsqueda -->
+		<div class="container ocultar" id="nav-s-2">
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<div class="row">
+						<div class="col-md-7 pd-0-right">
+							<a href="#" class="float-right"><i class="fas fa-user"></i><span>Zona de Clientes</span></a>
+						</div>
+						<div class="col-md-5">
+				   			<a class="float-right nav-s-icon" href="#"><i class="fab fa-youtube"></i></a>					   			
+							<a class="float-right nav-s-icon" href="#"><i class="fab fa-facebook-f"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fab fa-twitter"></i></a>
+						   	<a class="float-right nav-s-icon" href="#"><i class="fas fa-envelope"></i></a>						   	
+							<a class="float-right" id="close-buscar"><i class="fas fa-times"></i></a>
+						   	<a class="float-right" id="caja-inputBusqueda">
+								<input type="search" placeholder="Buscar . . ." id="inputBusqueda">
+							</a>
+							<a class="float-right mg-1-right" href="#"><i class="fas fa-search nav-buscar"></i></a>
+							<div class="search" id="search">
+								<table class="search-table" id="searchTable">
+									<thead>
+										<tr>
+											<td></td>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a href="#">Multicarro</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M31</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">M27</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Asistencia</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Tratamiento de Residuos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Espacios publicos</a></td>
+										</tr>
+										<tr>
+											<td><a href="#">Papeleros</a></td>
+										</tr>									
+									</tbody>
+								</table>
+							</div>	
+						</div>
+					</div>					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- Menú principal -->
+	<div class="container-fluid d-none d-lg-block" id="nav-first">
+		<div class="container">
+			<nav class="navbar navbar-expand-sm box-nav-first navbar-dark">
+			  <!-- Brand -->
+			  <a class="navbar-brand isotipo-nav" href="#">
+			  	<img class="box-isotipo" src="images/isotipo.svg">
+			  </a>
+
+			  <!-- Links -->
+			  <ul class="nav navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link" href="#">Inicio</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Productos</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Soluciones</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Desarrollo e Innovación</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Montaje</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Servicio Post-Venta</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Insumos y Repuestos</a>
+					</li>
+					<li class="nav-item nav-f-item">
+					  <a class="nav-link" href="#">Quiénes somos</a>
+					</li>
+			  </ul>
+			</nav>
+		</div>
+	</div>
+	
+	
+	<!-- Menú Principal versión mobile -->
+	<nav class="navbar navbar-expand-lg navbar-dark d-lg-none" id="nav-first-mobile">
+	
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  
+	  <!-- Brand -->
+	   <a class="navbar-brand isotipo-nav" href="#">
+		<img class="box-isotipo" src="images/isotipo_negro.svg">
+	   </a>
+  
+	  <a class="navbar-brand" href="#">Zona de Clientes</a>	  
+	  
+	  
+	  <div class="collapse navbar-collapse box-item-mobile" id="collapsibleNavbar">
+		<ul class="navbar-nav">
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Inicio</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Productos</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Soluciones</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Desarrollo e Innovación</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Insumos y Repuestos</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="#">Quiénes Somos</a>
+		  </li>    
+		</ul>
+	  </div>  
+	  
+	</nav>
+					
+	
+	<!-- Slider -->
+	<div id="slider-carousel-header" class="carousel slide d-none d-lg-block" data-ride="carousel" data-interval="false">
+	  <ol class="carousel-indicators">
+		<li data-target="#slider-carousel-header" data-slide-to="0" class="active"></li>
+		<li data-target="#slider-carousel-header" data-slide-to="1"></li>
+		<li data-target="#slider-carousel-header" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="First slide">
+	  	  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>		  		  
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Second slide">
+		  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Third slide">
+		  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>	
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#slider-carousel-header" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Anterior</span>
+	  </a>
+	  <a class="carousel-control-next" href="#slider-carousel-header" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Siguiente</span>
+	  </a>
+	</div>
+	<!-- / Slider -->	
+	
+	<!-- Slider < 768 px -->
+	<div id="slider-carousel-header-mobile" class="carousel slide d-lg-none" data-ride="carousel" data-interval="false">
+	  <ol class="carousel-indicators">
+		<li data-target="#slider-carousel-header-mobile" data-slide-to="0" class="active"></li>
+		<li data-target="#slider-carousel-header-mobile" data-slide-to="1"></li>
+		<li data-target="#slider-carousel-header-mobile" data-slide-to="2"></li>
+	  </ol>
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="First slide">
+	  	  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>		  		  
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Second slide">
+		  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>
+		</div>
+		<div class="carousel-item">
+		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Third slide">
+		  <div class="carousel-caption d-none d-md-block">
+			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
+		  </div>	
+		</div>
+	  </div>
+	  <a class="carousel-control-prev" href="#slider-carousel-header-mobile" role="button" data-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="sr-only">Anterior</span>
+	  </a>
+	  <a class="carousel-control-next" href="#slider-carousel-header-mobile" role="button" data-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="sr-only">Siguiente</span>
+	  </a>
+	</div>
+	<!-- / Slider -->				
+						
+							
+  </header>
+  
+  
+  <main class="container-fluid">
+  <!-- Servicio Post-venta -->
+   <article id="post-venta">
+   	<!-- Descripción I Parte - Servicio Post-venta -->
+    <section>
+    	<div class="container">
+    		<div class="col-md-12">
+    			<h2>Innovación y Conocimiento Técnico</h2>
+    		</div>
+    		<div class="col-md-12">
+    			<p>El servicio Postventa de EcoAlliance se basa en la capacidad de innovación y conocimiento técnico de nuestro equipo profesional. Para entregar el mejor soporte y respaldo técnico a nuestros clientes, disponemos de Servicio Técnico en Terreno para mantención y atención de emergencias. El logro de la máxima confiabilidad y disponibilidad de los equipos son el principal objetivo de nuestra visión de servicio.</p>
+    		</div>
+    		<div class="col-md-12">
+    			<a href="#"><p>Contactar a un profesional > </p></a>
+    		</div>
+    	</div>
+    </section>
+    <!-- Descripción II Parte - Servicio Post-venta -->
+    <section>
+    	<div class="row">
+    		<div class="col-md-8">
+    			<figure>
+    				<video> <!-- EDITAR -->
+    					<source src="movie.mp4" type="video/mp4"> <!-- EDITAR -->
+    				</video>
+    			</figure>
+    		</div>
+    		<div class="col-md-4">
+    			<h2>Continuidad Operativa</h2>
+    			<p>En EcoAlliance ofrecemos variadas alternativas en Contratos de Mantención de equipos para asegurar su Continuidad Operativa.</p>
+    			<a href="#"><p>Solicitar mantención > </p></a>
+    		</div>
+    	</div>
+    </section>
+    <!-- Descripción III Parte - Servicio Post-venta -->
+    <section>
+    	<div class="row">
+    		<div class="col-md-4">
+    			<h2>Repuestos e Insumos 100% Originales</h2>
+    			<p>Garantizando a nuestros clientes el mejor desempeño del equipo adquirido junto con una larga vida útil de este y sus componentes.</p>
+    			<a href="#"><p>Ver Insumos y Repuestos > </p></a>
+    		</div>
+    		<div class="col-md-8">
+    			<figure>
+    				<img src=""><!-- EDITAR -->
+    			</figure>
+    		</div>    		
+    	</div>
+    </section>
+    <!-- Descripción VI Parte - Servicio Post-venta -->
+    <section>
+    	<div class="row">    		
+    		<div class="col-md-8">
+    			
+    		</div>
+    		<div class="col-md-4">
+    			<h2>Servicios realizados por Personal Especializado:</h2>
+    			<ul>
+    				<li><span></span>Servicios de puesta en marcha de equipos nuevos.</li>
+					<li><span></span>Capacitación técnica.</li>
+					<li><span></span>Servicio Técnico para equipos y componentes.</li>
+					<li><span></span>Visitas de diagnóstico y detección de fallas.</li>
+					<li><span></span>Información Técnica.</li>
+					<li><span></span>Servicios de mantenimiento en terreno.</li>
+					<li><span></span>Asistencia Telefónica.</li>
+					<li><span></span>Contratos de mantención.</li>
+					<li><span></span>Atención de garantías.</li>
+					<li><span></span>Suministro de Insumos y Repuestos.</li>   					
+    			</ul>    			
+    			
+    			<a href="#"><p><i class="fas fa-user"></i>Ingresar a Zona de Clientes > </p></a>
+    		</div>    		
+    	</div>
+    </section>
+    
+    
+    
+   	<!-- Sección de Preguntas Frecuentes (FAQ) -->
+  	<section id="FAQ-post-venta" class="FAQ">
+  		<div class="container"> 
+  			<div class="col-md-12 text-center">
+  				<h2 class="title-section">Preguntas Frecuentes</h2>
+  			</div>
+  			<div class="col-md-12 box-FAQs">
+  				<div class="accordion" id="accordionFAQ">
+				  <div class="card">
+					<div class="card-header" id="headingOne">
+					  <h5 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  <p class="title">Preguntas Generales </p>
+						</button>
+					  </h5>
+					</div>
+
+					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question1" role="button" aria-expanded="false" aria-controls="sub-question1"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question1">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question2" role="button" aria-expanded="false" aria-controls="sub-question2"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question2">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question3" role="button" aria-expanded="false" aria-controls="sub-question3"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question3">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingTwo">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  <p class="title">Multicarro </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->			  		
+				  		<a data-toggle="collapse" href="#sub-question4" role="button" aria-expanded="false" aria-controls="sub-question4"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question4">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question5" role="button" aria-expanded="false" aria-controls="sub-question5"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question5">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question6" role="button" aria-expanded="false" aria-controls="sub-question6"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question6">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingThree">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						  <p class="title">Tratamiento de Residuos </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question7" role="button" aria-expanded="false" aria-controls="sub-question7"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question7">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question8" role="button" aria-expanded="false" aria-controls="sub-question8"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question8">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question9" role="button" aria-expanded="false" aria-controls="sub-question9"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question9">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				</div>
+  			</div>			
+  		</div>
+  	</section>
+  	<!-- / Sección de Preguntas Frecuentes (FAQ) -->
+   </article>
+  
+  
+  	
+  </main>
+  
+  <!-- Footer Desktop -->
+	<footer class="container-fluid d-none d-lg-block" id="footer-desktop">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-3">
+							<p class="title">
+								Empresa
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Productos</a></li>
+								<li><a href="#">Soluciones</a></li>
+								<li><a href="#">Desarrollo e Innovación</a></li>
+								<li><a href="#">Montaje</a></li>
+								<li><a href="#">Servicio Post-Venta</a></li>
+								<li><a href="#">Insumos y Repuestos</a></li>
+								<li><a href="#">Quienes Somos</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<p class="title">
+								Productos
+							</p>
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Multicarro</a></li>
+								<li><a href="#">Tratamiento de Residuos</a></li>
+								<li><a href="#">Higiene Urbana</a></li>
+								<li><a href="#">Asistencia</a></li>
+								<li><a href="#">Espacios Públicos</a></li>
+								<li><a href="#">Energía</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<p class="title">
+										Encuéntranos
+									</p>
+								</div>
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row">
+										<div class="col-md-1">
+											<i class="fas fa-phone mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+56-32-269 0691
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p class="num">
+												+49(0) 30-565 97754
+											</p>
+										</div>
+										<div class="col-md-1">
+											
+										</div>
+									</div>	
+								</div>
+								<div class="col-md-12 mg-05-bottom">
+									<div class="row">
+										<div class="col-md-1">
+											<i class="fas fa-map-marker-alt mg-2-right"></i>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Casa Central<br>
+												1/2 oriente 831, Oficina 408<br>
+												Viña del Mar, Chile
+											</p>
+										</div>
+										<div class="col-md-5">
+											<p>
+												Oficina Europa<br>
+												Barrio Charlottenburg<br>
+												Berlín, Alemania
+											</p>
+										</div>
+										<div class="col-md-1">
+											
+										</div>
+									</div>	
+								</div>
+								
+								<div class="col-md-12">
+									<div class="row">
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fas fa-envelope"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-twitter"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-facebook-f"></i></a>
+										</div>
+										<div class="col-md-1 foot-t-icon">
+											<a href="#"><i class="fab fa-youtube"></i></a>
+										</div>
+										<div class="col-md-8">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6">
+							<img class="box-isotipo" src="images/isotipo_negro.svg">
+							<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+						</div>
+						<div class="col-md-6 box-sub-f-link">
+							<small class="float-right pd-2-left"><a href="#">Mapa del Sitio</a></small>
+							<small class="float-right pd-2-left"><a href="#">Información Legal</a></small>
+							<small class="float-right"><a href="#">Información Corporativa</a></small>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+					
+	</footer>
+	
+	<!-- Footer Mobile 992px- 768px -->
+	<footer class="container-fluid d-lg-none" id="footer-mobile">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="title">
+						Encuéntranos
+					</p>
+				</div>
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+56-32-269 0691
+							</p>
+						</div>
+						<div class="col-md-5">
+							<p class="num">
+								+49(0) 30-565 97754
+							</p>
+						</div>
+						<div class="col-md-1">
+											
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 mg-3-top text-center">
+					<div class="row">
+						<div class="col-md-1 pd-0-right pd-3-left">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="col-md-5 text-left mg-3-5-left">
+							<p>
+								Casa Central<br>
+								1/2 oriente 831,
+								 Of 408<br>Viña del Mar, Chile
+							</p>
+						</div>
+						<div class="col-md-5 text-left pd-0-left">
+							<p>
+								Oficina Europa<br>
+								Barrio Charlottenburg<br>
+								Berlín, Alemania
+							</p>
+						</div>
+						<div class="col-md-1">
+											
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12 text-center mg-2-5-top">
+					<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<img class="box-isotipo" src="images/isotipo_negro.svg">
+					<small class="pd-2-left">EcoAlliance ® 2018 - Transformando el Entorno</small>
+				</div>
+			</div>
+		</div>						
+	</footer>
+	
+	<!-- Footer Mobile > 768px -->
+	<footer class="container-fluid d-md-none" id="footer-mobile2">
+		<div class="footer-top">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<p class="title">
+						Encuéntranos
+					</p>
+				</div>
+				
+				<div class="col-md-12 text-center mg-2-5-top">				
+					<a href="#" class="foot-t-icon"><i class="fas fa-phone"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fas fa-map-marker-alt"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fas fa-envelope"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="foot-t-icon"><i class="fab fa-facebook-f"></i></a>
+					<a href="#"><i class="fab fa-youtube"></i></a>		
+				</div>
+			</div>
+		</div>	
+		
+		<div class="footer-sub">
+			<div class="container">
+				<div class="col-md-12 text-center">
+					<img class="box-isotipo" src="images/isotipo_negro.svg">
+					<small class="pd-1-5-left">EcoAlliance ® 2018</small>
+				</div>
+			</div>
+		</div>						
+	</footer>
+		
+	<!-- Mis JS para los nav - Buscador -->
+	<script src="js/_buscador.js"></script>
+	
+</body>
+</html>
