@@ -809,6 +809,8 @@ header #slider-carousel-header-mobile p.big {
 section.FAQ {
   padding-bottom: 10rem;
   padding-top: 10rem; }
+  section.FAQ .box-FAQs {
+    margin-top: 3rem; }
   section.FAQ h2.title-section {
     border-bottom-color: #c4c4c4; }
   section.FAQ #accordionFAQ .card {
