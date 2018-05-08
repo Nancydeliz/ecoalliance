@@ -37,7 +37,7 @@ $(document).ready(function(){
 			
 	});
 	
-	
+		
 	
 	
 });//cierre de todo el código
