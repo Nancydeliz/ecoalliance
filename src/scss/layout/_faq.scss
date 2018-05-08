@@ -100,7 +100,7 @@ section.FAQ {
 					color: $cea-2;
 				}
 				
-				&.collapsed p::after {
+				&[aria-expanded="false"] p::after {
 					content: "+"
 				}
 				

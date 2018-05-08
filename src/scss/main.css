@@ -872,7 +872,7 @@ section.FAQ {
         text-decoration: none; }
       section.FAQ #accordionFAQ .card-body a:visited, section.FAQ #accordionFAQ .card-body a:hover, section.FAQ #accordionFAQ .card-body a:active, section.FAQ #accordionFAQ .card-body a:focus {
         color: #17569b; }
-      section.FAQ #accordionFAQ .card-body a.collapsed p::after {
+      section.FAQ #accordionFAQ .card-body a[aria-expanded="false"] p::after {
         content: "+"; }
       section.FAQ #accordionFAQ .card-body a p::after {
         content: "-";
@@ -968,8 +968,8 @@ article#post-venta section#Descripcion3 {
 article#post-venta section#Descripcion4 {
   background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
   height: 100%;
   width: 100%;
   background-color: transparent;
