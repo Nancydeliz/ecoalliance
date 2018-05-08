@@ -546,9 +546,9 @@ h2.title-section {
 /* Estilos para el Navbar auxiliar de cada p├ígina */
 .nav-aux-article {
   background-color: #fff;
-  -webkit-box-shadow: -2px -6px 5px -6px #dedede;
-  -moz-box-shadow: -2px -6px 5px -6px #dedede;
-  box-shadow: -2px -6px 5px -6px #dedede; }
+  -webkit-box-shadow: -7px -5px 5px -6px #9a9a9a;
+  -moz-box-shadow: -7px -5px 5px -6px #9a9a9a;
+  box-shadow: -7px -5px 5px -6px #9a9a9a; }
   .nav-aux-article a.title {
     color: #59a0d3;
     font-weight: 500; }
@@ -556,8 +556,8 @@ h2.title-section {
     font-size: 0.87rem; }
     .nav-aux-article ul.navbar-nav li a.nav-link {
       color: #333333; }
-      .nav-aux-article ul.navbar-nav li a.nav-link:active {
-        color: #17569b; }
+      .nav-aux-article ul.navbar-nav li a.nav-link:active, .nav-aux-article ul.navbar-nav li a.nav-link.active {
+        color: #59a0d3; }
       .nav-aux-article ul.navbar-nav li a.nav-link:hover {
         color: #356daf; }
   .nav-aux-article ul.navbar-nav button {

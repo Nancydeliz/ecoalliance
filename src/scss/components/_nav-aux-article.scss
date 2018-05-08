@@ -2,9 +2,9 @@
 
 .nav-aux-article {
 	background-color: #fff;
-	-webkit-box-shadow: -2px -6px 5px -6px #dedede;
-	-moz-box-shadow: -2px -6px 5px -6px #dedede;
-	box-shadow: -2px -6px 5px -6px #dedede;
+	-webkit-box-shadow: -7px -5px 5px -6px #9a9a9a;
+	-moz-box-shadow: -7px -5px 5px -6px #9a9a9a;
+	box-shadow: -7px -5px 5px -6px #9a9a9a;
 	
 	a.title {
 		color: $cea-1;
@@ -20,8 +20,8 @@
 				
 				color: $cbg-7;
 				
-				&:active {
-					color: $cea-2;
+				&:active, &.active {
+					color: $cea-1;
 				}
 				&:hover {
 					color: $cea-3;
