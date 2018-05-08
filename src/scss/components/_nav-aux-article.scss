@@ -1,8 +1,39 @@
 /* Estilos para el Navbar auxiliar de cada página */
 
 .nav-aux-article {
+	background-color: #fff;
+	-webkit-box-shadow: -2px -6px 5px -6px #dedede;
+	-moz-box-shadow: -2px -6px 5px -6px #dedede;
+	box-shadow: -2px -6px 5px -6px #dedede;
 	
+	a.title {
+		color: $cea-1;
+		font-weight: 500;
+	}
 	
-	
+	ul.navbar-nav {
+		
+		li {
+			font-size: $font-peq1;			
+			
+			a.nav-link {
+				
+				color: $cbg-7;
+				
+				&:active {
+					color: $cea-2;
+				}
+				&:hover {
+					color: $cea-3;
+				}
+			}
+			
+		}
+		
+		button {
+			font-size: $font-peq1;
+		}
+		
+	}
 	
 }

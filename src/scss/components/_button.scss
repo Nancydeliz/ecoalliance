@@ -1,0 +1,15 @@
+/* Estilos para los botones */
+
+button.btn-cea1 {
+	background-color: $cea-1;
+	color: #fff;
+	font-weight: 500;
+	
+	&:hover {
+		background-color: $cbg-1;
+		color: $cea-1;
+		border: 1px solid;
+		border-color: $cea-1;
+	}
+	
+}

@@ -55,7 +55,7 @@ p.biggest {
   font-family: "Raleway", sans-serif;
   font-size: 3.5rem; }
 
-p.title {
+p.title, a.title {
   font-family: "Raleway", sans-serif;
   font-size: 1.2rem; }
 
@@ -544,6 +544,25 @@ h2.title-section {
     #nav-second a.nav-s-icon {
       padding-left: 2rem; } }
 /* Estilos para el Navbar auxiliar de cada p├ígina */
+.nav-aux-article {
+  background-color: #fff;
+  -webkit-box-shadow: -2px -6px 5px -6px #dedede;
+  -moz-box-shadow: -2px -6px 5px -6px #dedede;
+  box-shadow: -2px -6px 5px -6px #dedede; }
+  .nav-aux-article a.title {
+    color: #59a0d3;
+    font-weight: 500; }
+  .nav-aux-article ul.navbar-nav li {
+    font-size: 0.87rem; }
+    .nav-aux-article ul.navbar-nav li a.nav-link {
+      color: #333333; }
+      .nav-aux-article ul.navbar-nav li a.nav-link:active {
+        color: #17569b; }
+      .nav-aux-article ul.navbar-nav li a.nav-link:hover {
+        color: #356daf; }
+  .nav-aux-article ul.navbar-nav button {
+    font-size: 0.87rem; }
+
 /* Estilos para el Footer */
 footer {
   /* Footer Desktop */
@@ -990,6 +1009,17 @@ article#post-venta section#Servicios {
   article#post-venta section#Servicios a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
+
+/* Estilos para los botones */
+button.btn-cea1 {
+  background-color: #59a0d3;
+  color: #fff;
+  font-weight: 500; }
+  button.btn-cea1:hover {
+    background-color: #ebf2f8;
+    color: #59a0d3;
+    border: 1px solid;
+    border-color: #59a0d3; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
