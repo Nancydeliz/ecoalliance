@@ -1,7 +1,7 @@
 /* Estilos para la página de Servicio Post-Venta */
 
 article#post-venta {
-	
+		
 	a {
 		text-decoration: none;
 		&:hover {
@@ -12,14 +12,15 @@ article#post-venta {
 	section#Descripcion1 {
 		background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
-		padding-top: 130px;
-		padding-bottom: 380px;
-		height: 702px;
-		width: 100%;
+		background-attachment: fixed;
 		background-color: transparent; 
 		background-size: cover;		
-		background-position: center; 
-		margin-top: 0.7rem;
+		background-position: center;
+		
+		padding-top: 130px;
+		padding-bottom: 580px;
+		width: 100%; 
+		margin-top: 0;
 		
 		div.container {
 			text-align: center;
@@ -40,7 +41,7 @@ article#post-venta {
 	}
 	
 	section#Descripcion2 {		
-		margin-top: 0.7rem;
+		margin-top: 0;
 		
 		h2.title-section {
 			   border-bottom: none;
@@ -49,25 +50,36 @@ article#post-venta {
 			}
 		
 		p {
-			width: 60%;
+			width: 75%;
    			text-align: justify;
 		}
 		
 		a.enlace-sencillo {
 			color: $cea-2;
 			font-weight: 500;
-		}	
+		}
+		
+		figure {
+			margin: 0;
+			
+			video {
+				max-width: 100%;
+			}
+		}
+		
+		
 		
 	}
 	
 	section#Descripcion3 {
 		background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
-		background-repeat: repeat-x;
-		background-color: transparent; 
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		background-size: cover;		
 		background-position: center; 
-		height: 702px;
 		width: 100%;
+		padding-bottom: 25rem;
+		padding-top: 10rem;
 		
 		h2.title-section {
 			border-bottom: none;
@@ -99,7 +111,6 @@ article#post-venta {
 		background-color: transparent; 
 		background-size: cover;		
 		background-position: center; 
-		margin-top: 0.7rem;
 		
 		ul {
 			text-decoration: none;
@@ -122,6 +133,13 @@ article#post-venta {
 			font-weight: 500;
 		}
 			
+		
+	}
+	
+	#FAQ-post-venta {
+		
+		margin-top: 3rem;
+		margin-bottom: 8rem;
 		
 	}
 	

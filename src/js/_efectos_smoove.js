@@ -7,7 +7,7 @@ $(document).ready(function(){
 	$('.ef-aparecer').smoove({offset:'40%'});
 	
 	/* Efecto arrastrar hacia Arriba */
-	$('.ef-subida').smoove({moveY:'10%'});
+	$('.ef-subida').smoove({moveY:'50%'});
 	
 	
 	

@@ -27,6 +27,8 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <!-- Smoove JS (efectos de aparicion) -->
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
+<!-- Parallax JS (efecto parallax) -->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
 <!-- Mis JS para Efectos (smoove) -->
 <script src="js/_efectos_smoove.js"></script>
 <!-- Mis JS para los nav -->
@@ -208,7 +210,7 @@
 			
 	
 	<!-- Slider -->
-	<div id="slider-carousel-header" class="carousel slide d-none d-lg-block" data-ride="carousel" data-interval="false">
+	<div id="slider-carousel-header" class="carousel slide d-none d-lg-block" data-ride="carousel" data-interval="3500">
 	  <ol class="carousel-indicators">
 		<li data-target="#slider-carousel-header" data-slide-to="0" class="active"></li>
 		<li data-target="#slider-carousel-header" data-slide-to="1"></li>
@@ -232,7 +234,7 @@
 		<div class="carousel-item">
 		  <img class="d-block w-100" src="images/slider/imagen2.jpg" alt="Third slide">
 		  <div class="carousel-caption d-none d-md-block">
-			<p class="biggest">El Mejor Soporte y Servicio Técnico</p>
+			<p class="biggest ef-aparecer">El Mejor Soporte y Servicio Técnico</p>
 			<p class="big">Personal Especializado y Repuestos 100% Originales</p>
 		  </div>	
 		</div>
@@ -337,16 +339,16 @@
     <!-- Descripción II Parte - Servicio Post-venta -->
     <section class="IIparte FullScreen" id="Descripcion2">
     	<div class="row">
-    		<div class="col-md-8 pd-0-left">
+    		<div class="col-md-9 pd-0-left lineH-0">
     			<figure>
-    				<video src="post-venta/videos/multicarro-manufactura.mp4" autoplay poster="post-venta/videos/poster_video.jpg" height="700px"> 
+    				<video loop muted playsinline="" src="post-venta/videos/multicarro-manufactura.mp4" autoplay poster="post-venta/videos/poster_video.jpg" height="1000px" max-width="100%">
     				</video>
     			</figure>
     		</div>
-    		<div class="col-md-4 pd-10-top">
-    			<h2 class="title-section">Continuidad Operativa</h2>
-    			<p>En EcoAlliance ofrecemos variadas alternativas en Contratos de Mantención de equipos para asegurar su Continuidad Operativa.</p>
-    			<a class="enlace-sencillo" href="#"><p class="mg-3-top">Solicitar mantención > </p></a>
+    		<div class="col-md-3 pd-10-top">
+    			<h2 class="title-section ef-subida">Continuidad Operativa</h2>
+    			<p class="ef-subida">En EcoAlliance ofrecemos variadas alternativas en Contratos de Mantención de equipos para asegurar su Continuidad Operativa.</p>
+    			<a class="enlace-sencillo" href="#"><p class="mg-3-top ef-subida">Solicitar mantención > </p></a>
     		</div>
     	</div>
     </section>
@@ -354,14 +356,12 @@
     <section class="IIIparte FullScreen Bg-Full" id="Descripcion3">
     	<div class="row">
     		<div class="col-md-6 pd-10-top pd-10-left">
-    			<h2 class="title-section">Repuestos e Insumos 100% Originales</h2>
-    			<p>Garantizando a nuestros clientes el mejor desempeño del equipo adquirido junto con una larga vida útil de este y sus componentes.</p>
-    			<a class="enlace-sencillo" href="#"><p class="mg-3-top">Ver Insumos y Repuestos > </p></a>
+    			<h2 class="title-section ef-subida">Repuestos e Insumos 100% Originales</h2>
+    			<p class="ef-subida">Garantizando a nuestros clientes el mejor desempeño del equipo adquirido junto con una larga vida útil de este y sus componentes.</p>
+    			<a class="enlace-sencillo" href="#"><p class="mg-3-top ef-subida">Ver Insumos y Repuestos > </p></a>
     		</div>
     		<div class="col-md-6">
-    			<figure class="float-right">
-    				<img src="post-venta/images/img_IIIparte_seccion_post-venta.png"><!-- EDITAR -->
-    			</figure>
+    			
     		</div>    		
     	</div>
     </section>
@@ -372,8 +372,8 @@
     			
     		</div>
     		<div class="col-md-4">
-    			<h2 class="title-section">Servicios realizados por Personal Especializado:</h2>
-    			<ul>
+    			<h2 class="title-section ef-subida">Servicios realizados por Personal Especializado:</h2>
+    			<ul class="ef-subida">
     				<li><span></span>Servicios de puesta en marcha de equipos nuevos.</li>
 					<li><span></span>Capacitación técnica.</li>
 					<li><span></span>Servicio Técnico para equipos y componentes.</li>
@@ -386,7 +386,7 @@
 					<li><span></span>Suministro de Insumos y Repuestos.</li>   					
     			</ul>    			
     			
-    			<a class="enlace-sencillo" href="#"><p class="mg-3-top mg-1-left"><i class="fas fa-user mg-1-right"></i>Ingresar a Zona de Clientes > </p></a>
+    			<a class="enlace-sencillo" href="#"><p class="mg-3-top mg-1-left ef-subida"><i class="fas fa-user mg-1-right"></i>Ingresar a Zona de Clientes > </p></a>
     		</div>    		
     	</div>
     </section>
@@ -397,10 +397,10 @@
   	<section id="FAQ-post-venta" class="FAQ">
   		<div class="container"> 
   			<div class="col-md-12 text-center">
-  				<h2 class="title-section">Preguntas Frecuentes</h2>
+  				<h2 class="title-section ef-subida">Preguntas Frecuentes</h2>
   			</div>
   			<div class="col-md-12 box-FAQs">
-  				<div class="accordion" id="accordionFAQ">
+  				<div class="accordion ef-subida" id="accordionFAQ">
 				  <div class="card">
 					<div class="card-header" id="headingOne">
 					  <h5 class="mb-0">
@@ -502,6 +502,154 @@
 						
 						<a data-toggle="collapse" href="#sub-question9" role="button" aria-expanded="false" aria-controls="sub-question9"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
 				  		<div class="collapse" id="sub-question9">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingFour">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						  <p class="title">Higiene Urbana </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question10" role="button" aria-expanded="false" aria-controls="sub-question10"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question10">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question11" role="button" aria-expanded="false" aria-controls="sub-question11"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question11">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question12" role="button" aria-expanded="false" aria-controls="sub-question12"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question12">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingFive">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+						  <p class="title">Asistencia </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question13" role="button" aria-expanded="false" aria-controls="sub-question13"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question13">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question14" role="button" aria-expanded="false" aria-controls="sub-question14"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question14">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question15" role="button" aria-expanded="false" aria-controls="sub-question15"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question15">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingSix">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+						  <p class="title">Espacios Públicos </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question16" role="button" aria-expanded="false" aria-controls="sub-question16"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question16">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question17" role="button" aria-expanded="false" aria-controls="sub-question17"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question17">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question18" role="button" aria-expanded="false" aria-controls="sub-question18"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question18">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+			  		
+						<!-- Terminan las preguntas de la categoría -->
+					  </div>
+					</div>
+				  </div>
+				  <div class="card">
+					<div class="card-header" id="headingSeven">
+					  <h5 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+						  <p class="title">Energía </p>
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionFAQ">
+					  <div class="card-body">
+						<!-- Empieza las preguntas de la categoría -->
+			  		
+				  		<a data-toggle="collapse" href="#sub-question19" role="button" aria-expanded="false" aria-controls="sub-question19"><p class="sub-title">¿Estoy interesado en realizar un proyecto y necesito maquinaria, ustedes pueden apoyarme? </p></a>
+				  		<div class="collapse" id="sub-question19">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question20" role="button" aria-expanded="false" aria-controls="sub-question20"><p class="sub-title">¿Cuentan con un servicio de mantenimiento y repuestos para los equipos que representan? </p></a>
+				  		<div class="collapse" id="sub-question20">
+						  <div class="card card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+						  </div>
+						</div>
+						
+						<a data-toggle="collapse" href="#sub-question21" role="button" aria-expanded="false" aria-controls="sub-question21"><p class="sub-title">¿El servicio de mantenimiento se realiza en las instalaciones del cliente o en las instalaciones de Ecoalliance? </p></a>
+				  		<div class="collapse" id="sub-question21">
 						  <div class="card card-body">
 							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
 						  </div>
