@@ -543,6 +543,7 @@ h2.title-section {
         color: #59a0d3; }
     #nav-second a.nav-s-icon {
       padding-left: 2rem; } }
+/* Estilos para el Navbar auxiliar de cada p├ígina */
 /* Estilos para el Footer */
 footer {
   /* Footer Desktop */
@@ -965,7 +966,7 @@ article#post-venta section#Descripcion3 {
   article#post-venta section#Descripcion3 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-article#post-venta section#Descripcion4 {
+article#post-venta section#Servicios {
   background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   padding-top: 8rem;
@@ -976,17 +977,17 @@ article#post-venta section#Descripcion4 {
   background-size: cover;
   background-position: center;
   margin-top: 0.7rem; }
-  article#post-venta section#Descripcion4 ul {
+  article#post-venta section#Servicios ul {
     text-decoration: none; }
-    article#post-venta section#Descripcion4 ul li {
+    article#post-venta section#Servicios ul li {
       list-style-type: none;
       list-style-image: url("borrar-luego/icon-list_post-venta.png");
       margin-top: 1rem; }
-  article#post-venta section#Descripcion4 h2.title-section {
+  article#post-venta section#Servicios h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion4 a.enlace-sencillo {
+  article#post-venta section#Servicios a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
 
