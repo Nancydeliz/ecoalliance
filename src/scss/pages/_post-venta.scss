@@ -1,0 +1,129 @@
+/* Estilos para la página de Servicio Post-Venta */
+
+article#post-venta {
+	
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	
+	section#Descripcion1 {
+		background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+		background-repeat: no-repeat;
+		padding-top: 130px;
+		padding-bottom: 380px;
+		height: 702px;
+		width: 100%;
+		background-color: transparent; 
+		background-size: cover;		
+		background-position: center; 
+		margin-top: 0.7rem;
+		
+		div.container {
+			text-align: center;
+			
+			h2.title-section {
+			   border-bottom: none;
+			   color: $cea-2;
+			   font-weight: 500;
+			}
+			
+			a.enlace-sencillo {
+				color: $cea-2;
+				font-weight: 500;
+			}
+			
+		}
+		
+	}
+	
+	section#Descripcion2 {		
+		margin-top: 0.7rem;
+		
+		h2.title-section {
+			   border-bottom: none;
+			   color: $cea-2;
+			   font-weight: 500;
+			}
+		
+		p {
+			width: 60%;
+   			text-align: justify;
+		}
+		
+		a.enlace-sencillo {
+			color: $cea-2;
+			font-weight: 500;
+		}	
+		
+	}
+	
+	section#Descripcion3 {
+		background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+		background-repeat: repeat-x;
+		background-color: transparent; 
+		background-size: cover;		
+		background-position: center; 
+		height: 702px;
+		width: 100%;
+		
+		h2.title-section {
+			border-bottom: none;
+			color: $cea-2;
+			font-weight: 500;
+		}
+		
+		p {
+			width: 70%;
+   			text-align: justify;
+		}
+		
+		a.enlace-sencillo {
+			color: $cea-2;
+			font-weight: 500;
+		}	
+		
+		
+		
+	}
+	
+	section#Descripcion4 {
+		background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+		background-repeat: no-repeat;
+		padding-top: 200px;
+		padding-bottom: 200px;
+		height: 100%;
+		width: 100%;
+		background-color: transparent; 
+		background-size: cover;		
+		background-position: center; 
+		margin-top: 0.7rem;
+		
+		ul {
+			text-decoration: none;
+			li {
+				list-style-type: none;
+				list-style-image: url("borrar-luego/icon-list_post-venta.png");
+				margin-top: 1rem;
+				
+			}
+		}
+		
+		h2.title-section {
+			border-bottom: none;
+			color: $cea-2;
+			font-weight: 500;
+		}
+			
+		a.enlace-sencillo {
+			color: $cea-2;
+			font-weight: 500;
+		}
+			
+		
+	}
+	
+	
+}

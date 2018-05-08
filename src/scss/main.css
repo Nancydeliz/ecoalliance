@@ -75,6 +75,12 @@ h2.title-section {
   padding-bottom: 2.5rem;
   border-bottom: 1px solid; }
 
+/* Grid  */
+.container-fluid {
+  width: 100%;
+  padding-right: 0 !important;
+  padding-left: 0 !important; }
+
 /* Estilos para el Navbar principal */
 #nav-first {
   font-size: 0.87rem;
@@ -903,6 +909,86 @@ section.FAQ {
           text-decoration: none; }
         section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
+
+/* Estilos para la p├ígina de Servicio Post-Venta */
+article#post-venta a {
+  text-decoration: none; }
+  article#post-venta a:hover {
+    text-decoration: none; }
+article#post-venta section#Descripcion1 {
+  background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+  background-repeat: no-repeat;
+  padding-top: 130px;
+  padding-bottom: 380px;
+  height: 702px;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.7rem; }
+  article#post-venta section#Descripcion1 div.container {
+    text-align: center; }
+    article#post-venta section#Descripcion1 div.container h2.title-section {
+      border-bottom: none;
+      color: #17569b;
+      font-weight: 500; }
+    article#post-venta section#Descripcion1 div.container a.enlace-sencillo {
+      color: #17569b;
+      font-weight: 500; }
+article#post-venta section#Descripcion2 {
+  margin-top: 0.7rem; }
+  article#post-venta section#Descripcion2 h2.title-section {
+    border-bottom: none;
+    color: #17569b;
+    font-weight: 500; }
+  article#post-venta section#Descripcion2 p {
+    width: 60%;
+    text-align: justify; }
+  article#post-venta section#Descripcion2 a.enlace-sencillo {
+    color: #17569b;
+    font-weight: 500; }
+article#post-venta section#Descripcion3 {
+  background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+  background-repeat: repeat-x;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  height: 702px;
+  width: 100%; }
+  article#post-venta section#Descripcion3 h2.title-section {
+    border-bottom: none;
+    color: #17569b;
+    font-weight: 500; }
+  article#post-venta section#Descripcion3 p {
+    width: 70%;
+    text-align: justify; }
+  article#post-venta section#Descripcion3 a.enlace-sencillo {
+    color: #17569b;
+    font-weight: 500; }
+article#post-venta section#Descripcion4 {
+  background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0.7rem; }
+  article#post-venta section#Descripcion4 ul {
+    text-decoration: none; }
+    article#post-venta section#Descripcion4 ul li {
+      list-style-type: none;
+      list-style-image: url("borrar-luego/icon-list_post-venta.png");
+      margin-top: 1rem; }
+  article#post-venta section#Descripcion4 h2.title-section {
+    border-bottom: none;
+    color: #17569b;
+    font-weight: 500; }
+  article#post-venta section#Descripcion4 a.enlace-sencillo {
+    color: #17569b;
+    font-weight: 500; }
 
 /* Clases prestablecidas para escribir el codigo con mas rapidez */
 /* margin todos los lados iguales */
