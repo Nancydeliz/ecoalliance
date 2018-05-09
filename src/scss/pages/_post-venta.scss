@@ -12,13 +12,13 @@ article#post-venta {
 	section#Descripcion1 {
 		background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-color: transparent; 
-		background-size: cover;		
+		background-attachment: fixed; //esto es para el efecto parallax
+		background-color: transparent; //esto es para el efecto parallax
+		background-size: cover;	//esto es para que ocupe todo el contenedor
 		background-position: center;
 		
-		padding-top: 130px;
-		padding-bottom: 580px;
+		padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+		padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
 		width: 100%; 
 		margin-top: 0;
 		
@@ -64,6 +64,7 @@ article#post-venta {
 			
 			video {
 				max-width: 100%;
+				height: 1000px;
 			}
 		}
 		
@@ -77,6 +78,7 @@ article#post-venta {
 		background-attachment: fixed;
 		background-size: cover;		
 		background-position: center; 
+		
 		width: 100%;
 		padding-bottom: 25rem;
 		padding-top: 10rem;
@@ -108,6 +110,7 @@ article#post-venta {
 		padding-bottom: 8rem;
 		height: 100%;
 		width: 100%;
+		
 		background-color: transparent; 
 		background-size: cover;		
 		background-position: center; 
@@ -145,3 +148,137 @@ article#post-venta {
 	
 	
 }
+
+/* -- Media Query -- */
+
+/*==================================================
+=            Post Venta Media Queries             =
+==================================================*/
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : $screen-xs) {		
+		
+    }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : $screen-sm) {
+		
+
+	   
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : $screen-md) {
+		
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : $screen-lg) {
+		
+	
+	}    
+
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : $screen-xl) {
+	
+		
+    }
+
+	/* Extra Large Devices, Wide Screens */
+    @media only screen and (min-width : 2000px) {
+		
+		article#post-venta {
+		
+			section#Descripcion1 {
+				background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed; //esto es para el efecto parallax
+				background-color: transparent; //esto es para el efecto parallax
+				background-size: cover;	//esto es para que ocupe todo el contenedor
+				background-position: center;
+
+				padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+				padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+				width: 100%; 
+				margin-top: 0;
+
+			}
+
+			section#Descripcion2 {		
+				margin-top: 0;
+
+				p {
+					width: 75%;
+					text-align: justify;
+				}
+
+				figure {
+					margin: 0;
+
+					video {
+						max-width: 100%;
+						height: 1000px;
+					}
+				}
+
+			}
+
+			section#Descripcion3 {
+				background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;		
+				background-position: center; 
+
+				width: 100%;
+				padding-bottom: 25rem;
+				padding-top: 10rem;
+
+				p {
+					width: 70%;
+					text-align: justify;
+				}
+				
+			}
+
+			section#Servicios {
+				background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				padding-top: 8rem;
+				padding-bottom: 8rem;
+				height: 100%;
+				width: 100%;
+
+				background-color: transparent; 
+				background-size: cover;		
+				background-position: center; 
+
+				ul {
+					
+					li {
+						list-style-type: none;
+						list-style-image: url("borrar-luego/icon-list_post-venta.png");
+						margin-top: 1rem;
+
+					}
+				}
+				
+			}
+
+			#FAQ-post-venta {
+
+				margin-top: 3rem;
+				margin-bottom: 8rem;
+
+			}
+
+		}
+	
+		
+    } // Cierre Extra Large Devices
