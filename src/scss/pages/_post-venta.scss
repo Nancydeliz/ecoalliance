@@ -1,6 +1,6 @@
 /* Estilos para la página de Servicio Post-Venta */
 
-article#post-venta {
+article#post-venta, article#post-venta-mobile {
 		
 	a {
 		text-decoration: none;
@@ -146,8 +146,55 @@ article#post-venta {
 		
 	}
 	
-	
 }
+
+article#post-venta-mobile {
+	
+	section.Slider-mobile {
+		background-image: url('borrar-luego/bg_post-venta-slider-mobile.jpg');
+		color: #fff;
+		text-align: center;
+		background-size: cover;
+		
+		div {
+			padding-top: 25rem;
+    		padding-bottom: 25rem;
+		}
+		
+	}
+	
+	section#Descripcion1-mobile {
+				
+		padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+		padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+		width: 100%; 
+		margin-top: 0;
+		
+		div.container {
+			text-align: center;
+			
+			h2.title-section {
+			   border-bottom: none;
+			   color: $cea-2;
+			   font-weight: 500;
+			}
+			
+			a.enlace-sencillo {
+				color: $cea-2;
+				font-weight: 500;
+			}
+			
+		}
+		
+	}
+	
+	
+	
+	
+} //Cierre #post-venta-mobile
+
+
+
 
 /* -- Media Query -- */
 
@@ -178,17 +225,285 @@ article#post-venta {
     }
 
     /* Medium Devices, Desktops */
-    @media only screen and (min-width : $screen-lg) {
+    @media only screen and (max-width : $screen-xl) and (min-width : $screen-lg) {
 		
+		article#post-venta {
+		
+			section#Descripcion1 {
+				background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed; //esto es para el efecto parallax
+				background-color: transparent; //esto es para el efecto parallax
+				background-size: cover;	//esto es para que ocupe todo el contenedor
+				background-position: center;
+
+				padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+				padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+				width: 100%; 
+				margin-top: 0;
+
+			}
+
+			section#Descripcion2 {		
+				margin-top: 0;
+
+				p {
+					width: 75%;
+					text-align: justify;
+				}
+
+				figure {
+					margin: 0;
+
+					video {
+						max-width: 100%;
+						height: auto; //*
+					}
+				}
+
+			}
+
+			section#Descripcion3 {
+				background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;		
+				background-position: center; 
+
+				width: 100%;
+				padding-bottom: 25rem;
+				padding-top: 10rem;
+
+				p {
+					width: 70%;
+					text-align: justify;
+				}
+				
+			}
+
+			section#Servicios {
+				background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				padding-top: 8rem;
+				padding-bottom: 8rem;
+				height: 100%;
+				width: 100%;
+
+				background-color: transparent; 
+				background-size: cover;		
+				background-position: center; 
+
+				ul {
+					
+					li {
+						list-style-type: none;
+						list-style-image: url("borrar-luego/icon-list_post-venta.png");
+						margin-top: 1rem;
+
+					}
+				}
+				
+			}
+
+			#FAQ-post-venta {
+
+				margin-top: 3rem;
+				margin-bottom: 8rem;
+
+			}
+
+		}
 	
-	}    
+	} // Cierre 
 
 
     /* Large Devices, Wide Screens */
-    @media only screen and (min-width : $screen-xl) {
+    @media only screen and (max-width : 1700px) and (min-width : $screen-xl) {
+		
+		article#post-venta {
+		
+			section#Descripcion1 {
+				background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed; //esto es para el efecto parallax
+				background-color: transparent; //esto es para el efecto parallax
+				background-size: cover;	//esto es para que ocupe todo el contenedor
+				background-position: center;
+
+				padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+				padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+				width: 100%; 
+				margin-top: 0;
+
+			}
+
+			section#Descripcion2 {		
+				margin-top: 0;
+
+				p {
+					width: 75%;
+					text-align: justify;
+				}
+
+				figure {
+					margin: 0;
+
+					video {
+						max-width: 100%;
+						height: auto; //*
+					}
+				}
+
+			}
+
+			section#Descripcion3 {
+				background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;		
+				background-position: center; 
+
+				width: 100%;
+				padding-bottom: 25rem;
+				padding-top: 10rem;
+
+				p {
+					width: 70%;
+					text-align: justify;
+				}
+				
+			}
+
+			section#Servicios {
+				background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				padding-top: 8rem;
+				padding-bottom: 8rem;
+				height: 100%;
+				width: 100%;
+
+				background-color: transparent; 
+				background-size: cover;		
+				background-position: center; 
+
+				ul {
+					
+					li {
+						list-style-type: none;
+						list-style-image: url("borrar-luego/icon-list_post-venta.png");
+						margin-top: 1rem;
+
+					}
+				}
+				
+			}
+
+			#FAQ-post-venta {
+
+				margin-top: 3rem;
+				margin-bottom: 8rem;
+
+			}
+
+		}
 	
 		
-    }
+    } // Cierre
+
+	/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 2000px) and (min-width : 1700px) {
+		
+		article#post-venta {
+		
+			section#Descripcion1 {
+				background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed; //esto es para el efecto parallax
+				background-color: transparent; //esto es para el efecto parallax
+				background-size: cover;	//esto es para que ocupe todo el contenedor
+				background-position: center;
+
+				padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
+				padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+				width: 100%; 
+				margin-top: 0;
+
+			}
+
+			section#Descripcion2 {		
+				margin-top: 0;
+
+				p {
+					width: 75%;
+					text-align: justify;
+				}
+
+				figure {
+					margin: 0;
+
+					video {
+						max-width: 100%;
+						height: 1000px; //*
+					}
+				}
+
+			}
+
+			section#Descripcion3 {
+				background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;		
+				background-position: center; 
+
+				width: 100%;
+				padding-bottom: 25rem;
+				padding-top: 10rem;
+
+				p {
+					width: 70%;
+					text-align: justify;
+				}
+				
+			}
+
+			section#Servicios {
+				background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+				background-repeat: no-repeat;
+				padding-top: 8rem;
+				padding-bottom: 8rem;
+				height: 100%;
+				width: 100%;
+
+				background-color: transparent; 
+				background-size: cover;		
+				background-position: center; 
+
+				ul {
+					
+					li {
+						list-style-type: none;
+						list-style-image: url("borrar-luego/icon-list_post-venta.png");
+						margin-top: 1rem;
+
+					}
+				}
+				
+			}
+
+			#FAQ-post-venta {
+
+				margin-top: 3rem;
+				margin-bottom: 8rem;
+
+			}
+
+		}
+		
+		
+		
+    } // Cierre de Large Devices
+
 
 	/* Extra Large Devices, Wide Screens */
     @media only screen and (min-width : 2000px) {
@@ -223,7 +538,7 @@ article#post-venta {
 
 					video {
 						max-width: 100%;
-						height: 1000px;
+						height: auto; // *
 					}
 				}
 

@@ -81,6 +81,44 @@ h2.title-section {
   padding-right: 0 !important;
   padding-left: 0 !important; }
 
+/* 1) Textos */
+.solo-mobile {
+  /* Grid  */ }
+  .solo-mobile h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 3rem; }
+  .solo-mobile h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem; }
+  .solo-mobile p {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.87rem; }
+  .solo-mobile p.big {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5rem; }
+  .solo-mobile p.biggest {
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem; }
+  .solo-mobile p.title, .solo-mobile a.title {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem; }
+  .solo-mobile p.sub-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600; }
+  .solo-mobile p.min {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.87rem; }
+  .solo-mobile p.num {
+    font-family: "Muli", sans-serif; }
+  .solo-mobile h2.title-section {
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid; }
+  .solo-mobile .container-fluid {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important; }
+
 /* Estilos para el Navbar principal */
 #nav-first {
   font-size: 0.87rem;
@@ -931,11 +969,11 @@ section.FAQ {
           color: #17569b; }
 
 /* Estilos para la p├ígina de Servicio Post-Venta */
-article#post-venta a {
+article#post-venta a, article#post-venta-mobile a {
   text-decoration: none; }
-  article#post-venta a:hover {
+  article#post-venta a:hover, article#post-venta-mobile a:hover {
     text-decoration: none; }
-article#post-venta section#Descripcion1 {
+article#post-venta section#Descripcion1, article#post-venta-mobile section#Descripcion1 {
   background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -946,33 +984,33 @@ article#post-venta section#Descripcion1 {
   padding-bottom: 580px;
   width: 100%;
   margin-top: 0; }
-  article#post-venta section#Descripcion1 div.container {
+  article#post-venta section#Descripcion1 div.container, article#post-venta-mobile section#Descripcion1 div.container {
     text-align: center; }
-    article#post-venta section#Descripcion1 div.container h2.title-section {
+    article#post-venta section#Descripcion1 div.container h2.title-section, article#post-venta-mobile section#Descripcion1 div.container h2.title-section {
       border-bottom: none;
       color: #17569b;
       font-weight: 500; }
-    article#post-venta section#Descripcion1 div.container a.enlace-sencillo {
+    article#post-venta section#Descripcion1 div.container a.enlace-sencillo, article#post-venta-mobile section#Descripcion1 div.container a.enlace-sencillo {
       color: #17569b;
       font-weight: 500; }
-article#post-venta section#Descripcion2 {
+article#post-venta section#Descripcion2, article#post-venta-mobile section#Descripcion2 {
   margin-top: 0; }
-  article#post-venta section#Descripcion2 h2.title-section {
+  article#post-venta section#Descripcion2 h2.title-section, article#post-venta-mobile section#Descripcion2 h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion2 p {
+  article#post-venta section#Descripcion2 p, article#post-venta-mobile section#Descripcion2 p {
     width: 75%;
     text-align: justify; }
-  article#post-venta section#Descripcion2 a.enlace-sencillo {
+  article#post-venta section#Descripcion2 a.enlace-sencillo, article#post-venta-mobile section#Descripcion2 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion2 figure {
+  article#post-venta section#Descripcion2 figure, article#post-venta-mobile section#Descripcion2 figure {
     margin: 0; }
-    article#post-venta section#Descripcion2 figure video {
+    article#post-venta section#Descripcion2 figure video, article#post-venta-mobile section#Descripcion2 figure video {
       max-width: 100%;
       height: 1000px; }
-article#post-venta section#Descripcion3 {
+article#post-venta section#Descripcion3, article#post-venta-mobile section#Descripcion3 {
   background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -981,17 +1019,17 @@ article#post-venta section#Descripcion3 {
   width: 100%;
   padding-bottom: 25rem;
   padding-top: 10rem; }
-  article#post-venta section#Descripcion3 h2.title-section {
+  article#post-venta section#Descripcion3 h2.title-section, article#post-venta-mobile section#Descripcion3 h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion3 p {
+  article#post-venta section#Descripcion3 p, article#post-venta-mobile section#Descripcion3 p {
     width: 70%;
     text-align: justify; }
-  article#post-venta section#Descripcion3 a.enlace-sencillo {
+  article#post-venta section#Descripcion3 a.enlace-sencillo, article#post-venta-mobile section#Descripcion3 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-article#post-venta section#Servicios {
+article#post-venta section#Servicios, article#post-venta-mobile section#Servicios {
   background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   padding-top: 8rem;
@@ -1001,22 +1039,45 @@ article#post-venta section#Servicios {
   background-color: transparent;
   background-size: cover;
   background-position: center; }
-  article#post-venta section#Servicios ul {
+  article#post-venta section#Servicios ul, article#post-venta-mobile section#Servicios ul {
     text-decoration: none; }
-    article#post-venta section#Servicios ul li {
+    article#post-venta section#Servicios ul li, article#post-venta-mobile section#Servicios ul li {
       list-style-type: none;
       list-style-image: url("borrar-luego/icon-list_post-venta.png");
       margin-top: 1rem; }
-  article#post-venta section#Servicios h2.title-section {
+  article#post-venta section#Servicios h2.title-section, article#post-venta-mobile section#Servicios h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Servicios a.enlace-sencillo {
+  article#post-venta section#Servicios a.enlace-sencillo, article#post-venta-mobile section#Servicios a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-article#post-venta #FAQ-post-venta {
+article#post-venta #FAQ-post-venta, article#post-venta-mobile #FAQ-post-venta {
   margin-top: 3rem;
   margin-bottom: 8rem; }
+
+article#post-venta-mobile section.Slider-mobile {
+  background-image: url("borrar-luego/bg_post-venta-slider-mobile.jpg");
+  color: #fff;
+  text-align: center;
+  background-size: cover; }
+  article#post-venta-mobile section.Slider-mobile div {
+    padding-top: 25rem;
+    padding-bottom: 25rem; }
+article#post-venta-mobile section#Descripcion1-mobile {
+  padding-top: 130px;
+  padding-bottom: 580px;
+  width: 100%;
+  margin-top: 0; }
+  article#post-venta-mobile section#Descripcion1-mobile div.container {
+    text-align: center; }
+    article#post-venta-mobile section#Descripcion1-mobile div.container h2.title-section {
+      border-bottom: none;
+      color: #17569b;
+      font-weight: 500; }
+    article#post-venta-mobile section#Descripcion1-mobile div.container a.enlace-sencillo {
+      color: #17569b;
+      font-weight: 500; }
 
 /* -- Media Query -- */
 /*==================================================
@@ -1027,7 +1088,161 @@ article#post-venta #FAQ-post-venta {
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 /* Medium Devices, Desktops */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  article#post-venta section#Descripcion1 {
+    background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 580px;
+    width: 100%;
+    margin-top: 0; }
+  article#post-venta section#Descripcion2 {
+    margin-top: 0; }
+    article#post-venta section#Descripcion2 p {
+      width: 75%;
+      text-align: justify; }
+    article#post-venta section#Descripcion2 figure {
+      margin: 0; }
+      article#post-venta section#Descripcion2 figure video {
+        max-width: 100%;
+        height: auto; }
+  article#post-venta section#Descripcion3 {
+    background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 25rem;
+    padding-top: 10rem; }
+    article#post-venta section#Descripcion3 p {
+      width: 70%;
+      text-align: justify; }
+  article#post-venta section#Servicios {
+    background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center; }
+    article#post-venta section#Servicios ul li {
+      list-style-type: none;
+      list-style-image: url("borrar-luego/icon-list_post-venta.png");
+      margin-top: 1rem; }
+  article#post-venta #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem; } }
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1700px) and (min-width: 1200px) {
+  article#post-venta section#Descripcion1 {
+    background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 580px;
+    width: 100%;
+    margin-top: 0; }
+  article#post-venta section#Descripcion2 {
+    margin-top: 0; }
+    article#post-venta section#Descripcion2 p {
+      width: 75%;
+      text-align: justify; }
+    article#post-venta section#Descripcion2 figure {
+      margin: 0; }
+      article#post-venta section#Descripcion2 figure video {
+        max-width: 100%;
+        height: auto; }
+  article#post-venta section#Descripcion3 {
+    background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 25rem;
+    padding-top: 10rem; }
+    article#post-venta section#Descripcion3 p {
+      width: 70%;
+      text-align: justify; }
+  article#post-venta section#Servicios {
+    background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center; }
+    article#post-venta section#Servicios ul li {
+      list-style-type: none;
+      list-style-image: url("borrar-luego/icon-list_post-venta.png");
+      margin-top: 1rem; }
+  article#post-venta #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem; } }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 2000px) and (min-width: 1700px) {
+  article#post-venta section#Descripcion1 {
+    background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    padding-top: 130px;
+    padding-bottom: 580px;
+    width: 100%;
+    margin-top: 0; }
+  article#post-venta section#Descripcion2 {
+    margin-top: 0; }
+    article#post-venta section#Descripcion2 p {
+      width: 75%;
+      text-align: justify; }
+    article#post-venta section#Descripcion2 figure {
+      margin: 0; }
+      article#post-venta section#Descripcion2 figure video {
+        max-width: 100%;
+        height: 1000px; }
+  article#post-venta section#Descripcion3 {
+    background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 25rem;
+    padding-top: 10rem; }
+    article#post-venta section#Descripcion3 p {
+      width: 70%;
+      text-align: justify; }
+  article#post-venta section#Servicios {
+    background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
+    background-repeat: no-repeat;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center; }
+    article#post-venta section#Servicios ul li {
+      list-style-type: none;
+      list-style-image: url("borrar-luego/icon-list_post-venta.png");
+      margin-top: 1rem; }
+  article#post-venta #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem; } }
 /* Extra Large Devices, Wide Screens */
 @media only screen and (min-width: 2000px) {
   article#post-venta section#Descripcion1 {
@@ -1050,7 +1265,7 @@ article#post-venta #FAQ-post-venta {
       margin: 0; }
       article#post-venta section#Descripcion2 figure video {
         max-width: 100%;
-        height: 1000px; }
+        height: auto; }
   article#post-venta section#Descripcion3 {
     background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
     background-repeat: no-repeat;

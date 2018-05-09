@@ -66,3 +66,65 @@
     padding-left: 0 !important;
 }
 
+
+
+
+//////**** SOLO MOBILE ****/////
+
+/* 1) Textos */
+.solo-mobile {
+	
+	h1 {
+		font-family: $fuente1;
+		font-size: $font-big2;
+	}
+	h2 {
+		font-family: $fuente1;
+		font-size: $font-med2; //*
+	}
+	p {
+		font-family: $fuente1;
+		font-size: $font-peq1; //*
+	}
+	p.big {
+		font-family: $fuente1;
+		font-size: $font-med2;
+	}
+	p.biggest {
+		font-family: $fuente1;
+		font-size: $font-big1;
+	}
+	p.title, a.title {
+		font-family: $fuente1;
+		font-size: $font-med1;
+	}
+	p.sub-title {
+		font-family: $fuente1;
+		font-size: $font-peq2;
+		font-weight: 600;
+	}
+	p.min {
+		font-family: $fuente1;
+		font-size: $font-peq1;
+	}
+	p.num {
+		font-family: $fuente2;
+	}
+	
+	h2.title-section {		
+		padding-bottom: 2.5rem;
+		border-bottom: 1px solid;
+	}
+
+
+	/* Grid  */
+	.container-fluid {
+		width: 100%;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+
+	
+}
+	
+
