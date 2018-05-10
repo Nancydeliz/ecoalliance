@@ -973,6 +973,8 @@ section.FAQ {
           text-decoration: none; }
         section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
+  section.FAQ #accordionFAQ div.show[id^='sub'] .card-body {
+    padding-top: 0; }
 
 section.FAQ.solo-mobile {
   padding-bottom: 0rem;
@@ -1218,19 +1220,28 @@ article#post-venta-mobile {
   #FAQ-post-venta {
     margin-top: 3rem;
     margin-bottom: 8rem;
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .img-fluid {
+    width: 100%; } }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 576px) {
   #FAQ-post-venta {
     margin-top: 3rem;
     margin-bottom: 8rem;
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .img-fluid {
+    width: 100%; } }
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   #FAQ-post-venta {
     margin-top: 3rem;
     margin-bottom: 8rem;
-    padding-top: 0; } }
+    padding-top: 0; }
+
+  .img-fluid {
+    width: 100%; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
   article#post-venta section#Descripcion1 {

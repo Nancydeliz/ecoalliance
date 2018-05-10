@@ -163,6 +163,12 @@ section.FAQ {
 			
 		}
 		
+		div.show[id^='sub'] {
+			.card-body {
+				padding-top: 0;
+			}
+		}
+		
 		
 	}
 	
