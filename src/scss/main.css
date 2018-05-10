@@ -974,7 +974,9 @@ section.FAQ {
         section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
   section.FAQ #accordionFAQ div.show[id^='sub'] .card-body {
-    padding-top: 0; }
+    padding-top: 0;
+    text-align: justify;
+    direction: ltr; }
 
 section.FAQ.solo-mobile {
   padding-bottom: 0rem;
@@ -1032,7 +1034,7 @@ section.FAQ.solo-mobile {
       top: 1px;
       transform: none; }
   section.FAQ.solo-mobile #accordionFAQ .card-body {
-    padding-left: 35px; }
+    font-size: 0.87rem; }
     section.FAQ.solo-mobile #accordionFAQ .card-body a {
       color: #242424; }
       section.FAQ.solo-mobile #accordionFAQ .card-body a:link, section.FAQ.solo-mobile #accordionFAQ .card-body a:visited, section.FAQ.solo-mobile #accordionFAQ .card-body a:hover, section.FAQ.solo-mobile #accordionFAQ .card-body a:active, section.FAQ.solo-mobile #accordionFAQ .card-body a:focus {
@@ -1078,6 +1080,12 @@ section.FAQ.solo-mobile {
           text-decoration: none; }
         section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
+  section.FAQ.solo-mobile #accordionFAQ div.show[id^='sub'] .card-body {
+    padding-top: 0;
+    padding-left: 0;
+    text-align: justify;
+    direction: ltr;
+    word-spacing: 30px; }
 
 /* Estilos para la p├ígina de Servicio Post-Venta */
 #FAQ-post-venta {
@@ -1117,7 +1125,8 @@ article#post-venta section#Descripcion2, article#post-venta-mobile section#Descr
     font-weight: 500; }
   article#post-venta section#Descripcion2 p, article#post-venta-mobile section#Descripcion2 p {
     width: 75%;
-    text-align: justify; }
+    text-align: justify;
+    direction: ltr; }
   article#post-venta section#Descripcion2 a.enlace-sencillo, article#post-venta-mobile section#Descripcion2 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }

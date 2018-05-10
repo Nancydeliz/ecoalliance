@@ -166,6 +166,8 @@ section.FAQ {
 		div.show[id^='sub'] {
 			.card-body {
 				padding-top: 0;
+				text-align:justify;
+				direction:ltr;
 			}
 		}
 		
@@ -267,7 +269,7 @@ section.FAQ.solo-mobile {
 		
 		.card-body {
 			
-			padding-left: 35px;
+			font-size: $font-peq1;
 			
 			a {
 				color: $cbg-4;
@@ -344,10 +346,15 @@ section.FAQ.solo-mobile {
 			
 		}
 		
-		
+		div.show[id^='sub'] {
+			.card-body {
+				padding-top: 0;
+				padding-left: 0;
+				text-align:justify;
+				direction:ltr;
+				word-spacing:30px;
+			}
+		}
+	
 	}
-	
-	
-	
-	
 }
