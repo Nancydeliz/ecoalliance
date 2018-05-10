@@ -86,6 +86,12 @@
 		font-family: $fuente1;
 		font-size: $font-peq1; //*
 	}
+	
+	li {
+		font-family: $fuente1;
+		font-size: $font-peq1;
+	}
+	
 	p.big {
 		font-family: $fuente1;
 		font-size: $font-med2;
@@ -96,11 +102,11 @@
 	}
 	p.title, a.title {
 		font-family: $fuente1;
-		font-size: $font-med1;
+		font-size: $font-peq2;
 	}
 	p.sub-title {
 		font-family: $fuente1;
-		font-size: $font-peq2;
+		font-size: $font-peq1;
 		font-weight: 600;
 	}
 	p.min {

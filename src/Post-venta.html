@@ -34,6 +34,8 @@
 <script src="js/jquery.dataTables.min.js"></script>
 <!-- Mis JS para Post-Venta -->
 <script src="js/_post-venta.js"></script>
+<!-- Mis JS para FAQ -->
+<script src="js/_faq.js"></script>
 
 
 </head>
@@ -255,7 +257,7 @@
   
   <main class="container-fluid">
   <!-- Menú Auxiliar de la Página -->	
-	<div class="container-fluid nav-aux-article fixed-bottom" id="nav-aux-post-venta">
+	<div class="container-fluid nav-aux-article fixed-bottom d-none d-lg-block" id="nav-aux-post-venta">
 		<nav class="container navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand title" href="#">Servicio Post-Venta</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-aux" aria-controls="navbar-aux" aria-expanded="false" aria-label="Toggle navigation">
@@ -348,9 +350,113 @@
     		</div>    		
     	</div>
     </section>
-    
-    
-    
+        
+   </article>
+  
+  <!-- Servicio Post-venta verion < 992 px --> 
+  
+  <!-- Menú Auxiliar de la Página < 992 px -->	
+	<div class="container-fluid nav-aux-article fixed-bottom d-lg-none" id="nav-aux-post-venta-mobile">
+		<nav class="container navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand title" href="#">Servicio Post-Venta</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-aux-mobile" aria-controls="navbar-aux-mobile" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbar-aux-mobile">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link link-naux-1" href="#Descripcion1-mobile">Descripción <span class="sr-only">Descripción</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-naux-2" href="#Servicios-mobile">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link link-naux-3" href="#FAQ-post-venta-mobile">Preguntas Frecuentes</a>
+					</li>
+					<button type="button" class="btn btn-cea1">Contactar</button>
+				</ul>
+			</div>
+		</nav>
+	</div>			 
+  
+   <article id="post-venta-mobile" class="d-lg-none solo-mobile">
+  <!-- Intro - Servicio Post-venta < 992 px -->
+  	<section class="Slider-mobile FullScreen">
+  		<div class="col-md-12">
+  			<figure>
+  				<img class="img-fluid" alt="El Mejor Soporte y Servicio Técnico - Personal Especializado y Repuestos 100% Originales" src="scss/borrar-luego/bg_post-venta-slider-mobile2.jpg">
+  			</figure>		
+  		</div>  		
+  	</section>
+  	<!-- Descripción I Parte - Servicio Post-venta < 992 px-->  	
+  	<section class="Iparte FullScreen Bg-Full" id="Descripcion1-mobile">
+    	<div class="container">
+    		<div class="col-md-12">
+    			<h2 class="title-section ef-subida">Innovación y Conocimiento Técnico</h2>
+    		</div>
+    		<div class="col-md-12">
+    			<p class="text-center ef-subida">El servicio Postventa de EcoAlliance se basa en la capacidad de innovación y conocimiento técnico de nuestro equipo profesional. Para entregar el mejor soporte y respaldo técnico a nuestros clientes, disponemos de Servicio Técnico en Terreno para mantención y atención de emergencias. El logro de la máxima confiabilidad y disponibilidad de los equipos son el principal objetivo de nuestra visión de servicio.</p>
+    		</div>
+    		<div class="col-md-12 mg-3-top">
+    			<a class="enlace-sencillo" href="#"><p class="ef-subida">Contactar a un profesional > </p></a>
+    		</div>
+    	</div>
+    </section>
+    <!-- Descripción II Parte - Servicio Post-venta -->
+    <section class="IIparte FullScreen" id="Descripcion2-mobile">
+      	<div class="col-md-12 pd-0-left pd-0-right" >
+  			<figure>
+  				<img class="img-fluid" alt="Continuidad Operativa - Servicio de Mantención" src="scss/borrar-luego/desc2_post-venta-slider-mobile2.jpg">
+  			</figure>		
+  		</div>  	
+       	<div class="col-md-12 pd-2-top">
+    		<h2 class="title-section ef-subida">Continuidad Operativa</h2>
+    		<p class="ef-subida">En EcoAlliance ofrecemos variadas alternativas en Contratos de Mantención de equipos para asegurar su Continuidad Operativa.</p>
+    		<a class="enlace-sencillo" href="#"><p class="mg-1-5-top ef-subida">Solicitar mantención > </p></a>
+    	</div>
+    </section>
+    <!-- Descripción III Parte - Servicio Post-venta -->
+    <section class="IIIparte FullScreen Bg-Full" id="Descripcion3-mobile">
+    	<div class="col-md-12 pd-0-left pd-0-right" >
+  			<figure>
+  				<img class="img-fluid" alt="Continuidad Operativa - Servicio de Mantención" src="scss/borrar-luego/desc3_post-venta-slider-mobile2.jpg">
+  			</figure>		
+  		</div>  	
+       	<div class="col-md-12 pd-2-top">
+    		<h2 class="title-section ef-subida">Repuestos e Insumos 100% Originales</h2>
+    		<p class="ef-subida">Garantizando a nuestros clientes el mejor desempeño del equipo adquirido junto con una larga vida útil de este y sus componentes.</p>
+    		<a class="enlace-sencillo" href="#"><p class="mg-1-5-top ef-subida">Ver Insumos y Repuestos > </p></a>
+    	</div>
+    </section>
+    <!-- Descripción VI Parte - Servicio Post-venta -->
+    <section class="VIparte FullScreen Bg-Full" id="Servicios-mobile">
+    	<div class="col-md-12 pd-0-left pd-0-right" >
+  			<figure>
+  				<img class="img-fluid" alt="Continuidad Operativa - Servicio de Mantención" src="scss/borrar-luego/serv_post-venta-slider-mobile2.jpg">
+  			</figure>		
+  		</div>  	
+       	<div class="col-md-12 pd-2-top">
+    		<h2 class="title-section ef-subida">Servicios realizados por Personal Especializado:</h2>
+    		<ul class="ef-subida">
+    			<li><span></span>Servicios de puesta en marcha de equipos nuevos.</li>
+				<li><span></span>Capacitación técnica.</li>
+				<li><span></span>Servicio Técnico para equipos y componentes.</li>
+				<li><span></span>Visitas de diagnóstico y detección de fallas.</li>
+				<li><span></span>Información Técnica.</li>
+				<li><span></span>Servicios de mantenimiento en terreno.</li>
+				<li><span></span>Asistencia Telefónica.</li>
+				<li><span></span>Contratos de mantención.</li>
+				<li><span></span>Atención de garantías.</li>
+				<li><span></span>Suministro de Insumos y Repuestos.</li>   					
+    		</ul>    			
+    			
+    		<a class="enlace-sencillo" href="#"><p class="mg-3-top mg-1-5-left ef-subida"><i class="fas fa-user mg-1-right"></i>Ingresar a Zona de Clientes > </p></a>
+    	</div>    
+    	
+    </section>
+  
+   </article>
+  
    <!-- Sección de Preguntas Frecuentes (FAQ) -->
   	<section id="FAQ-post-venta" class="FAQ">
   		<div class="container"> 
@@ -622,33 +728,6 @@
   		</div>
   	</section>
   <!-- / Sección de Preguntas Frecuentes (FAQ) -->
-   </article>
-  
-  <!-- Servicio Post-venta verion < 992 px -->
-  <article id="post-venta-mobile" class="d-lg-none solo-mobile">
-  	<!-- Descripción I Parte - Servicio Post-venta -->
-  	<section class="Slider-mobile FullScreen">
-  		<div class="col-md-12">
-  			<figure>
-  				<img class="img-fluid" alt="El Mejor Soporte y Servicio Técnico - Personal Especializado y Repuestos 100% Originales" src="scss/borrar-luego/bg_post-venta-slider-mobile2.jpg">
-  			</figure>		
-  		</div>  		
-  	</section>
-  	<section class="Iparte FullScreen Bg-Full" id="Descripcion1-mobile">
-    	<div class="container">
-    		<div class="col-md-12">
-    			<h2 class="title-section ef-subida">Innovación y Conocimiento Técnico</h2>
-    		</div>
-    		<div class="col-md-12">
-    			<p class="text-center ef-subida">El servicio Postventa de EcoAlliance se basa en la capacidad de innovación y conocimiento técnico de nuestro equipo profesional. Para entregar el mejor soporte y respaldo técnico a nuestros clientes, disponemos de Servicio Técnico en Terreno para mantención y atención de emergencias. El logro de la máxima confiabilidad y disponibilidad de los equipos son el principal objetivo de nuestra visión de servicio.</p>
-    		</div>
-    		<div class="col-md-12 mg-3-top">
-    			<a class="enlace-sencillo" href="#"><p class="ef-subida">Contactar a un profesional > </p></a>
-    		</div>
-    	</div>
-    </section>
-  	
-  </article>
   
   	
   </main>

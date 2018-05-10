@@ -93,6 +93,9 @@ h2.title-section {
   .solo-mobile p {
     font-family: "Raleway", sans-serif;
     font-size: 0.87rem; }
+  .solo-mobile li {
+    font-family: "Raleway", sans-serif;
+    font-size: 0.87rem; }
   .solo-mobile p.big {
     font-family: "Raleway", sans-serif;
     font-size: 1.5rem; }
@@ -101,10 +104,10 @@ h2.title-section {
     font-size: 2rem; }
   .solo-mobile p.title, .solo-mobile a.title {
     font-family: "Raleway", sans-serif;
-    font-size: 1.2rem; }
+    font-size: 1.1rem; }
   .solo-mobile p.sub-title {
     font-family: "Raleway", sans-serif;
-    font-size: 1.1rem;
+    font-size: 0.87rem;
     font-weight: 600; }
   .solo-mobile p.min {
     font-family: "Raleway", sans-serif;
@@ -136,6 +139,8 @@ h2.title-section {
     height: 3rem; }
   #nav-first .nav-link {
     color: #fff; }
+    #nav-first .nav-link:hover {
+      color: #59a0d3; }
   #nav-first .dropdown-item {
     font-size: 0.87rem; }
   #nav-first .dropdown-header {
@@ -876,7 +881,8 @@ section.FAQ {
   section.FAQ .box-FAQs {
     margin-top: 3rem; }
   section.FAQ h2.title-section {
-    border-bottom-color: #c4c4c4; }
+    border-bottom-color: #c4c4c4;
+    color: #356daf; }
   section.FAQ #accordionFAQ .card {
     position: relative;
     display: -ms-flexbox;
@@ -968,7 +974,115 @@ section.FAQ {
         section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
 
+section.FAQ.solo-mobile {
+  padding-bottom: 0rem;
+  padding-top: 0rem; }
+  section.FAQ.solo-mobile .box-FAQs {
+    margin-top: 3rem; }
+  section.FAQ.solo-mobile h2.title-section {
+    border-bottom-color: #c4c4c4;
+    font-size: 1.5rem;
+    color: #17569b; }
+  section.FAQ.solo-mobile #accordionFAQ .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem; }
+  section.FAQ.solo-mobile #accordionFAQ .card-header {
+    padding: 0 .25rem;
+    margin-bottom: 0;
+    background-color: #f2f2f2;
+    border-bottom: 0;
+    margin-top: 0.5rem; }
+    section.FAQ.solo-mobile #accordionFAQ .card-header p.title {
+      margin-bottom: 0;
+      font-weight: 600;
+      font-size: 1.1rem; }
+      section.FAQ.solo-mobile #accordionFAQ .card-header p.title i {
+        padding-left: 5px;
+        color: #17569b; }
+    section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link {
+      font-weight: 400;
+      color: #242424;
+      background-color: transparent; }
+      section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:link, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:focus {
+        text-decoration: none; }
+    section.FAQ.solo-mobile #accordionFAQ .card-header button.collapsed p::after {
+      content: "+"; }
+    section.FAQ.solo-mobile #accordionFAQ .card-header button p::after {
+      content: "-";
+      padding-left: 5px;
+      color: #17569b;
+      display: inline-block;
+      border: none;
+      font-size: 20px;
+      font-weight: 700;
+      position: relative;
+      right: 0px;
+      text-align: center;
+      top: 1px;
+      transform: none; }
+  section.FAQ.solo-mobile #accordionFAQ .card-body {
+    padding-left: 35px; }
+    section.FAQ.solo-mobile #accordionFAQ .card-body a {
+      color: #242424; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body a:link, section.FAQ.solo-mobile #accordionFAQ .card-body a:visited, section.FAQ.solo-mobile #accordionFAQ .card-body a:hover, section.FAQ.solo-mobile #accordionFAQ .card-body a:active, section.FAQ.solo-mobile #accordionFAQ .card-body a:focus {
+        text-decoration: none; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body a:visited, section.FAQ.solo-mobile #accordionFAQ .card-body a:hover, section.FAQ.solo-mobile #accordionFAQ .card-body a:active, section.FAQ.solo-mobile #accordionFAQ .card-body a:focus {
+        color: #17569b; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body a[aria-expanded="false"] p::after {
+        content: "+"; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body a p::after {
+        content: "-";
+        padding-left: 5px;
+        color: #17569b;
+        display: inline-block;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        position: relative;
+        right: 0px;
+        text-align: center;
+        top: 1px;
+        transform: none; }
+    section.FAQ.solo-mobile #accordionFAQ .card-body .card-header {
+      padding: 0;
+      margin-bottom: 0;
+      background-color: #fff;
+      border-bottom: 0;
+      margin-top: 0.5rem; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title {
+        font-size: 0.87rem; }
+        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title i {
+          padding-left: 5px;
+          color: #17569b; }
+      section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link {
+        font-weight: 400;
+        color: #242424;
+        background-color: transparent;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        border-bottom-width: 0px;
+        border-top-width: 0px;
+        margin-top: 12px; }
+        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
+          text-decoration: none; }
+        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
+          color: #17569b; }
+
 /* Estilos para la p├ígina de Servicio Post-Venta */
+#FAQ-post-venta {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  padding-top: 10rem; }
+
 article#post-venta a, article#post-venta-mobile a {
   text-decoration: none; }
   article#post-venta a:hover, article#post-venta-mobile a:hover {
@@ -1052,26 +1166,47 @@ article#post-venta section#Servicios, article#post-venta-mobile section#Servicio
   article#post-venta section#Servicios a.enlace-sencillo, article#post-venta-mobile section#Servicios a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-article#post-venta #FAQ-post-venta, article#post-venta-mobile #FAQ-post-venta {
-  margin-top: 3rem;
-  margin-bottom: 8rem; }
 
-article#post-venta-mobile section.Slider-mobile div {
-  padding: 0; }
-article#post-venta-mobile section#Descripcion1-mobile {
-  padding-top: 130px;
-  padding-bottom: 580px;
-  width: 100%;
-  margin-top: 0; }
-  article#post-venta-mobile section#Descripcion1-mobile div.container {
-    text-align: center; }
-    article#post-venta-mobile section#Descripcion1-mobile div.container h2.title-section {
+article#post-venta-mobile {
+  margin-bottom: 5rem; }
+  article#post-venta-mobile h2 {
+    line-height: 1.3; }
+  article#post-venta-mobile section.Slider-mobile div {
+    padding: 0; }
+  article#post-venta-mobile section#Descripcion1-mobile {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    margin-top: 0; }
+    article#post-venta-mobile section#Descripcion1-mobile div.container {
+      text-align: center; }
+      article#post-venta-mobile section#Descripcion1-mobile div.container h2.title-section {
+        border-bottom: none;
+        color: #17569b;
+        font-weight: 500; }
+      article#post-venta-mobile section#Descripcion1-mobile div.container a.enlace-sencillo {
+        color: #17569b;
+        font-weight: 500; }
+  article#post-venta-mobile section#Descripcion2-mobile, article#post-venta-mobile section#Descripcion3-mobile, article#post-venta-mobile section#Servicios-mobile {
+    margin-bottom: 3rem; }
+    article#post-venta-mobile section#Descripcion2-mobile h2.title-section, article#post-venta-mobile section#Descripcion3-mobile h2.title-section, article#post-venta-mobile section#Servicios-mobile h2.title-section {
       border-bottom: none;
       color: #17569b;
-      font-weight: 500; }
-    article#post-venta-mobile section#Descripcion1-mobile div.container a.enlace-sencillo {
+      font-weight: 500;
+      padding-bottom: 1rem; }
+    article#post-venta-mobile section#Descripcion2-mobile a.enlace-sencillo, article#post-venta-mobile section#Descripcion3-mobile a.enlace-sencillo, article#post-venta-mobile section#Servicios-mobile a.enlace-sencillo {
       color: #17569b;
       font-weight: 500; }
+    article#post-venta-mobile section#Descripcion2-mobile ul, article#post-venta-mobile section#Descripcion3-mobile ul, article#post-venta-mobile section#Servicios-mobile ul {
+      text-decoration: none; }
+      article#post-venta-mobile section#Descripcion2-mobile ul li, article#post-venta-mobile section#Descripcion3-mobile ul li, article#post-venta-mobile section#Servicios-mobile ul li {
+        list-style-type: none;
+        list-style-image: url("borrar-luego/icon-list_post-venta2.png");
+        margin-top: 1rem; }
+  article#post-venta-mobile section#Servicios-mobile {
+    background-color: #ebf2f8;
+    padding-bottom: 3rem;
+    margin-bottom: 0; }
 
 /* -- Media Query -- */
 /*==================================================
@@ -1079,8 +1214,23 @@ article#post-venta-mobile section#Descripcion1-mobile {
 ==================================================*/
 /*==========  Mobile First Method  ==========*/
 /* Custom, iPhone Retina */
+@media only screen and (max-width: 576px) {
+  #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 0; } }
 /* Extra Small Devices, Phones */
+@media only screen and (min-width: 576px) {
+  #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 0; } }
 /* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 0; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
   article#post-venta section#Descripcion1 {
@@ -1184,7 +1334,12 @@ article#post-venta-mobile section#Descripcion1-mobile {
       margin-top: 1rem; }
   article#post-venta #FAQ-post-venta {
     margin-top: 3rem;
-    margin-bottom: 8rem; } }
+    margin-bottom: 8rem; }
+
+  #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 10rem; } }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 2000px) and (min-width: 1700px) {
   article#post-venta section#Descripcion1 {
@@ -1236,7 +1391,12 @@ article#post-venta-mobile section#Descripcion1-mobile {
       margin-top: 1rem; }
   article#post-venta #FAQ-post-venta {
     margin-top: 3rem;
-    margin-bottom: 8rem; } }
+    margin-bottom: 8rem; }
+
+  #FAQ-post-venta {
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    padding-top: 10rem; } }
 /* Extra Large Devices, Wide Screens */
 @media only screen and (min-width: 2000px) {
   article#post-venta section#Descripcion1 {
@@ -1286,9 +1446,11 @@ article#post-venta-mobile section#Descripcion1-mobile {
       list-style-type: none;
       list-style-image: url("borrar-luego/icon-list_post-venta.png");
       margin-top: 1rem; }
-  article#post-venta #FAQ-post-venta {
+
+  #FAQ-post-venta {
     margin-top: 3rem;
-    margin-bottom: 8rem; } }
+    margin-bottom: 8rem;
+    padding-top: 10rem; } }
 /* Estilos para los botones */
 button.btn-cea1 {
   background-color: #59a0d3;

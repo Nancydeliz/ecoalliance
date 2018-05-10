@@ -1,5 +1,13 @@
 /* Estilos para la página de Servicio Post-Venta */
 
+#FAQ-post-venta {
+		
+	margin-top: 3rem;
+	margin-bottom: 8rem;
+	padding-top: 10rem;
+		
+}
+
 article#post-venta, article#post-venta-mobile {
 		
 	a {
@@ -137,32 +145,29 @@ article#post-venta, article#post-venta-mobile {
 		}
 			
 		
-	}
-	
-	#FAQ-post-venta {
-		
-		margin-top: 3rem;
-		margin-bottom: 8rem;
-		
-	}
+	}	
 	
 }
 
 article#post-venta-mobile {
+	
+	margin-bottom: 5rem;
+	
+	h2 {
+		line-height: 1.3;
+	}
 	
 	section.Slider-mobile {
 		
 		div {
 			padding: 0;
 		}
-		
-		
 	}
 	
 	section#Descripcion1-mobile {
 				
-		padding-top: 130px; //esto es para que ocupe todo el alto de la pantalla
-		padding-bottom: 580px; //esto es para que ocupe todo el alto de la pantalla
+		padding-top: 3rem;
+		padding-bottom: 3rem;
 		width: 100%; 
 		margin-top: 0;
 		
@@ -184,6 +189,42 @@ article#post-venta-mobile {
 		
 	}
 	
+	section#Descripcion2-mobile, section#Descripcion3-mobile, section#Servicios-mobile {
+		
+		margin-bottom: 3rem;
+		
+		h2.title-section {
+			border-bottom: none;
+			color: $cea-2;
+			font-weight: 500;
+			padding-bottom: 1rem;
+		}
+		
+		a.enlace-sencillo {
+			color: $cea-2;
+			font-weight: 500;
+		}
+		
+		ul {
+			text-decoration: none;
+			li {
+				list-style-type: none;
+				list-style-image: url("borrar-luego/icon-list_post-venta2.png");
+				margin-top: 1rem;
+				
+			}
+		}
+		
+				
+	}
+	
+	section#Servicios-mobile {
+		
+		background-color: $cbg-1;
+		padding-bottom: 3rem;
+		margin-bottom: 0;
+		
+	}
 	
 	
 	
@@ -201,7 +242,15 @@ article#post-venta-mobile {
     /*==========  Mobile First Method  ==========*/
 
     /* Custom, iPhone Retina */ 
-    @media only screen and (min-width : $screen-xs) {		
+    @media only screen and (max-width : $screen-xs) {		
+		
+		#FAQ-post-venta {
+		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 0;
+
+		}
 		
     }
 
@@ -209,7 +258,13 @@ article#post-venta-mobile {
     /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : $screen-sm) {
 		
+		#FAQ-post-venta {
+		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 0;
 
+		}
 	   
     }
 
@@ -217,6 +272,13 @@ article#post-venta-mobile {
     /* Small Devices, Tablets */
     @media only screen and (min-width : $screen-md) {
 		
+		#FAQ-post-venta {
+		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 0;
+
+		}
 
     }
 
@@ -402,6 +464,15 @@ article#post-venta-mobile {
 			}
 
 		}
+		
+		#FAQ-post-venta {
+		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 10rem;
+
+		}
+
 	
 		
     } // Cierre
@@ -496,7 +567,13 @@ article#post-venta-mobile {
 
 		}
 		
+		#FAQ-post-venta {
 		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 10rem;
+
+		}
 		
     } // Cierre de Large Devices
 
@@ -582,14 +659,17 @@ article#post-venta-mobile {
 				
 			}
 
-			#FAQ-post-venta {
-
-				margin-top: 3rem;
-				margin-bottom: 8rem;
-
-			}
+			
+		}
+		
+		#FAQ-post-venta {
+		
+			margin-top: 3rem;
+			margin-bottom: 8rem;
+			padding-top: 10rem;
 
 		}
+
 	
 		
     } // Cierre Extra Large Devices

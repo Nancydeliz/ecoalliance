@@ -22,6 +22,10 @@
 		
 	.nav-link {
 		color: #fff;
+		
+		&:hover {
+			color: $cea-1;
+		}
 	}
 	
 	.dropdown-item {

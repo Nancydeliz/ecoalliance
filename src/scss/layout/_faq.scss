@@ -11,6 +11,7 @@ section.FAQ {
 	
 	h2.title-section {
 		border-bottom-color: $cbg-3;
+		color: $cea-3;
 	}
 	
 	#accordionFAQ {
@@ -130,6 +131,181 @@ section.FAQ {
 				margin-top: 0.5rem;
 				
 				p.sub-title {
+					
+					i {
+						padding-left: 5px;
+						color: $cea-2;
+					}
+
+				}				
+				
+				.btn-link {
+					font-weight: 400;
+					color: $cbg-4;
+					background-color: transparent;
+					padding-bottom: 0px;
+					padding-top: 0px;
+					border-bottom-width: 0px;
+					border-top-width: 0px;
+					margin-top: 12px;
+
+					&:link, &:visited, &:hover, &:active, &:focus {
+						text-decoration: none;
+					}
+					
+					&:visited, &:hover, &:active, &:focus {
+						color: $cea-2;
+					}
+					
+				}
+				
+			}		
+			
+		}
+		
+		
+	}
+	
+	
+	
+	
+}
+
+section.FAQ.solo-mobile {
+	
+	padding-bottom: 0rem;
+	padding-top: 0rem;
+	
+	.box-FAQs {
+		margin-top: 3rem;
+	}
+	
+	h2.title-section {
+		border-bottom-color: $cbg-3;
+		font-size: $font-med2;
+		color: $cea-2;
+	}
+	
+	#accordionFAQ {
+		
+		.card {
+			position: relative;
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			min-width: 0;
+			word-wrap: break-word;
+			background-color: #fff;
+			background-clip: border-box;
+			border: none;
+			border-radius: .25rem;
+		}
+		
+		.card-header {
+			padding: 0 .25rem;
+			margin-bottom: 0;
+			background-color: $cbg-2;
+			border-bottom: 0;
+			margin-top: 0.5rem;
+
+			p.title {
+				margin-bottom: 0;
+				font-weight: 600;
+				font-size: $font-peq2;
+				
+				i {
+					padding-left: 5px;
+    				color: $cea-2;
+				}
+				
+			}
+
+			.btn-link {
+				font-weight: 400;
+				color: $cbg-4;
+				background-color: transparent;
+
+				&:link, &:visited, &:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+			}
+			
+			button {
+				
+				&.collapsed p::after {
+					content: "+"
+				}
+				
+				p::after {
+					content: "-";
+					padding-left: 5px;
+    				color: #17569b;
+					display: inline-block;
+					border: none;
+					font-size: 20px;
+					font-weight: 700;
+					position: relative;
+					right: 0px;
+					text-align: center;
+					top: 1px;
+					transform: none;
+				}
+				
+			}
+			
+			
+			
+			
+		}	
+		
+		.card-body {
+			
+			padding-left: 35px;
+			
+			a {
+				color: $cbg-4;
+				
+				&:link, &:visited, &:hover, &:active, &:focus {
+					text-decoration: none;
+				}
+					
+				&:visited, &:hover, &:active, &:focus {
+					color: $cea-2;
+				}
+				
+				&[aria-expanded="false"] p::after {
+					content: "+"
+				}
+				
+				p::after {
+					content: "-";
+					padding-left: 5px;
+    				color: #17569b;
+					display: inline-block;
+					border: none;
+					font-size: 20px;
+					font-weight: 700;
+					position: relative;
+					right: 0px;
+					text-align: center;
+					top: 1px;
+					transform: none;
+				}
+				
+			}
+			
+			
+			.card-header {
+				padding: 0;
+				margin-bottom: 0;
+				background-color: #fff;
+				border-bottom: 0;
+				margin-top: 0.5rem;
+				
+				p.sub-title {
+					
+					font-size: $font-peq1;
 					
 					i {
 						padding-left: 5px;
