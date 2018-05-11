@@ -1083,9 +1083,7 @@ section.FAQ.solo-mobile {
   section.FAQ.solo-mobile #accordionFAQ div.show[id^='sub'] .card-body {
     padding-top: 0;
     padding-left: 0;
-    text-align: justify;
-    direction: ltr;
-    word-spacing: 30px; }
+    text-align: left; }
 
 /* Estilos para la p├ígina de Servicio Post-Venta */
 #FAQ-post-venta {
