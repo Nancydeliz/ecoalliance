@@ -6,7 +6,7 @@ $(document).ready(function(){
        /* Para producir un deslizamiento suave a traves de los enlaces de la página (scroll) */
 		$(function(){
 
-			 $('a[href*=\\#]').click(function() {
+			 $('a.nav-link[href*=\\#]').click(function() {
 
 			 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 				 && location.hostname == this.hostname) {
