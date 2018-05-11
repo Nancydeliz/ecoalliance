@@ -8,7 +8,7 @@ $(document).ready(function(){
 				$(window).resize(function(){
 				if ($(window).width() < 992)
 				{
-					$("section.FAQ").addClass("solo-mobile");
+					$("section.FAQ").addClass("solo-mobile");					
 				}
 				else
 				{

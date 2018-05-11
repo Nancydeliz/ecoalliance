@@ -2,6 +2,20 @@
 
 $(document).ready(function(){
 	
+	/* Para agregar la clase "ocultar" al nav auxiliar, al reducir < 992px la ventana del navegador */
+	$(function(){
+		$(window).resize(function(){
+			if ($(window).width() < 992)
+			{
+				$("div#nav-aux-post-venta").addClass("ocultar");					
+			}
+			else
+			{
+				$("div#nav-aux-post-venta").removeClass("ocultar");					
+			}
+		});
+	});
+	
 	/* Para que se oculte el menú de post-venta cuando se esté cercano al footer */	
 	$(function(){
 		$(window).scroll(function(){
@@ -13,6 +27,21 @@ $(document).ready(function(){
 			else
 			{
 				$("#nav-aux-post-venta").fadeIn();
+					
+			}
+		});
+	});
+	
+	$(function(){
+		$(window).scroll(function(){
+			if ($(window).scrollTop() > 2000)
+			{
+				$("#nav-aux-post-venta-mobile").fadeOut();
+					
+			}
+			else
+			{
+				$("#nav-aux-post-venta-mobile").fadeIn();
 					
 			}
 		});
