@@ -1137,12 +1137,13 @@ article#post-venta section#Descripcion2, article#post-venta-mobile section#Descr
 article#post-venta section#Descripcion3, article#post-venta-mobile section#Descripcion3 {
   background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
   width: 100%;
-  padding-bottom: 25rem;
-  padding-top: 10rem; }
+  padding-top: 10rem;
+  height: 100vh;
+  margin-top: 0;
+  overflow: hidden; }
   article#post-venta section#Descripcion3 h2.title-section, article#post-venta-mobile section#Descripcion3 h2.title-section {
     border-bottom: none;
     color: #17569b;
@@ -1157,7 +1158,6 @@ article#post-venta section#Servicios, article#post-venta-mobile section#Servicio
   background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   padding-top: 8rem;
-  padding-bottom: 8rem;
   height: 100%;
   width: 100%;
   background-color: transparent;

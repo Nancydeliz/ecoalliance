@@ -31,6 +31,7 @@ article#post-venta, article#post-venta-mobile {
 		width: 100%; 
 		margin-top: 0;
 		overflow: hidden;
+		
 		div.container {
 			text-align: center;
 			
@@ -87,13 +88,16 @@ article#post-venta, article#post-venta-mobile {
 	section#Descripcion3 {
 		background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		//background-attachment: fixed;
 		background-size: cover;		
 		background-position: center; 
 		
 		width: 100%;
-		padding-bottom: 25rem;
+		//padding-bottom: 25rem;
 		padding-top: 10rem;
+		height: 100vh;
+		margin-top: 0;
+		overflow: hidden;
 		
 		h2.title-section {
 			border-bottom: none;
@@ -119,7 +123,6 @@ article#post-venta, article#post-venta-mobile {
 		background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
 		padding-top: 8rem;
-		padding-bottom: 8rem;
 		height: 100%;
 		width: 100%;
 		
@@ -150,6 +153,8 @@ article#post-venta, article#post-venta-mobile {
 			
 		
 	}	
+	
+	
 	
 }
 
