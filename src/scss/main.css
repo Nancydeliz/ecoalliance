@@ -723,11 +723,11 @@ footer {
   footer#footer-desktop .footer-sub .box-sub-f-link {
     padding-right: 4rem; } }
 /* Estilos para el Carousel (Slider) */
-header #slider-carousel-header .carousel-control-prev-icon {
+header #slider-carousel-header .carousel-control-prev-icon, .carousel-header #slider-carousel-header .carousel-control-prev-icon {
   display: none; }
-header #slider-carousel-header .carousel-control-next-icon {
+header #slider-carousel-header .carousel-control-next-icon, .carousel-header #slider-carousel-header .carousel-control-next-icon {
   display: none; }
-header #slider-carousel-header .carousel-caption {
+header #slider-carousel-header .carousel-caption, .carousel-header #slider-carousel-header .carousel-caption {
   position: absolute;
   right: 15%;
   top: 43%;
@@ -737,15 +737,15 @@ header #slider-carousel-header .carousel-caption {
   padding-bottom: 20px;
   color: #fff;
   text-align: left; }
-header #slider-carousel-header p.biggest {
+header #slider-carousel-header p.biggest, .carousel-header #slider-carousel-header p.biggest {
   font-weight: 700;
   margin-bottom: 0px;
   text-shadow: 0px 1px 2px black; }
-header #slider-carousel-header p.big {
+header #slider-carousel-header p.big, .carousel-header #slider-carousel-header p.big {
   font-weight: 300; }
-header #slider-carousel-header-mobile .carousel-indicators {
+header #slider-carousel-header-mobile .carousel-indicators, .carousel-header #slider-carousel-header-mobile .carousel-indicators {
   display: none; }
-header #slider-carousel-header-mobile .carousel-caption {
+header #slider-carousel-header-mobile .carousel-caption, .carousel-header #slider-carousel-header-mobile .carousel-caption {
   position: absolute;
   right: 15%;
   top: 40%;
@@ -755,12 +755,12 @@ header #slider-carousel-header-mobile .carousel-caption {
   padding-bottom: 20px;
   color: #fff;
   text-align: left; }
-header #slider-carousel-header-mobile p.biggest {
+header #slider-carousel-header-mobile p.biggest, .carousel-header #slider-carousel-header-mobile p.biggest {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 0px;
   text-shadow: 0px 1px 2px black; }
-header #slider-carousel-header-mobile p.big {
+header #slider-carousel-header-mobile p.big, .carousel-header #slider-carousel-header-mobile p.big {
   font-weight: 300;
   font-size: 1.3rem; }
 
@@ -772,9 +772,9 @@ header #slider-carousel-header-mobile p.big {
 /* Custom, iPhone Retina */
 /* Extra Small Devices, Phones */
 @media only screen and (min-width: 576px) {
-  header #slider-carousel-header-mobile .carousel-indicators {
+  header #slider-carousel-header-mobile .carousel-indicators, .carousel-header #slider-carousel-header-mobile .carousel-indicators {
     display: none; }
-  header #slider-carousel-header-mobile .carousel-caption {
+  header #slider-carousel-header-mobile .carousel-caption, .carousel-header #slider-carousel-header-mobile .carousel-caption {
     position: absolute;
     right: 15%;
     top: 40%;
@@ -784,19 +784,19 @@ header #slider-carousel-header-mobile p.big {
     padding-bottom: 20px;
     color: #fff;
     text-align: left; }
-  header #slider-carousel-header-mobile p.biggest {
+  header #slider-carousel-header-mobile p.biggest, .carousel-header #slider-carousel-header-mobile p.biggest {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0px;
     text-shadow: 0px 1px 2px black; }
-  header #slider-carousel-header-mobile p.big {
+  header #slider-carousel-header-mobile p.big, .carousel-header #slider-carousel-header-mobile p.big {
     font-weight: 300;
     font-size: 1.05rem; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 830px) and (min-width: 768px) {
-  header #slider-carousel-header-mobile .carousel-indicators {
+  header #slider-carousel-header-mobile .carousel-indicators, .carousel-header #slider-carousel-header-mobile .carousel-indicators {
     display: none; }
-  header #slider-carousel-header-mobile .carousel-caption {
+  header #slider-carousel-header-mobile .carousel-caption, .carousel-header #slider-carousel-header-mobile .carousel-caption {
     position: absolute;
     right: 15%;
     top: 40%;
@@ -806,17 +806,17 @@ header #slider-carousel-header-mobile p.big {
     padding-bottom: 20px;
     color: #fff;
     text-align: left; }
-  header #slider-carousel-header-mobile p.biggest {
+  header #slider-carousel-header-mobile p.biggest, .carousel-header #slider-carousel-header-mobile p.biggest {
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 0px;
     text-shadow: 0px 1px 2px black; }
-  header #slider-carousel-header-mobile p.big {
+  header #slider-carousel-header-mobile p.big, .carousel-header #slider-carousel-header-mobile p.big {
     font-weight: 300;
     font-size: 1.05rem; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 1030px) and (min-width: 830px) {
-  header #slider-carousel-header .carousel-caption {
+  header #slider-carousel-header .carousel-caption, .carousel-header #slider-carousel-header .carousel-caption {
     position: absolute;
     right: 15%;
     top: 43%;
@@ -826,17 +826,17 @@ header #slider-carousel-header-mobile p.big {
     padding-bottom: 20px;
     color: #fff;
     text-align: left; }
-  header #slider-carousel-header p.biggest {
+  header #slider-carousel-header p.biggest, .carousel-header #slider-carousel-header p.biggest {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 0px;
     text-shadow: 0px 1px 2px black; }
-  header #slider-carousel-header p.big {
+  header #slider-carousel-header p.big, .carousel-header #slider-carousel-header p.big {
     font-weight: 300;
     font-size: 1.3rem; } }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1450px) and (min-width: 1030px) {
-  header #slider-carousel-header .carousel-caption {
+  header #slider-carousel-header .carousel-caption, .carousel-header #slider-carousel-header .carousel-caption {
     position: absolute;
     right: 15%;
     top: 43%;
@@ -846,17 +846,17 @@ header #slider-carousel-header-mobile p.big {
     padding-bottom: 20px;
     color: #fff;
     text-align: left; }
-  header #slider-carousel-header p.biggest {
+  header #slider-carousel-header p.biggest, .carousel-header #slider-carousel-header p.biggest {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 0px;
     text-shadow: 0px 1px 2px black; }
-  header #slider-carousel-header p.big {
+  header #slider-carousel-header p.big, .carousel-header #slider-carousel-header p.big {
     font-weight: 300;
     font-size: 1.7rem; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1450px) {
-  header #slider-carousel-header .carousel-caption {
+  header #slider-carousel-header .carousel-caption, .carousel-header #slider-carousel-header .carousel-caption {
     position: absolute;
     right: 15%;
     top: 43%;
@@ -866,24 +866,24 @@ header #slider-carousel-header-mobile p.big {
     padding-bottom: 20px;
     color: #fff;
     text-align: left; }
-  header #slider-carousel-header p.biggest {
+  header #slider-carousel-header p.biggest, .carousel-header #slider-carousel-header p.biggest {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 0px;
     text-shadow: 0px 1px 2px black; }
-  header #slider-carousel-header p.big {
+  header #slider-carousel-header p.big, .carousel-header #slider-carousel-header p.big {
     font-weight: 300;
     font-size: 2rem; } }
 /* Estilos para la secci├│n de Preguntas Frecuentes (FAQ) */
-section.FAQ {
+.section .FAQ {
   padding-bottom: 10rem;
   padding-top: 10rem; }
-  section.FAQ .box-FAQs {
+  .section .FAQ .box-FAQs {
     margin-top: 3rem; }
-  section.FAQ h2.title-section {
+  .section .FAQ h2.title-section {
     border-bottom-color: #c4c4c4;
     color: #356daf; }
-  section.FAQ #accordionFAQ .card {
+  .section .FAQ #accordionFAQ .card {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -895,27 +895,27 @@ section.FAQ {
     background-clip: border-box;
     border: none;
     border-radius: .25rem; }
-  section.FAQ #accordionFAQ .card-header {
+  .section .FAQ #accordionFAQ .card-header {
     padding: 0 .25rem;
     margin-bottom: 0;
     background-color: #f2f2f2;
     border-bottom: 0;
     margin-top: 0.5rem; }
-    section.FAQ #accordionFAQ .card-header p.title {
+    .section .FAQ #accordionFAQ .card-header p.title {
       margin-bottom: 0;
       font-weight: 600; }
-      section.FAQ #accordionFAQ .card-header p.title i {
+      .section .FAQ #accordionFAQ .card-header p.title i {
         padding-left: 5px;
         color: #17569b; }
-    section.FAQ #accordionFAQ .card-header .btn-link {
+    .section .FAQ #accordionFAQ .card-header .btn-link {
       font-weight: 400;
       color: #242424;
       background-color: transparent; }
-      section.FAQ #accordionFAQ .card-header .btn-link:link, section.FAQ #accordionFAQ .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-header .btn-link:active, section.FAQ #accordionFAQ .card-header .btn-link:focus {
+      .section .FAQ #accordionFAQ .card-header .btn-link:link, .section .FAQ #accordionFAQ .card-header .btn-link:visited, .section .FAQ #accordionFAQ .card-header .btn-link:hover, .section .FAQ #accordionFAQ .card-header .btn-link:active, .section .FAQ #accordionFAQ .card-header .btn-link:focus {
         text-decoration: none; }
-    section.FAQ #accordionFAQ .card-header button.collapsed p::after {
+    .section .FAQ #accordionFAQ .card-header button.collapsed p::after {
       content: "+"; }
-    section.FAQ #accordionFAQ .card-header button p::after {
+    .section .FAQ #accordionFAQ .card-header button p::after {
       content: "-";
       padding-left: 5px;
       color: #17569b;
@@ -928,17 +928,17 @@ section.FAQ {
       text-align: center;
       top: 1px;
       transform: none; }
-  section.FAQ #accordionFAQ .card-body {
+  .section .FAQ #accordionFAQ .card-body {
     padding-left: 35px; }
-    section.FAQ #accordionFAQ .card-body a {
+    .section .FAQ #accordionFAQ .card-body a {
       color: #242424; }
-      section.FAQ #accordionFAQ .card-body a:link, section.FAQ #accordionFAQ .card-body a:visited, section.FAQ #accordionFAQ .card-body a:hover, section.FAQ #accordionFAQ .card-body a:active, section.FAQ #accordionFAQ .card-body a:focus {
+      .section .FAQ #accordionFAQ .card-body a:link, .section .FAQ #accordionFAQ .card-body a:visited, .section .FAQ #accordionFAQ .card-body a:hover, .section .FAQ #accordionFAQ .card-body a:active, .section .FAQ #accordionFAQ .card-body a:focus {
         text-decoration: none; }
-      section.FAQ #accordionFAQ .card-body a:visited, section.FAQ #accordionFAQ .card-body a:hover, section.FAQ #accordionFAQ .card-body a:active, section.FAQ #accordionFAQ .card-body a:focus {
+      .section .FAQ #accordionFAQ .card-body a:visited, .section .FAQ #accordionFAQ .card-body a:hover, .section .FAQ #accordionFAQ .card-body a:active, .section .FAQ #accordionFAQ .card-body a:focus {
         color: #17569b; }
-      section.FAQ #accordionFAQ .card-body a[aria-expanded="false"] p::after {
+      .section .FAQ #accordionFAQ .card-body a[aria-expanded="false"] p::after {
         content: "+"; }
-      section.FAQ #accordionFAQ .card-body a p::after {
+      .section .FAQ #accordionFAQ .card-body a p::after {
         content: "-";
         padding-left: 5px;
         color: #17569b;
@@ -951,16 +951,16 @@ section.FAQ {
         text-align: center;
         top: 1px;
         transform: none; }
-    section.FAQ #accordionFAQ .card-body .card-header {
+    .section .FAQ #accordionFAQ .card-body .card-header {
       padding: 0;
       margin-bottom: 0;
       background-color: #fff;
       border-bottom: 0;
       margin-top: 0.5rem; }
-      section.FAQ #accordionFAQ .card-body .card-header p.sub-title i {
+      .section .FAQ #accordionFAQ .card-body .card-header p.sub-title i {
         padding-left: 5px;
         color: #17569b; }
-      section.FAQ #accordionFAQ .card-body .card-header .btn-link {
+      .section .FAQ #accordionFAQ .card-body .card-header .btn-link {
         font-weight: 400;
         color: #242424;
         background-color: transparent;
@@ -969,25 +969,25 @@ section.FAQ {
         border-bottom-width: 0px;
         border-top-width: 0px;
         margin-top: 12px; }
-        section.FAQ #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+        .section .FAQ #accordionFAQ .card-body .card-header .btn-link:link, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:visited, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:hover, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:active, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           text-decoration: none; }
-        section.FAQ #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
+        .section .FAQ #accordionFAQ .card-body .card-header .btn-link:visited, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:hover, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:active, .section .FAQ #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
-  section.FAQ #accordionFAQ div.show[id^='sub'] .card-body {
+  .section .FAQ #accordionFAQ div.show[id^='sub'] .card-body {
     padding-top: 0;
     text-align: justify;
     direction: ltr; }
 
-section.FAQ.solo-mobile {
+.section .FAQ.solo-mobile {
   padding-bottom: 0rem;
   padding-top: 0rem; }
-  section.FAQ.solo-mobile .box-FAQs {
+  .section .FAQ.solo-mobile .box-FAQs {
     margin-top: 3rem; }
-  section.FAQ.solo-mobile h2.title-section {
+  .section .FAQ.solo-mobile h2.title-section {
     border-bottom-color: #c4c4c4;
     font-size: 1.5rem;
     color: #17569b; }
-  section.FAQ.solo-mobile #accordionFAQ .card {
+  .section .FAQ.solo-mobile #accordionFAQ .card {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -999,28 +999,28 @@ section.FAQ.solo-mobile {
     background-clip: border-box;
     border: none;
     border-radius: .25rem; }
-  section.FAQ.solo-mobile #accordionFAQ .card-header {
+  .section .FAQ.solo-mobile #accordionFAQ .card-header {
     padding: 0 .25rem;
     margin-bottom: 0;
     background-color: #f2f2f2;
     border-bottom: 0;
     margin-top: 0.5rem; }
-    section.FAQ.solo-mobile #accordionFAQ .card-header p.title {
+    .section .FAQ.solo-mobile #accordionFAQ .card-header p.title {
       margin-bottom: 0;
       font-weight: 600;
       font-size: 1.1rem; }
-      section.FAQ.solo-mobile #accordionFAQ .card-header p.title i {
+      .section .FAQ.solo-mobile #accordionFAQ .card-header p.title i {
         padding-left: 5px;
         color: #17569b; }
-    section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link {
+    .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link {
       font-weight: 400;
       color: #242424;
       background-color: transparent; }
-      section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:link, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-header .btn-link:focus {
+      .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link:link, .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link:visited, .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link:hover, .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link:active, .section .FAQ.solo-mobile #accordionFAQ .card-header .btn-link:focus {
         text-decoration: none; }
-    section.FAQ.solo-mobile #accordionFAQ .card-header button.collapsed p::after {
+    .section .FAQ.solo-mobile #accordionFAQ .card-header button.collapsed p::after {
       content: "+"; }
-    section.FAQ.solo-mobile #accordionFAQ .card-header button p::after {
+    .section .FAQ.solo-mobile #accordionFAQ .card-header button p::after {
       content: "-";
       padding-left: 5px;
       color: #17569b;
@@ -1033,17 +1033,17 @@ section.FAQ.solo-mobile {
       text-align: center;
       top: 1px;
       transform: none; }
-  section.FAQ.solo-mobile #accordionFAQ .card-body {
+  .section .FAQ.solo-mobile #accordionFAQ .card-body {
     font-size: 0.87rem; }
-    section.FAQ.solo-mobile #accordionFAQ .card-body a {
+    .section .FAQ.solo-mobile #accordionFAQ .card-body a {
       color: #242424; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body a:link, section.FAQ.solo-mobile #accordionFAQ .card-body a:visited, section.FAQ.solo-mobile #accordionFAQ .card-body a:hover, section.FAQ.solo-mobile #accordionFAQ .card-body a:active, section.FAQ.solo-mobile #accordionFAQ .card-body a:focus {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body a:link, .section .FAQ.solo-mobile #accordionFAQ .card-body a:visited, .section .FAQ.solo-mobile #accordionFAQ .card-body a:hover, .section .FAQ.solo-mobile #accordionFAQ .card-body a:active, .section .FAQ.solo-mobile #accordionFAQ .card-body a:focus {
         text-decoration: none; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body a:visited, section.FAQ.solo-mobile #accordionFAQ .card-body a:hover, section.FAQ.solo-mobile #accordionFAQ .card-body a:active, section.FAQ.solo-mobile #accordionFAQ .card-body a:focus {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body a:visited, .section .FAQ.solo-mobile #accordionFAQ .card-body a:hover, .section .FAQ.solo-mobile #accordionFAQ .card-body a:active, .section .FAQ.solo-mobile #accordionFAQ .card-body a:focus {
         color: #17569b; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body a[aria-expanded="false"] p::after {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body a[aria-expanded="false"] p::after {
         content: "+"; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body a p::after {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body a p::after {
         content: "-";
         padding-left: 5px;
         color: #17569b;
@@ -1056,18 +1056,18 @@ section.FAQ.solo-mobile {
         text-align: center;
         top: 1px;
         transform: none; }
-    section.FAQ.solo-mobile #accordionFAQ .card-body .card-header {
+    .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header {
       padding: 0;
       margin-bottom: 0;
       background-color: #fff;
       border-bottom: 0;
       margin-top: 0.5rem; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title {
         font-size: 0.87rem; }
-        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title i {
+        .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header p.sub-title i {
           padding-left: 5px;
           color: #17569b; }
-      section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link {
+      .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link {
         font-weight: 400;
         color: #242424;
         background-color: transparent;
@@ -1076,11 +1076,11 @@ section.FAQ.solo-mobile {
         border-bottom-width: 0px;
         border-top-width: 0px;
         margin-top: 12px; }
-        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:link, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
+        .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:link, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
           text-decoration: none; }
-        section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, section.FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
+        .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:visited, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:hover, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:active, .section .FAQ.solo-mobile #accordionFAQ .card-body .card-header .btn-link:focus {
           color: #17569b; }
-  section.FAQ.solo-mobile #accordionFAQ div.show[id^='sub'] .card-body {
+  .section .FAQ.solo-mobile #accordionFAQ div.show[id^='sub'] .card-body {
     padding-top: 0;
     padding-left: 0;
     text-align: left; }
@@ -1091,11 +1091,11 @@ section.FAQ.solo-mobile {
   margin-bottom: 8rem;
   padding-top: 10rem; }
 
-article#post-venta a, article#post-venta-mobile a {
+#post-venta a, #post-venta-mobile a {
   text-decoration: none; }
-  article#post-venta a:hover, article#post-venta-mobile a:hover {
+  #post-venta a:hover, #post-venta-mobile a:hover {
     text-decoration: none; }
-article#post-venta section#Descripcion1, article#post-venta-mobile section#Descripcion1 {
+#post-venta .section #Descripcion1, #post-venta-mobile .section #Descripcion1 {
   background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1105,36 +1105,36 @@ article#post-venta section#Descripcion1, article#post-venta-mobile section#Descr
   width: 100%;
   margin-top: 0;
   overflow: hidden; }
-  article#post-venta section#Descripcion1 div.container, article#post-venta-mobile section#Descripcion1 div.container {
+  #post-venta .section #Descripcion1 div.container, #post-venta-mobile .section #Descripcion1 div.container {
     text-align: center; }
-    article#post-venta section#Descripcion1 div.container h2.title-section, article#post-venta-mobile section#Descripcion1 div.container h2.title-section {
+    #post-venta .section #Descripcion1 div.container h2.title-section, #post-venta-mobile .section #Descripcion1 div.container h2.title-section {
       border-bottom: none;
       color: #17569b;
       font-weight: 500; }
-    article#post-venta section#Descripcion1 div.container a.enlace-sencillo, article#post-venta-mobile section#Descripcion1 div.container a.enlace-sencillo {
+    #post-venta .section #Descripcion1 div.container a.enlace-sencillo, #post-venta-mobile .section #Descripcion1 div.container a.enlace-sencillo {
       color: #17569b;
       font-weight: 500; }
-article#post-venta section#Descripcion2, article#post-venta-mobile section#Descripcion2 {
+#post-venta .section #Descripcion2, #post-venta-mobile .section #Descripcion2 {
   margin-top: 0; }
-  article#post-venta section#Descripcion2 h2.title-section, article#post-venta-mobile section#Descripcion2 h2.title-section {
+  #post-venta .section #Descripcion2 h2.title-section, #post-venta-mobile .section #Descripcion2 h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion2 p, article#post-venta-mobile section#Descripcion2 p {
+  #post-venta .section #Descripcion2 p, #post-venta-mobile .section #Descripcion2 p {
     width: 75%;
     text-align: justify;
     direction: ltr; }
-  article#post-venta section#Descripcion2 a.enlace-sencillo, article#post-venta-mobile section#Descripcion2 a.enlace-sencillo {
+  #post-venta .section #Descripcion2 a.enlace-sencillo, #post-venta-mobile .section #Descripcion2 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion2 figure, article#post-venta-mobile section#Descripcion2 figure {
+  #post-venta .section #Descripcion2 figure, #post-venta-mobile .section #Descripcion2 figure {
     margin: 0; }
-    article#post-venta section#Descripcion2 figure video, article#post-venta-mobile section#Descripcion2 figure video {
+    #post-venta .section #Descripcion2 figure video, #post-venta-mobile .section #Descripcion2 figure video {
       max-width: 100%;
       height: 100vh;
       width: 100%;
       overflow-y: hidden; }
-article#post-venta section#Descripcion3, article#post-venta-mobile section#Descripcion3 {
+#post-venta .section #Descripcion3, #post-venta-mobile .section #Descripcion3 {
   background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -1144,17 +1144,17 @@ article#post-venta section#Descripcion3, article#post-venta-mobile section#Descr
   height: 100vh;
   margin-top: 0;
   overflow: hidden; }
-  article#post-venta section#Descripcion3 h2.title-section, article#post-venta-mobile section#Descripcion3 h2.title-section {
+  #post-venta .section #Descripcion3 h2.title-section, #post-venta-mobile .section #Descripcion3 h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Descripcion3 p, article#post-venta-mobile section#Descripcion3 p {
+  #post-venta .section #Descripcion3 p, #post-venta-mobile .section #Descripcion3 p {
     width: 70%;
     text-align: justify; }
-  article#post-venta section#Descripcion3 a.enlace-sencillo, article#post-venta-mobile section#Descripcion3 a.enlace-sencillo {
+  #post-venta .section #Descripcion3 a.enlace-sencillo, #post-venta-mobile .section #Descripcion3 a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
-article#post-venta section#Servicios, article#post-venta-mobile section#Servicios {
+#post-venta .section #Servicios, #post-venta-mobile .section #Servicios {
   background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;
   padding-top: 8rem;
@@ -1163,57 +1163,57 @@ article#post-venta section#Servicios, article#post-venta-mobile section#Servicio
   background-color: transparent;
   background-size: cover;
   background-position: center; }
-  article#post-venta section#Servicios ul, article#post-venta-mobile section#Servicios ul {
+  #post-venta .section #Servicios ul, #post-venta-mobile .section #Servicios ul {
     text-decoration: none; }
-    article#post-venta section#Servicios ul li, article#post-venta-mobile section#Servicios ul li {
+    #post-venta .section #Servicios ul li, #post-venta-mobile .section #Servicios ul li {
       list-style-type: none;
       list-style-image: url("borrar-luego/icon-list_post-venta.png");
       margin-top: 1rem; }
-  article#post-venta section#Servicios h2.title-section, article#post-venta-mobile section#Servicios h2.title-section {
+  #post-venta .section #Servicios h2.title-section, #post-venta-mobile .section #Servicios h2.title-section {
     border-bottom: none;
     color: #17569b;
     font-weight: 500; }
-  article#post-venta section#Servicios a.enlace-sencillo, article#post-venta-mobile section#Servicios a.enlace-sencillo {
+  #post-venta .section #Servicios a.enlace-sencillo, #post-venta-mobile .section #Servicios a.enlace-sencillo {
     color: #17569b;
     font-weight: 500; }
 
-article#post-venta-mobile {
+#post-venta-mobile {
   margin-bottom: 5rem; }
-  article#post-venta-mobile h2 {
+  #post-venta-mobile h2 {
     line-height: 1.3; }
-  article#post-venta-mobile section.Slider-mobile div {
+  #post-venta-mobile section.Slider-mobile div {
     padding: 0; }
-  article#post-venta-mobile section#Descripcion1-mobile {
+  #post-venta-mobile section#Descripcion1-mobile {
     padding-top: 3rem;
     padding-bottom: 3rem;
     width: 100%;
     margin-top: 0; }
-    article#post-venta-mobile section#Descripcion1-mobile div.container {
+    #post-venta-mobile section#Descripcion1-mobile div.container {
       text-align: center; }
-      article#post-venta-mobile section#Descripcion1-mobile div.container h2.title-section {
+      #post-venta-mobile section#Descripcion1-mobile div.container h2.title-section {
         border-bottom: none;
         color: #17569b;
         font-weight: 500; }
-      article#post-venta-mobile section#Descripcion1-mobile div.container a.enlace-sencillo {
+      #post-venta-mobile section#Descripcion1-mobile div.container a.enlace-sencillo {
         color: #17569b;
         font-weight: 500; }
-  article#post-venta-mobile section#Descripcion2-mobile, article#post-venta-mobile section#Descripcion3-mobile, article#post-venta-mobile section#Servicios-mobile {
+  #post-venta-mobile section#Descripcion2-mobile, #post-venta-mobile section#Descripcion3-mobile, #post-venta-mobile section#Servicios-mobile {
     margin-bottom: 3rem; }
-    article#post-venta-mobile section#Descripcion2-mobile h2.title-section, article#post-venta-mobile section#Descripcion3-mobile h2.title-section, article#post-venta-mobile section#Servicios-mobile h2.title-section {
+    #post-venta-mobile section#Descripcion2-mobile h2.title-section, #post-venta-mobile section#Descripcion3-mobile h2.title-section, #post-venta-mobile section#Servicios-mobile h2.title-section {
       border-bottom: none;
       color: #17569b;
       font-weight: 500;
       padding-bottom: 1rem; }
-    article#post-venta-mobile section#Descripcion2-mobile a.enlace-sencillo, article#post-venta-mobile section#Descripcion3-mobile a.enlace-sencillo, article#post-venta-mobile section#Servicios-mobile a.enlace-sencillo {
+    #post-venta-mobile section#Descripcion2-mobile a.enlace-sencillo, #post-venta-mobile section#Descripcion3-mobile a.enlace-sencillo, #post-venta-mobile section#Servicios-mobile a.enlace-sencillo {
       color: #17569b;
       font-weight: 500; }
-    article#post-venta-mobile section#Descripcion2-mobile ul, article#post-venta-mobile section#Descripcion3-mobile ul, article#post-venta-mobile section#Servicios-mobile ul {
+    #post-venta-mobile section#Descripcion2-mobile ul, #post-venta-mobile section#Descripcion3-mobile ul, #post-venta-mobile section#Servicios-mobile ul {
       text-decoration: none; }
-      article#post-venta-mobile section#Descripcion2-mobile ul li, article#post-venta-mobile section#Descripcion3-mobile ul li, article#post-venta-mobile section#Servicios-mobile ul li {
+      #post-venta-mobile section#Descripcion2-mobile ul li, #post-venta-mobile section#Descripcion3-mobile ul li, #post-venta-mobile section#Servicios-mobile ul li {
         list-style-type: none;
         list-style-image: url("borrar-luego/icon-list_post-venta2.png");
         margin-top: 1rem; }
-  article#post-venta-mobile section#Servicios-mobile {
+  #post-venta-mobile section#Servicios-mobile {
     background-color: #ebf2f8;
     padding-bottom: 3rem;
     margin-bottom: 0; }

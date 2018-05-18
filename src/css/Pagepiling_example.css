@@ -19,20 +19,22 @@ body {
 		background-size: auto 80%;
 		background-position: 50% 0%;
 		background-repeat: no-repeat;
+		height: 100vh;
 	}
 	#section1 {
-		background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/hbr_h_gif_final.gif?as=1&t=635549701220714646);
+		/*background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/hbr_h_gif_final.gif?as=1&t=635549701220714646);*/
 	}
 	#section2 {
-		background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/nike%20making%20large.jpg?as=1&t=635616687017735022);
+		/*background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/nike%20making%20large.jpg?as=1&t=635616687017735022);*/
 	}
 	#section3 {
-		background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/homepage_h_05-notext.jpg?as=1&t=635588424878366703);
+		/*background-image: url(https://dgt5r4zz5sach.cloudfront.net/~/media/images/modules/large/homepage_h_05-notext.jpg?as=1&t=635588424878366703);*/
 	}
-	#section4 .content {
+	#section5 .content {
 		top: 100%;
 		position: absolute;
 		left: 0;
+		width: 100%;
 	}
 	/* Arrow
 		 * --------------------------------------- */
@@ -66,7 +68,7 @@ body {
 		transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
 	}
 	#arrow:hover {
-		background: #EC008C;
+		background: transparent;
 	}
 	#arrow:hover span {
 		top: 0;
@@ -74,7 +76,7 @@ body {
 	}
 	/* Intro texts
 		 * --------------------------------------- */
-	 .intro {
+	/* .intro {
 		position: absolute;
 		bottom: 50%;
 		text-align: center;
@@ -87,7 +89,7 @@ body {
 	}
 	#section4 .intro {
 		color: #000;
-	}
+	} */
 	/* Content page
 		 * --------------------------------------- */
 	 .header {

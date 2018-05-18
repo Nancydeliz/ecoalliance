@@ -8,7 +8,7 @@
 		
 }
 
-article#post-venta, article#post-venta-mobile {
+#post-venta, #post-venta-mobile {
 		
 	a {
 		text-decoration: none;
@@ -17,7 +17,7 @@ article#post-venta, article#post-venta-mobile {
 		}
 	}
 	
-	section#Descripcion1 {
+	.section #Descripcion1 {
 		background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
 		//background-attachment: fixed; //esto es para el efecto parallax
@@ -50,7 +50,7 @@ article#post-venta, article#post-venta-mobile {
 		
 	}
 	
-	section#Descripcion2 {		
+	.section #Descripcion2 {		
 		margin-top: 0;
 		
 		h2.title-section {
@@ -85,7 +85,7 @@ article#post-venta, article#post-venta-mobile {
 		
 	}
 	
-	section#Descripcion3 {
+	.section #Descripcion3 {
 		background-image: url("borrar-luego/bg_IIIparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
 		//background-attachment: fixed;
@@ -119,7 +119,7 @@ article#post-venta, article#post-venta-mobile {
 		
 	}
 	
-	section#Servicios {
+	.section #Servicios {
 		background-image: url("borrar-luego/bg_IVparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
 		padding-top: 8rem;
@@ -158,7 +158,7 @@ article#post-venta, article#post-venta-mobile {
 	
 }
 
-article#post-venta-mobile {
+#post-venta-mobile {
 	
 	margin-bottom: 5rem;
 	
