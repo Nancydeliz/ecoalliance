@@ -34,7 +34,8 @@
             easing: 'easeInQuart',
             loopBottom: false,
             loopTop: false,
-            css3: true,
+            css3: false,
+			//css3: true,
             navigation: {
                 textColor: '#000',
                 bulletsColor: '#000',
