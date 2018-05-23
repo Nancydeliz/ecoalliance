@@ -20,6 +20,11 @@
   animation-iteration-count: infinite;
 }
 
+.animated.count {
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
 @-webkit-keyframes bounce {
   from,
   20%,
