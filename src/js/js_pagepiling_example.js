@@ -5,6 +5,9 @@ $(document).ready(function () {
 		verticalCentered: false,
 		css3: false,
 		sectionsColor: ['black', 'black', '#fff', '#000000'],
+		menu: '#myMenu',
+		anchors : [ 'section1' , 'section2' , 'section3' , 'section4' , 'section5' ], 
+		
 		onLeave: function (index, nextIndex, direction) {
 
 			//fading out the txt of the leaving section

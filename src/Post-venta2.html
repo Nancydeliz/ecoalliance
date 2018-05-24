@@ -47,7 +47,7 @@
 <script src="js/jquery.pagepiling.js"></script>
 <script src="js/js_pagepiling_example.js"></script>
 <!-- JS base para todas las páginas -->
-<script src="js/_base.js"></script>
+<!--<script src="js/_base.js"></script>-->
 <!-- Smoove JS (efectos de aparicion) -->
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
 <!-- Mis JS para Efectos (smoove) -->
@@ -68,6 +68,30 @@
   
  
  <main class="container-fluid">
+ 
+ 	<!-- Menú Auxiliar de la Página -->	
+	<div class="container-fluid nav-aux-article fixed-bottom " id="nav-aux-post-venta">
+		<nav class="container navbar navbar-expand-lg navbar-light">
+			<a class="navbar-brand title" href="#">Servicio Post-Venta</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-aux" aria-controls="navbar-aux" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbar-aux">
+				<ul class="navbar-nav" id="myMenu">
+					<li class="nav-item">
+						<a data-menuanchor="section2" class="nav-link link-naux-1" href="#section2">Descripción <span class="sr-only">Descripción</span></a>
+					</li>
+					<li class="nav-item">
+						<a data-menuanchor="section4" class="nav-link link-naux-2" href="#section4">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a data-menuanchor="section5" class="nav-link link-naux-3" href="#section5">Preguntas Frecuentes</a>
+					</li>
+					<button type="button" class="btn btn-cea1">Contactar</button>
+				</ul>
+			</div>
+		</nav>
+	</div>		
  	<!-- Boton que señala el bajar -->
  	<!--<button id="arrow">	<span>↓</span></button>-->
  	
@@ -290,13 +314,13 @@
 			<section class="Iparte FullScreen Bg-Full" id="Descripcion1">
 				<div class="container">
 					<div class="col-md-12">
-						<h2 class="title-section" id="watchme">Innovación y Conocimiento Técnico</h2>
+						<h2 class="title-section animated" id="watchme">Innovación y Conocimiento Técnico</h2>
 					</div>
 					<div class="col-md-12">
-						<p class="text-center">El servicio Postventa de EcoAlliance se basa en la capacidad de innovación y conocimiento técnico de nuestro equipo profesional. Para entregar el mejor soporte y respaldo técnico a nuestros clientes, disponemos de Servicio Técnico en Terreno para mantención y atención de emergencias. El logro de la máxima confiabilidad y disponibilidad de los equipos son el principal objetivo de nuestra visión de servicio.</p>
+						<p class="text-center animated">El servicio Postventa de EcoAlliance se basa en la capacidad de innovación y conocimiento técnico de nuestro equipo profesional. Para entregar el mejor soporte y respaldo técnico a nuestros clientes, disponemos de Servicio Técnico en Terreno para mantención y atención de emergencias. El logro de la máxima confiabilidad y disponibilidad de los equipos son el principal objetivo de nuestra visión de servicio.</p>
 					</div>
 					<div class="col-md-12 mg-3-top">
-						<a class="enlace-sencillo" href="#"><p class="">Contactar a un profesional > </p></a>
+						<a class="enlace-sencillo" href="#"><p class="animated">Contactar a un profesional > </p></a>
 					</div>
 				</div>
 			</section>
@@ -312,7 +336,7 @@
 						</figure>
 					</div>
 					<div class="col-md-4 pd-10-top">
-						<h2 class="title-section">Continuidad Operativa</h2>
+						<h2 class="title-section" id="watchme2">Continuidad Operativa</h2>
 						<p class="">En EcoAlliance ofrecemos variadas alternativas en Contratos de Mantención de equipos para asegurar su Continuidad Operativa.</p>
 						<a class="enlace-sencillo" href="#"><p class="mg-3-top">Solicitar mantención > </p></a>
 					</div>
@@ -328,7 +352,7 @@
 
 					</div>
 					<div class="col-md-5">
-						<h2 class="title-section">Servicios realizados por Personal Especializado:</h2>
+						<h2 class="title-section" id="watchme3">Servicios realizados por Personal Especializado:</h2>
 						<ul class="animated fadeInDown">
 							<li><span></span>Servicios de puesta en marcha de equipos nuevos.</li>
 							<li><span></span>Capacitación técnica.</li>
@@ -354,7 +378,7 @@
 				<section id="FAQ-post-venta" class="FAQ">
 					<div class="container"> 
 						<div class="col-md-12 text-center">
-							<h2 class="title-section">Preguntas Frecuentes</h2>
+							<h2 class="title-section" id="watchme4">Preguntas Frecuentes</h2>
 						</div>
 						<div class="col-md-12 box-FAQs">
 							<div class="accordion" id="accordionFAQ">
@@ -796,9 +820,8 @@
     	
     	
     	
-    	
  	</div>
- 	</div>
+   </div>
  	
  	
  	
