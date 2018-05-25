@@ -21,7 +21,8 @@
 	
 	.section header {
 		
-		position: absolute;
+		// esto es para que el menú no empuje al slider y no se vea un trozo de slider en las siguientes secciones.
+		position: absolute; 
 		top: 0;
 		right: 0;
 		left: 0;
@@ -31,6 +32,7 @@
 	
 	#slider-carousel-header {
 		
+		// esto es para que el contenedor e imagenes del slider ocupen todo el alto de la pantalla		
 		height: 100vh;
 		
 		img {
