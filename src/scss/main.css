@@ -1095,6 +1095,16 @@ header #slider-carousel-header-mobile p.big, .carousel-header #slider-carousel-h
   text-decoration: none; }
   #post-venta a:hover, #post-venta-mobile a:hover {
     text-decoration: none; }
+#post-venta .section header, #post-venta-mobile .section header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
+#post-venta #slider-carousel-header, #post-venta-mobile #slider-carousel-header {
+  height: 100vh; }
+  #post-venta #slider-carousel-header img, #post-venta-mobile #slider-carousel-header img {
+    height: 100vh; }
 #post-venta .section #Descripcion1, #post-venta-mobile .section #Descripcion1 {
   background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
   background-repeat: no-repeat;

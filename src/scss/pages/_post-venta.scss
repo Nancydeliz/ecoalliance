@@ -17,6 +17,31 @@
 		}
 	}
 	
+	
+	
+	.section header {
+		
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+		
+	}
+	
+	#slider-carousel-header {
+		
+		height: 100vh;
+		
+		img {
+			
+			height: 100vh;
+		}
+		
+	}
+	
+	
+	
 	.section #Descripcion1 {
 		background-image: url("borrar-luego/bg_Iparte_seccion_post-venta.jpg");
 		background-repeat: no-repeat;
