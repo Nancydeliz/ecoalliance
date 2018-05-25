@@ -30,7 +30,7 @@ $(document).ready(function(){
 					console.log(l);
 				}
 			
-		} , 3000);
+		} , 2000);
 	
 	setTimeout(
 		
@@ -58,7 +58,7 @@ $(document).ready(function(){
 					console.log(l);
 				}
 			
-		} , 7000);
+		} , 4000);
 	
 	
 	setTimeout(
@@ -87,7 +87,7 @@ $(document).ready(function(){
 					console.log(l);
 				}
 			
-		} , 10000);
+		} , 7000);
 	
 	
 	setTimeout(
@@ -116,7 +116,7 @@ $(document).ready(function(){
 					console.log(l);
 				}
 			
-		} , 13000);
+		} , 10000);
 		
 		
 	

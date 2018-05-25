@@ -68,7 +68,7 @@ $(document).ready(function(){
 	
 	
 	/* Efecto Parallax */
-	$(window).scroll(function(){
+	/*$(window).scroll(function(){
 		var barra = $(window).scrollTop();
 		var posicion =  (barra * 0.10); //<--- este es el valor que se edita para la velocidad del efecto con el scroll
 		
@@ -80,7 +80,7 @@ $(document).ready(function(){
 			'background-position': '0 -' + posicion + 'px'
 		});
  
-	});
+	});*/
 	
 	
 });//cierre de todo el código
