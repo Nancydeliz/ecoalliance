@@ -9,12 +9,12 @@ $(document).ready(function(){
 		function(){
 			var e = document.getElementById("watchme");
 	
-			e.addEventListener("animationstart", listener, false);
+			/*e.addEventListener("animationstart", listener, false);
 			e.addEventListener("animationend", listener, false);
-			e.addEventListener("animationiteration", listener, false);
+			e.addEventListener("animationiteration", listener, false);*/
 			
 			e.className = "animated title-section slideInUp count";
-			function listener(e) {
+			/*function listener(e) {
 				  var l;
 				  switch(e.type) {
 					case "animationstart":
@@ -28,7 +28,7 @@ $(document).ready(function(){
 					  break;
 				  }
 					console.log(l);
-				}
+				}*/
 			
 		} , 2000);
 	
@@ -37,12 +37,12 @@ $(document).ready(function(){
 		function(){
 			var e = document.getElementById("watchme2");
 	
-			e.addEventListener("animationstart", listener, false);
+			/*e.addEventListener("animationstart", listener, false);
 			e.addEventListener("animationend", listener, false);
-			e.addEventListener("animationiteration", listener, false);
+			e.addEventListener("animationiteration", listener, false);*/
 			
 			e.className = "animated title-section slideInUp count";
-			function listener(e) {
+			/*function listener(e) {
 				  var l;
 				  switch(e.type) {
 					case "animationstart":
@@ -56,7 +56,7 @@ $(document).ready(function(){
 					  break;
 				  }
 					console.log(l);
-				}
+				}*/
 			
 		} , 4000);
 	
@@ -66,12 +66,12 @@ $(document).ready(function(){
 		function(){
 			var e = document.getElementById("watchme3");
 	
-			e.addEventListener("animationstart", listener, false);
+			/*e.addEventListener("animationstart", listener, false);
 			e.addEventListener("animationend", listener, false);
-			e.addEventListener("animationiteration", listener, false);
+			e.addEventListener("animationiteration", listener, false);*/
 			
 			e.className = "animated title-section slideInUp count";
-			function listener(e) {
+			/*function listener(e) {
 				  var l;
 				  switch(e.type) {
 					case "animationstart":
@@ -85,7 +85,7 @@ $(document).ready(function(){
 					  break;
 				  }
 					console.log(l);
-				}
+				}*/
 			
 		} , 7000);
 	
@@ -95,12 +95,12 @@ $(document).ready(function(){
 		function(){
 			var e = document.getElementById("watchme4");
 	
-			e.addEventListener("animationstart", listener, false);
+			/*e.addEventListener("animationstart", listener, false);
 			e.addEventListener("animationend", listener, false);
-			e.addEventListener("animationiteration", listener, false);
+			e.addEventListener("animationiteration", listener, false);*/
 			
 			e.className = "animated title-section slideInUp count";
-			function listener(e) {
+			/*function listener(e) {
 				  var l;
 				  switch(e.type) {
 					case "animationstart":
@@ -114,7 +114,7 @@ $(document).ready(function(){
 					  break;
 				  }
 					console.log(l);
-				}
+			}*/
 			
 		} , 10000);
 		
