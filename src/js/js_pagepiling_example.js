@@ -6,7 +6,7 @@ $(document).ready(function () {
 		css3: false,
 		sectionsColor: ['black', 'black', '#fff', '#000000'],
 		menu: '#myMenu',
-		anchors : [ 'section1' , 'section2' , 'section3' , 'section4' , 'section5' ], 
+		anchors : [ 'section1' , 'section2' , 'section3' , 'section4' , 'section5', 'section6' ], 
 		
 		onLeave: function (index, nextIndex, direction) {
 
@@ -18,25 +18,25 @@ $(document).ready(function () {
 			
 						
 			//reaching our last section? The one with our normal site?
-			if (nextIndex == 5) {
+			if (nextIndex == 6) {
 				$('#arrow').hide();
 
 				//fading out navigation bullets
 				$('#pp-nav').fadeOut();
 
-				$('#section5').find('.content').animate({
+				$('#section6').find('.content').animate({
 					top: '0%'
 				}, 700, 'easeInQuart');
 			}
 
 			//leaving our last section? The one with our normal site?
-			if (index == 5) {
+			if (index == 6) {
 				$('#arrow').show();
 
 				//fadding in navigation bullets
 				$('#pp-nav').fadeIn();
 
-				$('#section5 .content').animate({
+				$('#section6 .content').animate({
 					top: '100%'
 				}, 700, 'easeInQuart');
 			}

@@ -18,8 +18,8 @@ $(document).ready(function(){
 	
 	/* Para que se oculte el menú de post-venta cuando se esté cercano al footer */	
 	$(function(){
-		$("#section5").scroll(function(){
-			if ($("#section5").scrollTop() > 100)
+		$("#section6").scroll(function(){
+			if ($("#section6").scrollTop() > 100)
 			{
 				$("#nav-aux-post-venta").fadeOut();
 					
